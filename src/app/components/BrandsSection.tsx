@@ -5,9 +5,9 @@
  * @todo Style the section
  */
 
-import { TBrandsSectionData } from "@/types";
+import { TBrandData } from "@/types";
 
-export default function BrandsSection({data}:{data: TBrandsSectionData}) {
+export default function BrandsSection({ data }: { data: TBrandData[] }) {
     return (
         <section
             className="flex flex-col items-center justify-center gap-4 py-8 md:py-10"

@@ -7,8 +7,7 @@
  */
 
 // External imports
-import { TAboutData, TAboutSectionData, TStatistic } from "@/types";
-import { title } from "@/components/primitives";
+import { TAboutData, TStatistic } from "@/types";
 
 function AboutCard({ data }: { data: TAboutData }) {
     return (
@@ -40,7 +39,7 @@ function StatisticCard({ data }: { data: TStatistic }) {
     );
 }
 
-export default function AboutSection({ data }: { data: TAboutSectionData }) {
+export default function AboutSection({ data }: { data: TAboutData }) {
     return (
         <section
             className="flex flex-col items-center justify-center gap-4 py-8 md:py-10"
@@ -49,7 +48,7 @@ export default function AboutSection({ data }: { data: TAboutSectionData }) {
             role="region"
         >
             <div>
-                {data.about && <AboutCard data={data.about} />}
+                {/* {data.about && <AboutCard data={data.about} />} */}
             </div>
         </section>
     );

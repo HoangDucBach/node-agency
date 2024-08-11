@@ -18,8 +18,10 @@ export default function HeroServiceSection() {
             role="region"
         >
             <h1 className={clsx(
-                "text-9xl font-bold text-gray-800"
-            )} >Chúng tôi cung cấp dịch vụ gì?</h1>
+                "text-9xl font-bold text-default-foreground",
+            )}>
+                Chúng tôi cung cấp <span className="text-primary">dịch vụ</span> gì?
+            </h1>
 
             {/* todo: add right arrow-icon  */}
             <Button href="#dich-vu" >Kham pha ngay !</Button>

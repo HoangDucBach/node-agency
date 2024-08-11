@@ -4,18 +4,19 @@
 # Fields
 # - name: The name of the company
 # - short_name: The short name of the company
-# - location: The location of the company
+# - address: The location of the company
 # - industry: The industry to which the company belongs
 # - contact: The contact information of the company
 #   - email: The email address of the contact person
 #   - phone: The phone number of the contact person
 
 company:
-  name: NODE Digital Marketing Agency
+  name: NODE Marketing Agency
   short_name: NODE
-  # todo: Add location
-  location: null
+  description: Node cung cấp dịch vụ tư vấn quảng cáo & xử lý khủng hoảng truyền thông
+  address: 22 Đường 11 KDC CityLand Park Hills, Phường 10, Quận Gò Vấp, TP.HCM
   industry: Marketing Agency
   contact:
     email: trang@node.com.vn
     phone: 0587862888
+  copyright: © 2021 NODE Marketing Agency. All rights reserved.

@@ -4,6 +4,42 @@
  */
 
 /* -------------------------------------------------------------------------- */
+/*                                 YAML FILE TYPES                            */
+/* -------------------------------------------------------------------------- */
+export type TPlatformFile = {
+    platform: TPlatformData;
+};
+
+export type TCompanyFile = {
+    company: TCompanyData;
+};
+
+export type TContactFile = {
+    contact: TContactInfo;
+};
+
+export type TAboutFile = {
+    about: TAboutData;
+};
+
+export type TBrandsFile = {
+    brands: TBrandData[];
+};
+
+export type TServicesFile = {
+    services: TServiceData[];
+};
+
+export type TProjectsFile = {
+    projects: TProjectData[];
+};
+
+export type THeroFile = {
+    hero: THeroData;
+};
+
+
+/* -------------------------------------------------------------------------- */
 /*                                 DATA TYPES                                 */
 /* -------------------------------------------------------------------------- */
 
@@ -16,12 +52,31 @@ export type TContactInfo = {
 };
 
 /*
+* Type for platform information
+*/
+export type PlatformType = 'facebook' | 'twitter' | 'instagram' | 'linkedin' | 'youtube' | 'tiktok';
+export type TPlatformData = {
+    [key in PlatformType]?: string;
+};
+
+/*
+* Type for hero information, including tagline, title, description, image, and call to action buttons
+*/
+export type THeroData = {
+    tagline?: string;
+    title: string;
+    description?: string;
+    image?: string;
+    ctas?: TCTA[];
+}
+/*
 * Type for company information, including all basic information of company
 */
 export type TCompanyData = {
     name: string;
-    short_name?: string;
-    location?: string;
+    shortName?: string;
+    description?: string;
+    address?: string;
     industry?: string;
     contact?: TContactInfo;
 };
@@ -72,41 +127,6 @@ export type TServiceData = {
     tags: string[];
 };
 
-/* -------------------------------------------------------------------------- */
-/*                                 ALL TYPES OF SECTIONS                      */
-/* -------------------------------------------------------------------------- */
-
-/*
-* Type for hero section information which is displayed on top of the page
-*/
-export type THeroSectionData = {
-    tagline?: string;
-    title: string;
-    description?: string;
-    image?: string;
-    ctas?: TCTA[];
-};
-
-export type TBrandsSectionData = {
-    brands: TBrandData[];
-};
-
-export type TServicesSectionData = {
-    services: TServiceData[];
-};
-
-export type TProjectsSectionData = {
-    projects: TProjectData[];
-};
-
-export type TContactSectionData = {
-    contact: TContactInfo;
-};
-
-export type TAboutSectionData = {
-    about: TAboutData;
-};
-
 /*
 * Type for statistic information of company
 */
@@ -121,6 +141,17 @@ export type TBrandDataList = {
 
 export type TServiceDataList = {
     services: TServiceData[];
+};
+
+/* -------------------------------------------------------------------------- */
+/*                                 TYPE OF FOOTER AND HEADER                  */
+/* -------------------------------------------------------------------------- */
+
+export type TFooterData = {
+    company: TCompanyData;
+    contact?: TContactInfo;
+    platform?: TPlatformData;
+    copyright?: string;
 };
 
 export type TProjectDataList = TProjectData[];

@@ -9,12 +9,12 @@
 
 
 // External imports
-import { THeroSectionData } from "@/types";
+import { THeroData} from "@/types";
 import { title } from "@/components/primitives";
 import { Chip } from "@nextui-org/chip";
 import { Button } from "@nextui-org/button";
 
-export default function HeroSection({ data }: { data: THeroSectionData }) {
+export default function HeroSection({ data }: { data: THeroData }) {
     return (
         <section
             className="flex flex-col items-center justify-center gap-4 py-8 md:py-10"
@@ -24,8 +24,8 @@ export default function HeroSection({ data }: { data: THeroSectionData }) {
         >
             <Chip color="default" size="md">{data.tagline}</Chip>
             <div className="inline-block max-w-lg text-center justify-center">
-                <h1 dangerouslySetInnerHTML={{ __html: data.title }} className={title()} />
-                <p>{data.description}</p>
+                <h1 dangerouslySetInnerHTML={{ __html: data?.title || '' }} className={title()} />
+                <p>abc {data.description}</p>
                 {data.ctas && data.ctas.map((cta, index) => (
                     <Button key={index} href={cta.href}>{cta.label}</Button>
                 ))}

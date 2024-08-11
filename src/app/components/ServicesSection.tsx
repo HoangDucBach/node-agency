@@ -17,7 +17,7 @@ function ServiceCard({ service }: { service: TServiceData}) {
         </div>
     )
 }
-export default function ServicesSection({data}: {data: TServicesSectionData}) {
+export default function ServicesSection({data}: {data: TServiceData []}) {
     return (
         <section
             className="flex flex-col items-center justify-center gap-4 py-8 md:py-10"
@@ -25,7 +25,7 @@ export default function ServicesSection({data}: {data: TServicesSectionData}) {
             aria-label="Hero Service section"
             role="region"
         >
-            {data.services && data.services.map((service, index) => (
+            {data && data.map((service, index) => (
                 <ServiceCard key={index} service={service} />
             ))}
         </section>

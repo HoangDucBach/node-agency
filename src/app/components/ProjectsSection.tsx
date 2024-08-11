@@ -15,11 +15,12 @@ function ProjectCard({ project }: { project: TProjectData }) {
         <div className="flex flex-col items-center gap-4">
             <h2>{project.name}</h2>
             <p>{project.description}</p>
+            <p>{project.customer}</p>
         </div>
     )
 }
 
-export function ProjectsSection({ data }: { data: TProjectsSectionData }) {
+export function ProjectsSection({ data }: { data: TProjectData [] }) {
     return (
         <section
             className="flex flex-col items-center justify-center gap-4 py-8 md:py-10"
@@ -27,7 +28,7 @@ export function ProjectsSection({ data }: { data: TProjectsSectionData }) {
             aria-label="Projects section"
             role="region"
         >
-            {data.projects && data.projects.map((project, index) => (
+            {data && data.map((project, index) => (
                 <ProjectCard key={index} project={project} />
             ))}
         </section>
