@@ -1,3 +1,4 @@
+// External imports
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -15,7 +16,7 @@ import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
 
-import { siteConfig } from "@/config/site";
+// Internal imports
 import { ThemeSwitch } from "@/components/theme-switch";
 import {
   TwitterIcon,
@@ -25,6 +26,28 @@ import {
   SearchIcon,
   Logo,
 } from "@/components/icons";
+
+// Updated siteConfig with new navigation items
+const siteConfig = {
+  navItems: [
+    { label: "Về chúng tôi", href: "#ve-chung-toi" },
+    { label: "Dự án", href: "#du-an" },
+    { label: "Giải pháp", href: "#giai-phap" },
+    { label: "Liên hệ", href: "#lien-he" },
+  ],
+  links: {
+    twitter: "https://twitter.com",
+    discord: "https://discord.com",
+    github: "https://github.com",
+    sponsor: "https://sponsor.com",
+  },
+  navMenuItems: [
+    { label: "Về chúng tôi" },
+    { label: "Dự án" },
+    { label: "Giải pháp" },
+    { label: "Liên hệ" },
+  ],
+};
 
 export const Navbar = () => {
   const searchInput = (
@@ -127,7 +150,7 @@ export const Navbar = () => {
                       ? "danger"
                       : "foreground"
                 }
-                href="#"
+                href={siteConfig.navItems[index].href}
                 size="lg"
               >
                 {item.label}

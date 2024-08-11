@@ -1,0 +1,33 @@
+# Documentation for the 'dich-vu.yaml' file
+# This file contains a list of projects with their respective details.
+
+# Services information
+# - name: The title of the service
+# - description: The description of the service
+# - icon: The icon of the service
+# - tags: The tags associated with the service
+#   - tag: The tag associated with the service (and more if needed)
+services:
+  - name: Interactive Activities
+    description: Chúng tôi cung cấp các hoạt động tương tác trên các nền tảng Mạng xã hội như Facebook, Instagram, Youtube, Tiktok…
+    icon: fas fa-comments
+    tags:
+      - Facebook
+      - Instagram
+      - Youtube
+      - Tiktok
+  - name: Influencer Marketing
+    description: Chúng tôi cung cấp dịch vụ về Influencer từ kết nối, xây dựng và triển khai cho các chiến dịch liên quan tới người nổi tiếng.
+    tags:
+      - Influencer
+      - Marketing
+  - name: Content Development
+    description: Chúng tôi linh hoạt, nhanh chóng, nhạy bén và đáng tin cậy với quan điểm mới về thị trường.
+    tags:
+    - Content
+    - Development
+  - name: Social Marketing
+    description: Chúng tôi cung cấp các giải pháp truyền thông tích hợp trọn gói, sẽ mang lại hiệu quả tối ưu, giúp doanh nghiệp của bạn.
+    tags:
+      - Social
+      - Marketing

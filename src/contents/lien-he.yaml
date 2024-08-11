@@ -1,0 +1,23 @@
+# Documentation for the 'lien-he.yaml' file
+# This file contains a list of projects with their respective details.
+
+# Contact information
+# - email: The email address of the contact person
+# - phone: The phone number of the contact person
+# - address: The address of the contact person
+# - facebook: The Facebook URL of the contact person
+# - instagram: The Instagram URL of the contact person
+# - tiktok: The TikTok URL of the contact person
+# - youtube: The YouTube URL of the contact person
+# - linkedin: The LinkedIn URL of the contact person
+# - twitter: The Twitter URL of the contact person
+contact:
+  email: trang@node.com.vn
+  phone: 0587862888
+  address: null
+  facebook: https://www.facebook.com/nodemarketingagency/
+  instagram: null
+  tiktok: null
+  youtube: null
+  linkedin: null
+  twitter: null

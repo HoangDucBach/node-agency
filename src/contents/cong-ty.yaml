@@ -1,0 +1,21 @@
+# Documentation for the 'cong-ty.yaml' file
+# This file contains a list of projects with their respective details.
+
+# Fields
+# - name: The name of the company
+# - short_name: The short name of the company
+# - location: The location of the company
+# - industry: The industry to which the company belongs
+# - contact: The contact information of the company
+#   - email: The email address of the contact person
+#   - phone: The phone number of the contact person
+
+company:
+  name: NODE Digital Marketing Agency
+  short_name: NODE
+  # todo: Add location
+  location: null
+  industry: Marketing Agency
+  contact:
+    email: trang@node.com.vn
+    phone: 0587862888

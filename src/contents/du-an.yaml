@@ -1,0 +1,18 @@
+# Documentation for the 'du-an.yaml' file
+# This file contains a list of projects with their respective details.
+
+# Each project has the following fields:
+# - name: The name of the project
+# - logo: The logo of the project (can be null if not available)
+# - customer: The name of the customer associated with the project
+# - industry: The industry to which the project belongs (can be null if not specified)
+
+projects:
+  - name: BA
+    logo: null
+    customer: Hồ Ngọc Hà
+    industry: null
+  - name: Music Fest
+    logo: null
+    customer: FWD
+    industry: Music

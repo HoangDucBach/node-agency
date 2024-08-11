@@ -1,0 +1,20 @@
+# Documentation for the 've-chung-toi.yaml' file
+# This file contains a list of projects with their respective details.
+
+# Fields
+# - description: The description of the about us section
+# - statistic: The statistics of the about us section
+#   - number: The number of the statistic
+#   - name: The name of the statistic
+
+about:
+  description: >
+    NODE ra đời với sứ mệnh TẬP TRUNG CÁC GIẢI PHÁP HIỆU QUẢ trên nền tảng kỹ thuật số cho khách hàng. 
+    Chúng tôi mang đến cho khách hàng những dịch vụ chuyên nghiệp dựa trên triết lý kinh doanh chuyên nghiệp, thực thi xuất sắc.
+  statistic:
+    - number: 50
+      name: Khách hàng
+    - number: 500
+      name: Dự án
+    - number: 10
+      name: Năm kinh nghiệm

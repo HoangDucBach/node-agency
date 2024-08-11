@@ -1,0 +1,13 @@
+hero:
+  tagline: Node Agency
+  title: |
+    <b>Thúc đẩy</b> doanh nghiệp của bạn <b>tăng trưởng</b>
+  subtitle: We are here to help you succeed
+  description: >
+    NODE ra đời với sứ mệnh TẬP TRUNG CÁC GIẢI PHÁP HIỆU QUẢ trên nền tảng kỹ thuật số cho khách hàng. 
+    Chúng tôi mang đến cho khách hàng những dịch vụ chuyên nghiệp dựa trên triết lý kinh doanh chuyên nghiệp, thực thi xuất sắc.
+  ctas:
+    - label: Liên hệ ngay!
+      href: /lien-he
+    - label: Xem thêm
+      href: /xem-them

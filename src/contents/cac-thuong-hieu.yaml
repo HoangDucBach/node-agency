@@ -1,0 +1,19 @@
+# Documentation for the 'cac-thuong-hieu.yaml' file
+# This file contains a list of projects with their respective details.
+
+# Fields
+# - name: The name of the brand
+# - logo: The logo of the brand
+brands:
+  - name: FWD
+    logo: null
+  - name: VitaDairy
+    logo: null
+  - name: Vinasoy
+    logo: null
+  - name: DiageoJW
+    logo: null
+  - name: L'Oreal
+    logo: null
+  - name: VPBank
+    logo: null
