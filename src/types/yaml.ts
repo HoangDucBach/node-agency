@@ -3,6 +3,8 @@
  * @packageDocumentation YAML contents types
  */
 
+import { TDocument } from "@/utils";
+
 /* -------------------------------------------------------------------------- */
 /*                                 YAML FILE TYPES                            */
 /* -------------------------------------------------------------------------- */
@@ -40,6 +42,10 @@ export type THeroFile = {
 
 export type TStatisticFile = {
     statistics: TStatistic[];
+};
+
+export type TDocumentsFile = {
+    documents: TDocument[];
 };
 
 

@@ -13,11 +13,11 @@ function StatisticCard({ data }: { data: TStatistic }) {
 
     return (
         <motion.div
-            ref={ref}
-            className="flex flex-col items-center gap-4 p-4 rounded-2xl w-full"
-            key={data.name}
-            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
+            className="flex flex-col items-center gap-4 p-4 rounded-2xl w-full"
+            initial={{ opacity: 0, y: 20 }}
+            key={data.name}
+            ref={ref}
             transition={{ duration: 0.5 }}
         >
             <p className="text-2xl font-semibold text-foreground-900">

@@ -64,6 +64,7 @@ function PlatformInfo({ data }: { data: TPlatformData }) {
 }
 export function Footer() {
     const data = fetchFooterData();
+    
     return (
         <footer className="bg-gray-800 text-white text-center py-4">
             {data && (

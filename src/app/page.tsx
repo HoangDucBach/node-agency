@@ -7,12 +7,13 @@ import yaml from "js-yaml";
 
 // Internal imports
 import HeroSection from "./components/HeroSection";
-import { TAboutData, TAboutFile, TBrandData, TBrandsFile, THeroData, THeroFile, TProjectData, TProjectsFile, TServiceData, TServicesFile } from "@/types";
+import { TAboutData, TAboutFile, TBrandData, TBrandsFile, TDocumentsFile, THeroData, THeroFile, TProjectData, TProjectsFile, TServiceData, TServicesFile } from "@/types";
 import HeroServiceSection from "./components/HeroServiceSection";
 import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
 import { ProjectsSection } from "./components/ProjectsSection";
 import BrandsSection from "./components/BrandsSection";
+import fuse from "@/utils/fuse";
 
 interface HomePageProps {
   hero: THeroData;
@@ -49,11 +50,20 @@ async function fetchPageData(): Promise<HomePageProps> {
     "utf8"
   );
 
+  const documentsFile= fs.readFileSync(
+    path.join(process.cwd(), "contents", "tim-kiem.yaml"),
+    "utf8"
+  );
+
   const heroFileData = yaml.load(heroSectionFile) as THeroFile;
   const brandsFileData = yaml.load(brandsSectionFile) as TBrandsFile;
   const aboutFileData = yaml.load(aboutSectionFile) as TAboutFile;
   const serviceFileData = yaml.load(servicesSectionFile) as TServicesFile;
   const projectsFileData = yaml.load(projectsSectionFile) as TProjectsFile;
+  const documentsFileData = yaml.load(documentsFile) as TDocumentsFile;
+
+  // Set collecction for fuse
+  fuse.setCollection(documentsFileData.documents);
 
   return {
     hero: heroFileData.hero,

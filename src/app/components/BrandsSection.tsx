@@ -5,34 +5,35 @@
  * @todo Style the section
  */
 'use client';
+
 // System imports
 
-// External imports 
+// External imports
+import React from "react";
+import clsx from "clsx";
 import Marquee from "react-fast-marquee";
 import { motion } from "framer-motion";
 
 // Internal imports
-import { TBrandData, TBrandsFile } from "@/types";
-import React from "react";
-import clsx from "clsx";
+import { TBrandData } from "@/types";
 
 function BrandsLogoCard({ brand }: { brand: TBrandData }) {
     return (
         <motion.div
+            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0.8 }}
+            key={brand.name}
+            transition={{ duration: 0.5 }}
+            whileHover={{ scale: 1.1 }}
             className={clsx(
                 "flex flex-col items-center justify-center gap-2",
                 "aspect-[2/1] bg-foreground-100 w-64 rounded-2xl p-4"
             )}
-            key={brand.name}
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.5 }}
-            whileHover={{ scale: 1.1 }}
         >
             <img
-                src={brand.logo || ''}
                 alt={brand.name}
                 className="object-cover"
+                src={brand.logo || ''}
             />
         </motion.div>
     );
@@ -40,37 +41,34 @@ function BrandsLogoCard({ brand }: { brand: TBrandData }) {
 
 export default function BrandsSection({ data }: { data: TBrandData[] }) {
     const brands = data;
+
     return (
         <motion.section
+            animate={{ opacity: 1 }}
+            aria-label="Brands section"
             className="flex flex-col items-center justify-center gap-8 py-8 md:py-10 w-full md:my-32 my-24"
             id="brands"
-            aria-label="Brands section"
-            role="region"
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
+            role="region"
             transition={{ duration: 1 }}
         >
             <motion.h2
+                animate={{ opacity: 1, y: 0 }}
                 className="text-3xl font-bold text-center"
-                initial={{ y: -20, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                whileInView={{ scale: 1.1 }}
+                initial={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.5 }}
+                whileInView={{ scale: 1.1 }}
             >
                 Các thương hiệu đã hợp tác
             </motion.h2>
             <Marquee
-                speed={25}
                 autoFill
+                speed={25}
             >
-                <div
-                    className="flex flex-row gap-4 px-4"
-                >
-                    {
-                        brands.map((brand) => (
-                            <BrandsLogoCard brand={brand} key={brand.name} />
-                        ))
-                    }
+                <div className="flex flex-row gap-4 px-4">
+                    {brands.map((brand) => (
+                        <BrandsLogoCard key={brand.name} brand={brand} />
+                    ))}
                 </div>
             </Marquee>
         </motion.section>

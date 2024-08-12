@@ -11,13 +11,13 @@ import { Button } from "@nextui-org/button";
 
 function PosterArea() {
     return (
-        <motion.h1 
+        <motion.h1
+            animate={{ opacity: 1, y: 0 }}
             className="md:text-9xl text-7xl font-bold text-end text-primary-300 break-words"
             initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
         >
-            <span className="text-primary-500">NODE </span> 
+            <span className="text-primary-500">NODE </span>
             Marketing Agency
         </motion.h1>
     )
@@ -33,15 +33,22 @@ function IntroductionArea({ data }: { data: TCompanyData }) {
     };
 
     return (
-        <motion.div 
+        <motion.div
+            animate={{ opacity: 1, x: 0 }}
             className="flex flex-col gap-8"
             initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
         >
             <h1 className="text-6xl text-default-foreground font-bold">Giới thiệu về công ty</h1>
             <p className="text-2xl font-medium break-words text-default-500">{data.description}</p>
-            <Button radius="full" color="primary" className="w-fit" onClick={handleScroll}>Tiếp tục</Button>
+            <Button
+                color="primary"
+                className="w-fit"
+                radius="full"
+                onClick={handleScroll}
+            >
+                Tiếp tục
+            </Button>
         </motion.div>
     )
 }

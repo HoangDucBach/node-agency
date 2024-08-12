@@ -4,31 +4,25 @@
  * @version 1.0.0
  */
 'use client';
-
-// System imports
-
 // External imports
+import { Button } from "@nextui-org/button";
 import { Input } from "@nextui-org/input";
 import { Kbd } from "@nextui-org/kbd";
-import { Modal, ModalContent, ModalHeader, ModalBody, useDisclosure } from "@nextui-org/modal";
+import { Modal, ModalBody, ModalContent, ModalHeader, useDisclosure } from "@nextui-org/modal";
+import clsx from "clsx";
 import React from "react";
-import { FuseResult } from "fuse.js";
+import { useRouter } from "next/navigation";
 
 // Internal imports
 import {
     ContactIcon,
-    DiscordIcon,
-    GithubIcon,
     PlatformIcon,
     SearchIcon,
     ServiceIcon,
-    TwitterIcon,
 } from "@/components/icons";
 import fuse from "@/utils/fuse";
-import { Button } from "@nextui-org/button";
 import { TDocument, DocumentType } from "@/utils";
-import { useRouter } from "next/navigation";
-import clsx from "clsx";
+import { FuseResult } from "fuse.js";
 
 const ResultsContext = React.createContext<{
     results: TDocument[];
@@ -39,6 +33,7 @@ export const useResults = () => React.useContext(ResultsContext);
 
 export const ResultsProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [results, setResults] = React.useState<TDocument[]>([]);
+
     return (
         <ResultsContext.Provider value={{ results, setResults }}>
             {children}
@@ -47,25 +42,13 @@ export const ResultsProvider: React.FC<{ children: React.ReactNode }> = ({ child
 };
 
 
-
 export default function SearchInput() {
     const { setResults } = useResults();
-
-    const fetchDocumentsData = React.useCallback(async (): Promise<TDocument[]> => {
-        const response = await fetch('/api/tim-kiem', {
-            headers: {
-                'X-Internal-Request': 'true',
-            },
-        });
-        const documentsData = (await response.json()).documents;
-        return documentsData as TDocument[];
-    }, []);
-
     const handleSearch = async (e: React.ChangeEvent<HTMLInputElement>) => {
         const query = e.target.value;
-        const collections= await fetchDocumentsData();
-        fuse.setCollection(collections);
+        
         const fuseResults: FuseResult<TDocument>[] = fuse.search(query);
+
         const results: TDocument[] = fuseResults.map(result => result.item);
         setResults(results);
     };
@@ -111,8 +94,10 @@ export function ResultCard({ result, onClick }: { result: TDocument, onClick: ()
 
     const truncate = (text?: string, length: number = 100) => {
         if (!text) return "";
+
         return text.length > length ? text.substring(0, length) + "..." : text
     }
+
     return (
         <div
             key={result.id}
@@ -121,12 +106,23 @@ export function ResultCard({ result, onClick }: { result: TDocument, onClick: ()
                 "rounded-2xl py-2 px-4",
                 "hover:scale-[1.01] transition-transform duration-200",
             )}
+            role="button"
+            tabIndex={0}
             onClick={() => {
                 if (result.href) {
                     router.push(result.href);
                     onClick();
                 }
-            }}>
+            }}
+            onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    if (result.href) {
+                        router.push(result.href);
+                        onClick();
+                    }
+                }
+            }}
+        >
             {getIconByType(result.type)}
             <div className="flex flex-col gap-1">
                 <h2 className="font-bold">{result.title}</h2>
@@ -149,6 +145,7 @@ export function SearchDialog() {
         };
 
         window.addEventListener('keydown', handleKeyDown);
+
         return () => {
             window.removeEventListener('keydown', handleKeyDown);
         };
@@ -176,11 +173,12 @@ export function SearchDialog() {
             <Modal
                 isOpen={isOpen}
                 placement="center"
-                onOpenChange={onOpenChange}
                 size="lg"
                 classNames={{
                     base: "bg-foreground-100/50  backdrop-blur-[64px]",
-                }}>
+                }}
+                onOpenChange={onOpenChange}
+            >
                 <ModalContent>
                     <ModalHeader>
                     </ModalHeader>
