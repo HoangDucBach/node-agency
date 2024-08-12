@@ -5,15 +5,79 @@
 # - name: The name of the brand
 # - logo: The logo of the brand
 brands:
-  - name: FWD
-    logo: /assets/logo-fwd.svg
   - name: VitaDairy
     logo: /assets/logo-vitadairy.png
-  - name: Vinasoy
-    logo: /assets/logo-vinasoy.png
-  - name: DiageoJW
-    logo: /assets/logo-diageo.svg
-  - name: L'Oreal
-    logo: /assets/logo-loreal.svg
+  - name: FWD
+    logo: /assets/logo-fwd.svg
+  - name: Yody
+    logo: /assets/logo-yody.png
+  - name: Huggies
+    logo: /assets/logo-huggies.png
   - name: VPBank
     logo: /assets/logo-vpbank.svg
+  - name: HoanMy
+    logo: /assets/logo-hoanmy.png
+  - name: Abbott
+    logo: /assets/logo-abbott.png
+  - name: DaiIchiLife
+    logo: /assets/logo-daiichi.png
+  - name: JohnnieWalker
+    logo: /assets/logo-johnnie-walker.png
+  - name: Paseo
+    logo: /assets/logo-paseo.png
+  - name: SHB
+    logo: /assets/logo-shb.png
+  - name: HelloBacSi
+    logo: /assets/logo-hellobacsi.png
+  - name: Vinasoy
+    logo: /assets/logo-vinasoy.png
+  - name: Lavie
+    logo: /assets/logo-lavie.png
+  - name: Tiger
+    logo: /assets/logo-tigerbeer.png
+  - name: L'Oreal
+    logo: /assets/logo-loreal.svg
+  - name: Bosch
+    logo: /assets/logo-bosch.png
+  - name: DHGPharma
+    logo: /assets/logo-dhg.png
+  - name: Veyo
+    logo: /assets/logo-veyo.png
+  - name: Vincom
+    logo: /assets/logo-vincom.jpg
+  - name: PNJ
+    logo: /assets/logo-pnj.png
+  - name: Pops
+    logo: /assets/logo-pops.png
+  - name: Garnier
+    logo: /assets/logo-garnier.png
+  - name: Charm
+    logo: /assets/logo-charmgroup.png
+  - name: DAqua
+    logo: /assets/logo-daqua.png
+  - name: Lotte
+    logo: /assets/logo-lotte.png
+  - name: Honda
+    logo: /assets/logo-honda.png
+  - name: Samsung
+    logo: /assets/logo-samsung.png
+  - name: Nokia
+    logo: /assets/logo-nokia.png
+  - name: KitaGroup
+    logo: /assets/logo-kita.png
+  - name: DatXanhGroup
+    logo: /assets/logo-dat-xanh-group.png
+  - name: Vzone
+    logo: /assets/logo-vzone.png
+  - name: AprilAdvertising
+    logo: /assets/logo-apriladver.png
+  - name: GoldenDigital
+    logo: /assets/logo-goldendigital.png
+  - name: Dilab
+    logo: /assets/logo-dilab.png
+  - name: BoxStudio
+    logo: /assets/logo-boxstudio.png
+  - name: GemRiverside
+    logo: /assets/logo-gemriverside.png
+  - name: Diageo
+    logo: /assets/logo-diageo.svg
