@@ -31,10 +31,10 @@ import SearchInput, { SearchDialog } from "./search";
 // Updated siteConfig with new navigation items
 const siteConfig = {
   navItems: [
-    { label: "Về chúng tôi", href: "#ve-chung-toi" },
-    { label: "Dự án", href: "#du-an" },
-    { label: "Giải pháp", href: "#giai-phap" },
-    { label: "Liên hệ", href: "#lien-he" },
+    { label: "Về chúng tôi", href: "/ve-chung-toi" },
+    { label: "Dự án", href: "/du-an" },
+    { label: "Giải pháp", href: "/giai-phap" },
+    { label: "Liên hệ", href: "/lien-he" },
   ],
   navMenuItems: [
     { label: "Về chúng tôi" },

@@ -21,7 +21,7 @@ function BrandsLogoCard({ brand }: { brand: TBrandData }) {
         <motion.div
             className={clsx(
                 "flex flex-col items-center justify-center gap-2",
-                "aspect-[2/1] bg-foreground-100 w-32 rounded-2xl p-4"
+                "aspect-[2/1] bg-foreground-100 w-64 rounded-2xl p-4"
             )}
             key={brand.name}
             initial={{ scale: 0.8, opacity: 0 }}
