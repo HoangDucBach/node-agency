@@ -17,7 +17,7 @@ export default function HeroSection({ data }: { data: THeroData }) {
         <motion.section
             animate={{ opacity: 1 }}
             aria-label="Hero section"
-            className="flex flex-col items-center justify-center gap-8 mt-8 mb-32 pb-16 md:mb-64 md:pb-32 md:mt-16 relative"
+            className="flex flex-col items-center justify-center gap-8 mb-32 pb-16 md:mb-64 md:pb-32 md:mt-16 relative"
             id="hero"
             initial={{ opacity: 0 }}
             transition={{ duration: 1 }}
@@ -36,7 +36,7 @@ export default function HeroSection({ data }: { data: THeroData }) {
                 initial={{ y: 50, opacity: 0 }}
                 transition={{ duration: 0.5, delay: 1 }}
             >
-                <Chip color="default" size="md">{data.tagline}</Chip>
+                <Chip color="primary" radius="full" variant="bordered" size="md">{data.tagline}</Chip>
             </motion.div>
 
             <motion.div
@@ -47,19 +47,21 @@ export default function HeroSection({ data }: { data: THeroData }) {
             >
                 <div className="relative w-full h-full">
                     <h1
-                        dangerouslySetInnerHTML={{ __html: data?.title || '' }}
                         className={clsx(
-                            title(),
+                            "font-extrabold",
+                            "text-5xl",
                             "md:!text-6xl"
                         )}
-                    />
+                    >
+                        {data.title}
+                    </h1>
                     <img
                         alt="Pattern gradient line and rocket"
                         className="w-full h-full absolute top-4 left-0 object-fill"
                         src="/assets/pattern-gradient-line-and-rocket.svg"
                     />
                 </div>
-                <p>{data.description}</p>
+                <p className="text-base font-medium text-default-500">{data.description}</p>
 
                 <div className="inline-flex flex-row items-center justify-center gap-4">
                     {data.ctas && data.ctas.map((cta, index) => {

@@ -17,7 +17,7 @@ interface AboutPageProps {
 
 const fetchCompanyData = () => {
     const heroSectionFile = fs.readFileSync(
-        path.join(process.cwd(), "contents", "hero.yaml"),
+        path.join(process.cwd(), "contents", "cong-ty.yaml"),
         "utf8"
       );
 
