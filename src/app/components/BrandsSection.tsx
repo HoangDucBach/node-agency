@@ -27,7 +27,7 @@ function BrandsLogoCard({ brand }: { brand: TBrandData }) {
             whileHover={{ scale: 1.1 }}
             className={clsx(
                 "flex flex-col items-center justify-center gap-2",
-                "aspect-[2/1] bg-foreground-100 w-64 rounded-2xl p-4"
+                "aspect-[2/1] bg-foreground-100 w-32 rounded-2xl p-4"
             )}
         >
             <img
@@ -41,6 +41,10 @@ function BrandsLogoCard({ brand }: { brand: TBrandData }) {
 
 export default function BrandsSection({ data }: { data: TBrandData[] }) {
     const brands = data;
+    const third = Math.ceil(brands.length / 3);
+    const firstRow = brands.slice(0, third);
+    const secondRow = brands.slice(third, third * 2);
+    const thirdRow = brands.slice(third * 2);
 
     return (
         <motion.section
@@ -61,12 +65,23 @@ export default function BrandsSection({ data }: { data: TBrandData[] }) {
             >
                 Các thương hiệu đã hợp tác
             </motion.h2>
-            <Marquee
-                autoFill
-                speed={25}
-            >
+            <Marquee autoFill speed={25}>
                 <div className="flex flex-row gap-4 px-4">
-                    {brands.map((brand) => (
+                    {firstRow.map((brand) => (
+                        <BrandsLogoCard key={brand.name} brand={brand} />
+                    ))}
+                </div>
+            </Marquee>
+            <Marquee autoFill speed={25} direction="right">
+                <div className="flex flex-row gap-4 px-4">
+                    {secondRow.map((brand) => (
+                        <BrandsLogoCard key={brand.name} brand={brand} />
+                    ))}
+                </div>
+            </Marquee>
+            <Marquee autoFill speed={25}>
+                <div className="flex flex-row gap-4 px-4">
+                    {thirdRow.map((brand) => (
                         <BrandsLogoCard key={brand.name} brand={brand} />
                     ))}
                 </div>
