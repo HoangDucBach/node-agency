@@ -1,0 +1,78 @@
+# Fields
+# -id: The id of the search result
+# -title: The title of the search result
+# -body: The body of the search result
+# -href: The href of the search result
+# -type: The type of the search result
+
+documents:
+  - id: 1
+    title: "Interactive Activities"
+    body: "Chúng tôi cung cấp các hoạt động tương tác trên các nền tảng Mạng xã hội như Facebook, Instagram, Youtube, Tiktok…"
+    href: "../#interactive-activities"
+    type: "services"
+  - id: 2
+    title: "Influencer Marketing"
+    body: "Chúng tôi cung cấp dịch vụ về Influencer từ kết nối, xây dựng và triển khai cho các chiến dịch liên quan tới người nổi tiếng."
+    href: "../#influencer-marketing"
+    type: "services"
+  - id: 3
+    title: "Content Development"
+    body: "Chúng tôi linh hoạt, nhanh chóng, nhạy bén và đáng tin cậy với quan điểm mới về thị trường."
+    href: "../#content-development"
+    type: "services"
+  - id: 4
+    title: "Social Marketing"
+    body: "Chúng tôi cung cấp các giải pháp truyền thông tích hợp trọn gói, sẽ mang lại hiệu quả tối ưu, giúp doanh nghiệp của bạn."
+    href: "../#social-marketing"
+    type: "services"
+  - id: 5
+    title: "NODE Marketing Agency"
+    body: "Node cung cấp dịch vụ tư vấn quảng cáo & xử lý khủng hoảng truyền thông"
+    href: "../#node-marketing-agency"
+    type: "company"
+  - id: 6
+    title: "Contact Information"
+    body: "Email: trang@node.com.vn, Phone: 0587862888"
+    href: "../#contact-information"
+    type: "contact"
+  - id: 7
+    title: "Address"
+    body: "22 Đường 11 KDC CityLand Park Hills, Phường 10, Quận Gò Vấp, TP.HCM"
+    href: "../#address"
+    type: "company"
+  - id: 8
+    title: "Industry"
+    body: "Marketing Agency"
+    href: "../#industry"
+    type: "company"
+  - id: 9
+    title: "Facebook"
+    body: "https://www.facebook.com/nodemarketingagency"
+    href: "https://www.facebook.com/nodemarketingagency"
+    type: "platform"
+  - id: 10
+    title: "Instagram"
+    body: "https://www.instagram.com/nodemarketingagency"
+    href: "https://www.instagram.com/nodemarketingagency"
+    type: "platform"
+  - id: 11
+    title: "Tiktok"
+    body: "https://www.tiktok.com/@nodemarketingagency"
+    href: "https://www.tiktok.com/@nodemarketingagency"
+    type: "platform"
+  - id: 12
+    title: "Youtube"
+    body: "https://www.youtube.com/channel/UC9Z1j7XgwbJ7Z8Bv6eJ8J8A"
+    href: "https://www.youtube.com/channel/UC9Z1j7XgwbJ7Z8Bv6eJ8J8A"
+    type: "platform"
+  - id: 13
+    title: "LinkedIn"
+    body: "https://www.linkedin.com/company/nodemarketingagency"
+    href: "https://www.linkedin.com/company/nodemarketingagency"
+    type: "platform"
+  - id: 14
+    title: "Twitter"
+    body: "https://twitter.com/nodemarketingvn"
+    href: "https://twitter.com/nodemarketingvn"
+    type: "platform"

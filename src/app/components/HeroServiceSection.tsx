@@ -12,13 +12,13 @@ import clsx from "clsx";
 export default function HeroServiceSection() {
     return (
         <section
-            className="flex flex-col items-center justify-center gap-4 py-8 md:py-10"
+            className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 md:my-64 my-32"
             id="chung-toi-cung-cap-dich-vu-gi"
             aria-label="Hero Service section"
             role="region"
         >
             <h1 className={clsx(
-                "text-9xl font-bold text-default-foreground",
+                "text-7xl md:text-9xl font-bold text-default-foreground",
             )}>
                 Chúng tôi cung cấp <span className="text-primary">dịch vụ</span> gì?
             </h1>

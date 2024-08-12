@@ -103,5 +103,4 @@ export const siteConfig = {
     linkedin: siteData.platform.linkedin
   },
   keywords: keywords
-  
 };

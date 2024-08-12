@@ -133,6 +133,7 @@ export type TServiceData = {
 export type TStatistic = {
     number: number;
     name: string;
+    description?: string;
 };
 
 export type TBrandDataList = {

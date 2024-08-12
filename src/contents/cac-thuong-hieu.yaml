@@ -6,14 +6,14 @@
 # - logo: The logo of the brand
 brands:
   - name: FWD
-    logo: null
+    logo: /assets/logo-fwd.svg
   - name: VitaDairy
-    logo: null
+    logo: /assets/logo-vitadairy.png
   - name: Vinasoy
-    logo: null
+    logo: /assets/logo-vinasoy.png
   - name: DiageoJW
-    logo: null
+    logo: /assets/logo-diageo.svg
   - name: L'Oreal
-    logo: null
+    logo: /assets/logo-loreal.svg
   - name: VPBank
-    logo: null
+    logo: /assets/logo-vpbank.svg

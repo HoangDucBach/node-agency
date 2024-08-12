@@ -7,7 +7,7 @@
 // External imports
 
 // Internal imports
-import { TProjectData, TProjectsSectionData } from "@/types";
+import { TProjectData} from "@/types";
 
 
 function ProjectCard({ project }: { project: TProjectData }) {
