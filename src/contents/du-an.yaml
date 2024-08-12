@@ -2,17 +2,21 @@
 # This file contains a list of projects with their respective details.
 
 # Each project has the following fields:
+# - customer: The name of the customer (brand, enterprise, person, etc.)
 # - name: The name of the project
-# - logo: The logo of the project (can be null if not available)
-# - customer: The name of the customer associated with the project
-# - industry: The industry to which the project belongs (can be null if not specified)
-
+# - description: The description of the project
+# - industry: The industry to which the project belongs
+# - kpi: The key performance indicator of the project
+# - images: The images of the project (with 'src' and 'alt' fields)
 projects:
-  - name: BA
-    logo: null
-    customer: Hồ Ngọc Hà
-    industry: null
-  - name: Music Fest
-    logo: null
-    customer: FWD
-    industry: Music
+  - customer: VitaDairy
+    name: ColosBaby Gold D3K2
+    description: |
+      Kết nối các Micro Ba, Nano Mẹ có sức ảnh hưởng
+    industry: Influencer Marketing
+    kpi: 212
+    images:
+      - src: /images/colosbaby-gold-d3k2-1.jpg
+        alt: ColosBaby Gold D3K2
+      - src: /images/colosbaby-gold-d3k2-2.jpg
+        alt: ColosBaby Gold D3K2

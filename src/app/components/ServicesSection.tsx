@@ -7,9 +7,9 @@
 // External imports
 
 // Internal imports
-import { TServiceData, TServicesSectionData } from "@/types"
+import { TServiceData } from "@/types"
 
-function ServiceCard({ service }: { service: TServiceData}) {
+function ServiceCard({ service }: { service: TServiceData }) {
     return (
         <div className="flex flex-col items-center gap-4">
             <h2>{service.name}</h2>
@@ -17,13 +17,13 @@ function ServiceCard({ service }: { service: TServiceData}) {
         </div>
     )
 }
-export default function ServicesSection({data}: {data: TServiceData []}) {
+
+export default function ServicesSection({ data }: { data: TServiceData[] }) {
     return (
         <section
+            aria-label="Hero Service section"
             className="flex flex-col items-center justify-center gap-4 py-8 md:py-10"
             id="chung-toi-cung-cap-dich-vu-gi"
-            aria-label="Hero Service section"
-            role="region"
         >
             {data && data.map((service, index) => (
                 <ServiceCard key={index} service={service} />

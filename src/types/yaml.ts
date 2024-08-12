@@ -3,6 +3,8 @@
  * @packageDocumentation YAML contents types
  */
 
+import { TDocument } from "@/utils";
+
 /* -------------------------------------------------------------------------- */
 /*                                 YAML FILE TYPES                            */
 /* -------------------------------------------------------------------------- */
@@ -36,6 +38,14 @@ export type TProjectsFile = {
 
 export type THeroFile = {
     hero: THeroData;
+};
+
+export type TStatisticFile = {
+    statistics: TStatistic[];
+};
+
+export type TDocumentsFile = {
+    documents: TDocument[];
 };
 
 
@@ -77,8 +87,10 @@ export type TCompanyData = {
     shortName?: string;
     description?: string;
     address?: string;
+    core?: string | string[];
     industry?: string;
     contact?: TContactInfo;
+    copyright?: string;
 };
 
 /*
@@ -89,15 +101,32 @@ export type TAboutData = {
     statistic: TStatistic[];
 };
 
+/**
+ * Type for statistic information of company
+ */
+export type TStatisticData = {
+    number: number;
+    name: string;
+    description?: string;
+};
+
 /*
 * Type for project information which company has done
 */
+export enum IndustryType {
+    INFLUENCER_MARKETING = 'Influencer Marketing',
+    SOCIAL_MEDIA_MARKETING = 'Social Media Marketing'
+}
 export type TProjectData = {
     name: string;
-    logo?: string;
     customer: string;
-    industry?: string;
     description?: string;
+    industry?: IndustryType;
+    kpi?: string | number;
+    images?: {
+        src: string;
+        alt: string;
+    };
 };
 
 /*
@@ -122,9 +151,10 @@ export type TBrandData = {
 */
 export type TServiceData = {
     name: string;
-    description: string;
-    icon: string | null;
-    tags: string[];
+    description?: string;
+    features?: string[];
+    icon?: string | null;
+    tags?: string[];
 };
 
 /*

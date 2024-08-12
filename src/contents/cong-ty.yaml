@@ -13,10 +13,20 @@
 company:
   name: NODE Marketing Agency
   short_name: NODE
-  description: Node cung cấp dịch vụ tư vấn quảng cáo & xử lý khủng hoảng truyền thông
+  description: |
+    Node cung cấp giải pháp hiệu quả dựa trên triết lý kinh doanh “chuyên nghiệp, thực hiện xuất sắc”, chúng tôi cung cấp dịch vụ marketing tối ưu nhất trên nền tảng kỹ thuật số cho khách hàng
   address: 22 Đường 11 KDC CityLand Park Hills, Phường 10, Quận Gò Vấp, TP.HCM
+  core:
+    - key: Hiệu quả
+      value: Chúng tôi phát triển các chiến lược hướng đến kết quả tốt nhất để đảm bảo đạt được các mục tiêu marketing của khách hàng.
+    - key: Tin cậy
+      value: |
+        NODE cung cấp cho khách hàng những sản phẩm và dịch vụ chất lượng cao, cam kết đúng thời hạn, luôn nỗ nâng cao độ nhận diện của thương hiệu và thúc đẩy mối quan hệ giữa thương hiệu và khách hàng tiềm năng.
+    - key: Phù hợp
+      value: |
+        Chiến lược của chúng tôi dựa trên quá trình nghiên cứu kỹ lưỡng và sự thấu hiểu sâu sắc với nhãn hàng, để phù hợp với đối tượng mục tiêu và xu hướng của ngành.
   industry: Marketing Agency
   contact:
     email: trang@node.com.vn
     phone: 0587862888
-  copyright: © 2021 NODE Marketing Agency. All rights reserved.
+  copyright: © 2024 NODE Marketing Agency. All rights reserved.

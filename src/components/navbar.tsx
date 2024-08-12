@@ -8,33 +8,26 @@ import {
   NavbarItem,
   NavbarMenuItem,
 } from "@nextui-org/navbar";
-import { Button } from "@nextui-org/button";
-import { Kbd } from "@nextui-org/kbd";
 import { Link } from "@nextui-org/link";
-import { Input } from "@nextui-org/input";
 import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
 
 // Internal imports
-import { ThemeSwitch } from "@/components/theme-switch";
+import { SearchDialog } from "./search";
 import {
-  TwitterIcon,
-  GithubIcon,
-  DiscordIcon,
-  HeartFilledIcon,
-  SearchIcon,
   Logo,
 } from "@/components/icons";
-import SearchInput, { SearchDialog } from "./search";
+import { ThemeSwitch } from "@/components/theme-switch";
+
 
 // Updated siteConfig with new navigation items
 const siteConfig = {
   navItems: [
-    { label: "Về chúng tôi", href: "#ve-chung-toi" },
-    { label: "Dự án", href: "#du-an" },
-    { label: "Giải pháp", href: "#giai-phap" },
-    { label: "Liên hệ", href: "#lien-he" },
+    { label: "Về chúng tôi", href: "/ve-chung-toi" },
+    { label: "Dự án", href: "/du-an" },
+    { label: "Giải pháp", href: "/giai-phap" },
+    { label: "Liên hệ", href: "/lien-he" },
   ],
   navMenuItems: [
     { label: "Về chúng tôi" },
@@ -45,27 +38,6 @@ const siteConfig = {
 };
 
 export const Navbar = () => {
-  const searchInput = (
-    <Input
-      aria-label="Search"
-      classNames={{
-        inputWrapper: "bg-default-100",
-        input: "text-sm",
-      }}
-      endContent={
-        <Kbd className="hidden lg:inline-block" keys={["command"]}>
-          K
-        </Kbd>
-      }
-      labelPlacement="outside"
-      placeholder="Search..."
-      startContent={
-        <SearchIcon className="text-base text-default-400 pointer-events-none flex-shrink-0" />
-      }
-      type="search"
-    />
-  );
-
   return (
     <NextUINavbar maxWidth="xl" position="sticky">
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
@@ -101,8 +73,6 @@ export const Navbar = () => {
           <ThemeSwitch />
         </NavbarItem>
         <NavbarItem className="hidden lg:flex"><SearchDialog /></NavbarItem>
-        <NavbarItem className="hidden md:flex">
-        </NavbarItem>
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
@@ -124,8 +94,7 @@ export const Navbar = () => {
                       : "foreground"
                 }
                 href={siteConfig.navItems[index].href}
-                size="lg"
-              >
+                size="lg">
                 {item.label}
               </Link>
             </NavbarMenuItem>
