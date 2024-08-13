@@ -29,9 +29,14 @@ export const RocketIcon: React.FC<IconSvgProps> = ({
   ...props
 }) => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+    <svg
+      height={size || height}
+      viewBox="0 0 24 24"
+      width={size || width}
+      {...props}
+    >
       <path d="M31.4702 17.3052L35.4318 13.3436C39.8923 8.88305 45.7321 7.03283 51.9123 6.73049C54.3163 6.61289 55.5182 6.55409 56.4819 7.51793C57.4459 8.48174 57.387 9.68366 57.2694 12.0876C56.967 18.2678 55.1169 24.1076 50.6563 28.5681L46.6947 32.5297C43.4323 35.7921 42.5049 36.7198 43.1897 40.2585C43.8657 42.9617 44.5198 45.5793 42.5542 47.5449C40.1699 49.9292 37.995 49.9292 35.6107 47.5449L16.455 28.3892C14.0707 26.0049 14.0706 23.83 16.455 21.4457C18.4205 19.4801 21.0382 20.1344 23.7413 20.8102C27.2801 21.4951 28.2078 20.5676 31.4702 17.3052Z" stroke="currentColor" strokeWidth="4" strokeLinejoin="round" />
-      <path d="M45.3225 18.6665H45.3465" stroke="currentColor" strokeWidth="5.33333" strokeLinecap="round" stroke-linejoin="round" />
+      <path d="M45.3225 18.6665H45.3465" stroke="currentColor" strokeWidth="5.33333" strokeLinecap="round" strokeLinejoin="round" />
       <path d="M6.66675 57.3333L20.0001 44" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
       <path d="M22.6667 57.3333L28.0001 52" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
       <path d="M6.66675 41.3333L12.0001 36" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
