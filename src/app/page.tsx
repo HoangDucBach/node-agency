@@ -7,7 +7,7 @@ import yaml from "js-yaml";
 
 // Internal imports
 import HeroSection from "./components/HeroSection";
-import { TAboutData, TAboutFile, TBrandData, TBrandsFile, TDocumentsFile, THeroData, THeroFile, TProjectData, TProjectsFile, TServiceData, TServicesFile } from "@/types";
+import { TAboutData, TStatisticFile, TAboutFile, TBrandData, TBrandsFile, TDocumentsFile, THeroData, THeroFile, TProjectData, TProjectsFile, TServiceData, TServicesFile } from "@/types";
 import HeroServiceSection from "./components/HeroServiceSection";
 import AboutSection from "./components/AboutSection";
 import ServicesSection from "./components/ServicesSection";
@@ -50,10 +50,16 @@ async function fetchPageData(): Promise<HomePageProps> {
     "utf8"
   );
 
-  const documentsFile= fs.readFileSync(
+  const documentsFile = fs.readFileSync(
     path.join(process.cwd(), "contents", "tim-kiem.yaml"),
     "utf8"
   );
+
+  const statisticsFile = fs.readFileSync(
+    path.join(process.cwd(), "contents", "thong-ke.yaml"),
+    "utf8"
+  );
+
 
   const heroFileData = yaml.load(heroSectionFile) as THeroFile;
   const brandsFileData = yaml.load(brandsSectionFile) as TBrandsFile;
@@ -61,6 +67,7 @@ async function fetchPageData(): Promise<HomePageProps> {
   const serviceFileData = yaml.load(servicesSectionFile) as TServicesFile;
   const projectsFileData = yaml.load(projectsSectionFile) as TProjectsFile;
   const documentsFileData = yaml.load(documentsFile) as TDocumentsFile;
+  const statisticsFileData = yaml.load(statisticsFile) as TStatisticFile;
 
   // Set collecction for fuse
   fuse.setCollection(documentsFileData.documents);
@@ -84,7 +91,7 @@ export default async function Home() {
       <AboutSection data={data.about} />
       <HeroServiceSection />
       <ServicesSection data={data.services} />
-      <ProjectsSection data={data.projects} />
+      <ProjectsSection/>
     </>
   );
 }

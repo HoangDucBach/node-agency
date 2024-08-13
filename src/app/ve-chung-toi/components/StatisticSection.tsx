@@ -31,12 +31,12 @@ function StatisticCard({ data }: { data: TStatistic }) {
 export function StatisticSection({ data }: { data: TStatistic[] }) {
     return (
         <section className="w-full">
-            <div className="w-full flex flex-row gap-8 justify-between items-center">
+            <div className="w-full flex flex-row md:gap-8 gap-2 justify-between items-center flex-wrap md:flex-nowrap">
                 {
                     data.map((item, index) => (
                         <React.Fragment key={index}>
                             <StatisticCard data={item} />
-                            {index < data.length - 1 && <div className="h-8 rounded-full w-[1px] bg-default-500" />}
+                            {index < data.length - 1 && <div className="hidden md:block h-8 rounded-full w-[1px] bg-default-500" />}
                         </React.Fragment>
                     ))
                 }

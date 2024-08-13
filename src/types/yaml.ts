@@ -166,13 +166,6 @@ export type TStatistic = {
     description?: string;
 };
 
-export type TBrandDataList = {
-    brands: TBrandData[];
-};
-
-export type TServiceDataList = {
-    services: TServiceData[];
-};
 
 /* -------------------------------------------------------------------------- */
 /*                                 TYPE OF FOOTER AND HEADER                  */
@@ -184,5 +177,3 @@ export type TFooterData = {
     platform?: TPlatformData;
     copyright?: string;
 };
-
-export type TProjectDataList = TProjectData[];

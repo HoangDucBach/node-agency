@@ -10,7 +10,6 @@ import { Button } from "@nextui-org/button";
 
 // Internal imports
 import { THeroData } from "@/types";
-import { title } from "@/components/primitives";
 
 export default function HeroSection({ data }: { data: THeroData }) {
     return (
@@ -22,14 +21,14 @@ export default function HeroSection({ data }: { data: THeroData }) {
             initial={{ opacity: 0 }}
             transition={{ duration: 1 }}
         >
-            <motion.img
+            {/* <motion.img
                 alt="Pattern key tags background"
                 animate={{ y: 0, opacity: 1 }}
                 className="w-fit h-fit absolute inset-0 m-auto"
                 initial={{ y: -50, opacity: 0 }}
                 src="/assets/pattern-key-tags-background.svg"
                 transition={{ duration: 1, delay: 0.5 }}
-            />
+            /> */}
 
             <motion.div
                 animate={{ y: 0, opacity: 1 }}
@@ -83,6 +82,7 @@ export default function HeroSection({ data }: { data: THeroData }) {
                             <Button
                                 href={cta.href}
                                 key={index}
+                                radius="full"
                             >
                                 {cta.label}
                             </Button>

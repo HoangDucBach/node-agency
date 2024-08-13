@@ -13,15 +13,17 @@ about:
     NODE ra đời với sứ mệnh TẬP TRUNG CÁC GIẢI PHÁP HIỆU QUẢ trên nền tảng kỹ thuật số cho khách hàng. 
     Chúng tôi mang đến cho khách hàng những dịch vụ chuyên nghiệp dựa trên triết lý kinh doanh chuyên nghiệp, thực thi xuất sắc.
   statistic:
-    - number: 50
+    - number: 100
       name: Khách hàng
       description: >
         Chúng tôi đã hợp tác với hơn 50 khách hàng, từ các doanh nghiệp nhỏ đến lớn, trong và ngoài nước.
-    - number: 500
+    - number: 100
       name: Dự án
       description: >
         Chúng tôi đã thực hiện hơn 500 dự án thành công, giúp khách hàng tăng doanh số và mở rộng thị trường.
-    - number: 10
+    - number: 4
+      name: Dịch vụ chính
+    - number: 12
       name: Năm kinh nghiệm
       description: >
         Với hơn 10 năm kinh nghiệm trong ngành, công ty agency của chúng tôi đã trở thành một đối tác tin cậy cho nhiều doanh nghiệp trong việc thúc đẩy sự phát triển và mở rộng.

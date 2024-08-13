@@ -5,6 +5,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { PiProjectorScreenChartFill } from "react-icons/pi";
 import { RiCustomerService2Line } from "react-icons/ri";
+import { RiServiceFill } from "react-icons/ri";
 import { HiFire } from "react-icons/hi";
 
 // Internal imports
@@ -35,13 +36,13 @@ function StatisticCard({ data }: { data: TStatistic }) {
             case "Năm kinh nghiệm":
                 return <HiFire size={32} />;
             default:
-                return null;
+                return <RiServiceFill size={32} />;
         }
     }
 
     return (
         <motion.div
-            className="flex flex-col items-start gap-2 bg-foreground-100 rounded-2xl p-4 border border-default w-full h-fit col-start-1"
+            className="flex flex-col items-start gap-2 bg-foreground-100 rounded-2xl p-4 border border-default w-full h-fit"
             initial={{ opacity: 0, y: 50 }}
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
@@ -56,30 +57,6 @@ function StatisticCard({ data }: { data: TStatistic }) {
     );
 }
 
-function SpecialCard({ data }: { data: TStatistic }) {
-    return (
-        <motion.div
-            className="flex flex-col items-start gap-2 bg-foreground-100 rounded-2xl p-4 border border-default row-start-1 col-start-2 col-span-2 row-span-2"
-            initial={{ opacity: 0, y: 50 }}
-            style={{
-                backgroundImage: `url('/assets/patern-mesh-green-background.png')`,
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-            }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            whileInView={{ opacity: 1, y: 0 }}
-        >
-            <HiFire size={32} />
-            <div className="w-full flex flex-col gap-0">
-                <p className="text-6xl font-bold text-[#09A32E]">{data.number}+</p>
-                <p className="text-base font-bold text-white ">{data.name}</p>
-                <p className='text-base text-white w-full break-words max-w-[20em]'>{data.description}</p>
-            </div>
-        </motion.div>
-    );
-}
 
 export default function AboutSection({ data }: { data: TAboutData }) {
     return (
@@ -93,12 +70,8 @@ export default function AboutSection({ data }: { data: TAboutData }) {
         >
             <div className="flex flex-col gap-8 items-center justify-center md:flex-row md:items-start">
                 {data && <AboutCard data={data} />}
-                <div className="grid grid-cols-3 grid-rows-2 gap-4 md:gap-8 w-full">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
                     {data.statistic && data.statistic.map((statistic) => {
-                        if (statistic.name === "Năm kinh nghiệm") {
-                            return <SpecialCard key={statistic.name} data={statistic} />
-                        }
-                        
                         return <StatisticCard key={statistic.name} data={statistic} />
                     })}
                 </div>

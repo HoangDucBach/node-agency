@@ -11,18 +11,31 @@
 import clsx from "clsx";
 import React from "react";
 import { Typewriter } from 'react-simple-typewriter';
+import { motion } from 'framer-motion';
 
 export default function HeroServiceSection() {
     return (
         <section
             aria-label="Hero Service section"
-            className="flex flex-col items-center justify-center gap-8 py-8 md:py-10 md:my-64 my-32"
+            className={clsx(
+                "flex flex-col items-center justify-center gap-8 relative h-screen w-full",
+                "overflow-visible"
+            )}
             id="chung-toi-cung-cap-dich-vu-gi"
         >
+
+            <motion.img
+                src="/assets/pattern-colors-firework.svg"
+                alt="Firework pattern"
+                className="absolute top-0 left-0 w-full h-full object-cover z-0 overflow-visible"
+                initial={{ opacity: 0, scale: 0.2 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 1.5, ease: "easeInOut" }}
+            />
             <h1 className={clsx(
-                "text-7xl md:text-9xl font-bold text-default-foreground",
+                "text-7xl md:text-9xl font-bold text-default-foreground z-10",
             )}>
-                <Typewriter 
+                <Typewriter
                     cursor
                     cursorStyle='_'
                     deleteSpeed={50}

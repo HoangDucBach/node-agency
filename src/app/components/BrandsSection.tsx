@@ -27,7 +27,7 @@ function BrandsLogoCard({ brand }: { brand: TBrandData }) {
             whileHover={{ scale: 1.1 }}
             className={clsx(
                 "flex flex-col items-center justify-center gap-2",
-                "aspect-[2/1] bg-foreground-100 w-32 rounded-2xl p-4"
+                "aspect-[2/1] w-32 rounded-2xl p-4"
             )}
         >
             <img
