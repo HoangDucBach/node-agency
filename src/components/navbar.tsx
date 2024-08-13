@@ -20,7 +20,6 @@ import {
 } from "@/components/icons";
 import { ThemeSwitch } from "@/components/theme-switch";
 
-
 // Updated siteConfig with new navigation items
 const siteConfig = {
   navItems: [
