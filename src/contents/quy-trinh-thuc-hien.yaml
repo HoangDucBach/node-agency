@@ -1,0 +1,53 @@
+# This file contains the content of the "Quy trình thực hiện" section.
+# Each item in the "works" array represents a step in the process.
+
+# Quy trình thực hiện
+# - name: Tên quy trình
+#   description: Mô tả về quy trình
+#   works:
+#     - name: Tên công việc
+#       description: Mô tả về công việc
+processes:
+  - name: Social Media Service
+    description:
+    image: /assets/image-social-icons.png
+    works:
+      - name: Phân tích
+        description: |
+          Một báo cáo phân tích toàn diện nêu tóm tắt những thông tin và dữ liệu thu thập được từ nghiên cứu.
+      - name: Kế hoạch
+        description: |
+          Phát triển kế hoạch chiến lược truyền thông có định hướng sáng tạo, thông điệp và hoạt động của chiến dịch.
+      - name: Thực thi
+        description: |
+          Chuyển đổi các tư liệu truyền thông sẵn có thành nội dung truyền thông hấp dẫn.
+  - name: Influencers Marketing
+    description:
+    image: /assets/image-influencer-marketing.png
+    works:
+      - name: Tìm kiếm
+        description: |
+          Danh sách được tuyển chọn gồm những người có sức ảnh hưởng/người sáng tạo nội dung phù hợp nhất cho chiến dịch.
+      - name: Lập kế hoạch
+        description: |
+          Kế hoạch chiến dịch chi tiết và các thỏa thuận sẽ ký với những người có sức ảnh hưởng, đảm bảo các cam kết của cả hai bên được thống nhất.
+      - name: Thực thi
+        description: |
+          Hợp tác với những người có sức ảnh hưởng/người sáng tạo để tạo ra nội dung hấp dẫn, phù hợp và theo dõi, đánh giá hiệu suất.
+  - name: Crisis Management
+    description:
+    image: /assets/image-crisis.png
+    works: 
+      - name: Đánh giá rủi ro
+        description: |
+          Đánh giá xác suất rủi ro theo từng cấp độ dựa trên kết quả của các hoạt động tiêu cực và thiệt hại mà thương hiệu có thể phải gánh chịu.
+      - name: Kế hoạch
+        description: |
+          Căn cứ vào mức độ khủng hoảng để đề xuất các giải pháp tức thời nhằm nhanh chóng phổ biến thông tin và kiểm soát tình hình.
+      - name: Đánh giá
+        description: |
+          Liên tục theo dõi và đánh giá tình hình để triển khai các biện pháp kịp thời, phù hợp cho từng giai đoạn.
+  - name: Digital PR/ Activation
+    description: Tiến hành các hoạt động tương tác (seeding) để phân phối nội dung trực tuyến. Mở rộng phạm vi tiếp cận bằng cách chia sẻ nội dung trên nhiều nền tảng (trang web, phương tiện truyền thông xã hội, trang cộng đồng, v.v.), đảm bảo thu hút được sự chú ý của nhiều đối tượng khác nhau.
+    image: /images/creative-strategy.jpg
+    works: 

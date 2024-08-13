@@ -6,11 +6,11 @@ import path from "path";
 import yaml from "js-yaml";
 import React from "react";
 import { Link } from "@nextui-org/link";
-import { FaFacebook, FaTiktok, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaTiktok } from "react-icons/fa";
 import { MdEmail, MdPhone } from "react-icons/md";
 
 // Internal imports
-import { TCompanyData, TCompanyFile, TContactFile, TContactInfo, TFooterData, TPlatformData, TPlatformFile } from "@/types";
+import { TCompanyFile, TContactFile, TFooterData, TPlatformFile } from "@/types";
 import { Divider } from "@nextui-org/divider";
 import { Logo } from "./icons";
 import { siteConfig } from "@/config/site";
@@ -80,7 +80,7 @@ export function Footer() {
                                             <FaFacebook className="text-default-500" size={24}/>
                                         </Link>
                                         <Link isExternal aria-label="Youtube" href={siteConfig.links.youtube}>
-                                            <FaYoutube className="text-default-500" size={24}/>
+                                            <FaLinkedin className="text-default-500" size={24}/>
                                         </Link>
                                         <Link isExternal aria-label="Tiktok" href={siteConfig.links.tiktok}>
                                             <FaTiktok className="text-default-500" size={24}/>

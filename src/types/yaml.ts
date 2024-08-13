@@ -48,7 +48,9 @@ export type TDocumentsFile = {
     documents: TDocument[];
 };
 
-
+export type TProcessFile = {
+    processes: TProcessData[];
+};
 /* -------------------------------------------------------------------------- */
 /*                                 DATA TYPES                                 */
 /* -------------------------------------------------------------------------- */
@@ -110,6 +112,16 @@ export type TStatisticData = {
     description?: string;
 };
 
+export type TWorkData = {
+    name: string;
+    description?: string;
+};
+export type TProcessData = {
+    name: string;
+    description?: string;
+    image?: string;
+    works?: TWorkData[];
+};
 /*
 * Type for project information which company has done
 */

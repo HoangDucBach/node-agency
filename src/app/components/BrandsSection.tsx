@@ -41,10 +41,6 @@ function BrandsLogoCard({ brand }: { brand: TBrandData }) {
 
 export default function BrandsSection({ data }: { data: TBrandData[] }) {
     const brands = data;
-    const third = Math.ceil(brands.length / 3);
-    const firstRow = brands.slice(0, third);
-    const secondRow = brands.slice(third, third * 2);
-    const thirdRow = brands.slice(third * 2);
 
     return (
         <motion.section
@@ -67,21 +63,7 @@ export default function BrandsSection({ data }: { data: TBrandData[] }) {
             </motion.h2>
             <Marquee autoFill speed={25}>
                 <div className="flex flex-row gap-4 px-4">
-                    {firstRow.map((brand) => (
-                        <BrandsLogoCard key={brand.name} brand={brand} />
-                    ))}
-                </div>
-            </Marquee>
-            <Marquee autoFill speed={25} direction="right">
-                <div className="flex flex-row gap-4 px-4">
-                    {secondRow.map((brand) => (
-                        <BrandsLogoCard key={brand.name} brand={brand} />
-                    ))}
-                </div>
-            </Marquee>
-            <Marquee autoFill speed={25}>
-                <div className="flex flex-row gap-4 px-4">
-                    {thirdRow.map((brand) => (
+                    {brands.map((brand) => (
                         <BrandsLogoCard key={brand.name} brand={brand} />
                     ))}
                 </div>
