@@ -16,7 +16,120 @@ projects:
     industry: Influencer Marketing
     kpi: 212
     images:
-      - src: /images/colosbaby-gold-d3k2-1.jpg
+      - src: /assets/image/vita-dairy/colosbaby-gold-d3k2.png
         alt: ColosBaby Gold D3K2
-      - src: /images/colosbaby-gold-d3k2-2.jpg
-        alt: ColosBaby Gold D3K2
+
+  - customer: VitaDairy
+    name: Oggi
+    description: |
+      Seeding hội nhóm
+    industry: Social Media Marketing
+    kpi: 121
+    images:
+      - src: /assets/image/vita-dairy/oggi.jpg
+        alt: Oggi
+
+  - customer: VitaDairy
+    name: Colos Opti
+    description: |
+      Seeding hội nhóm
+    industry: Social Media Marketing
+    kpi: 123.5
+    images:
+      - src: /assets/image/vita-dairy/colos-opti.png
+        alt: Colos Opti
+
+  - customer: VitaDairy
+    name: Oggi Gold
+    description: |
+      Bài đăng truyền thông
+    industry: Social Media Marketing
+    kpi: 123.5
+    images:
+      - src: /assets/image/vita-dairy/oggi-gold.png
+        alt: Oggi Gold
+
+  - customer: VitaDairy
+    name: CALOKID
+    description: |
+      Bài đăng truyền thông
+    industry: Social Media Marketing
+    kpi: 132
+    images:
+      - src: /assets/image/vita-dairy/calokid.png
+        alt: CALOKID
+
+  - customer: VitaDairy
+    name: Colos DHA+
+    description: |
+      Kết nối KOL / KOC TikTok, Seeding hội nhóm
+    industry: Influencer Marketing
+    kpi: 131.8
+    images:
+      - src: /assets/image/vita-dairy/colos-dha-plus.png
+        alt: Colos DHA+
+
+  - customer: VitaDairy
+    name: ColosBaby Gold
+    description: |
+      KOL TikTok & Facebook, Seeding hội nhóm
+    industry: Influencer Marketing
+    kpi: 119.5
+    images:
+      - src: /assets/image/vita-dairy/colosbaby-gold.png
+        alt: ColosBaby Gold
+
+  - customer: VitaDairy
+    name: Colos Gain
+    description: |
+      Đại sứ hình ảnh/Influencer
+    industry: Influencer Marketing
+    kpi: 224.5
+    images:
+      - src: /assets/image/vita-dairy/colos-gain.png
+        alt: Colos Gain
+
+  - customer: VitaDairy
+    name: Colos Fresh Milk
+    description: |
+      Đại sứ hình ảnh/Influencer
+    industry: Influencer Marketing
+    kpi: 179
+    images:
+      - src: /assets/image/vita-dairy/colos-fresh-milk.png
+        alt: Colos Fresh Milk
+
+  - customer: VitaDairy
+    name: Oggi Gold
+    description: |
+      Kết nối với KOL Facebook, bài đăng truyền thông
+    industry: Social Media Marketing
+    kpi: 179
+    images:
+      - src: /assets/image/vita-dairy/oggi-gold-1.png
+        alt: Oggi Gold
+
+        
+    - customer: VitaDairy
+    name: VitaDairy Colos Fresh Milk x Colos Gain
+    description: |
+      Đại sứ thương hiệu: Colos Fresh Milk x Gia đình Hồ Ngọc Hà trong 3 năm, Colos Gain x NSND Hồng Vân từ năm 2023 - nay
+      Lập kế hoạch và thực thi truyền thông với các KOL
+      Sản xuất TVC, KV
+    industry: Influencer Marketing
+    kpi: null
+    images:
+      - src: /assets/image/vita-dairy/dai-su-gia-dinh-ho-ngoc-ha.png
+        alt: VitaDairy Colos Fresh Milk x Colos Gain
+      - src: /assets/image/vita-dairy/dai-su-nsnd-hong-van.png
+        alt: VitaDairy Colos Fresh Milk x Colos Gain
+
+  - customer: VitaDairy
+    name: Bảo vệ Y bác sĩ 24H
+    description: |
+      Kế hoạch và thực thi quan hệ công chúng, tăng tương tác trong cộng đồng
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/vita-dairy/bao-ve-y-bac-si-24h.png
+        alt: Bảo vệ Y bác sĩ 24H
