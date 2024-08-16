@@ -132,3 +132,579 @@ projects:
     images:
       - src: /assets/image/vita-dairy/bao-ve-y-bac-si-24h.png
         alt: Bảo vệ Y bác sĩ 24H
+
+# ----------------------------------------------------------------        
+
+  - customer: FWD
+    name: Chiến dịch Mùa yêu thương
+    description: |
+            Chiến lược truyền thông, Lập kế hoạch và thực thi truyền thông với các KOL
+    industry: Influencer Marketing
+    kpi: null
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/mua-yeu-thuong.png
+        alt: Chiến dịch Mùa yêu thương
+
+      - src: /assets/image/fwd/du-an-noi-bat/mua-yeu-thuong-comic.png
+        alt: Chiến dịch Mùa yêu thương Comic
+
+
+  - customer: FWD
+    name: Tiến bước sống đầy
+    description: |
+      Booking trang cộng đồng, Hoạt động tương tác
+    industry: Social Media Marketing
+    kpi: 150, 100+ kênh, 6 triệu tương tác
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/tien-buoc-song-day.png
+        alt: Tiến bước sống đầy
+
+      - src: /assets/image/fwd/du-an-noi-bat/tien-buoc-song-day-2.png
+        alt: Tiến bước sống đầy 2
+
+
+  - customer: FWD
+    name: FWD Care
+    description: |
+      Booking trang cộng đồng, Hoạt động tương tác, Lập kế hoạch và thực thi truyền thông với các KOL, Thực thi quan hệ công chúng
+    industry: Social Media Marketing
+    kpi: 75+ kênh, 1,6 triệu tương tác
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/fwd-care.png
+        alt: FWD Care
+
+  - customer: FWD
+    name: Chuyến xe xuyên Việt 2023
+    description: |
+      Hoạt động sự kiện
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/chuyen-xe-xuyen-viet.png
+        alt: Chuyến xe xuyên Việt 2023
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/10-cau-chuyen-tu-khap-vn.png
+        alt: 10 câu chuyện từ khắp VN
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/10-cau-chuyen-tu-nguoi-dia-phuong.png
+        alt: 10 câu chuyện từ người địa phương
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/10-hoc-sinh-tieu-bieu.png
+        alt: 10 học sinh tiêu biểu
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/10-nghe-si-noi-tieng.png
+        alt: 10 nghệ sĩ nổi tiếng
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/comic.png
+        alt: Comic
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/di-qua-10-tinh-thanh.png
+        alt: Đi qua 10 tỉnh thành
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/influencer.png
+        alt: Influencer
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/influencers-2.png
+        alt: Influencers 2
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/seeding-in-communities.png
+        alt: Seeding in communities
+
+  - customer: FWD
+    name: FWD Music Fest 2018-2024
+    description: |
+      Hoạt động sự kiện
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/music-fest.png
+        alt: FWD Music Fest 2018-2024
+
+      - src: /assets/image/fwd/music-fest-2023/amplify.png
+        alt: Amplify
+
+      - src: /assets/image/fwd/music-fest-2023/amplify-1.png
+        alt: Amplify 1
+
+      - src: /assets/image/fwd/music-fest-2023/amplify-3.png
+        alt: Amplify 3
+
+      - src: /assets/image/fwd/music-fest-2023/experience.png
+        alt: Experience
+
+      - src: /assets/image/fwd/music-fest-2023/experience-2.png
+        alt: Experience 2
+
+      - src: /assets/image/fwd/music-fest-2023/experience-3.png
+        alt: Experience 3
+
+      - src: /assets/image/fwd/music-fest-2023/trigger.png
+        alt: Trigger
+
+      - src: /assets/image/fwd/music-fest-2023/trigger-2.png
+        alt: Trigger 2
+
+
+  - customer: FWD
+    name: FWD Cung đường sống đầy
+    description: |
+      Hoạt động sự kiện
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/cung-duong-song-day.png
+        alt: FWD Cung đường sống đầy
+
+  - customer: FWD
+    name: Sống đầy từ hôm nay
+    description: |
+      Chiến lược truyền thông, Hoạt động tương tác
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/image-19.png
+        alt: Sống đầy từ hôm nay
+
+# ----------------------------------------------------------------  
+  - customer: VPBank
+    name: Hòa sắc thịnh vượng
+    description: |
+      Booking/ Hỗ trợ tăng tương tác cộng đồng, Lập kế hoạch/ thực thi với KOL
+    industry: Social Media Marketing, Influencer Marketing
+    kpi: null
+    images:
+      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/300918929-5328843693896695-404715244972894335-n.jpg
+        alt: Hòa sắc thịnh vượng 1
+      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/300977125-5328843647230033-680993768993658132-n.jpg
+        alt: Hòa sắc thịnh vượng 2
+      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/image-30.png
+        alt: Hòa sắc thịnh vượng 3
+      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/vp-bank-2.jpg
+        alt: Hòa sắc thịnh vượng 4
+
+  - customer: VPBank
+    name: VPBank Race Duyệt siêu 5 phút
+    description: |
+      Chiến lược thực thi truyền thông với KOL/ Cộng đồng
+    industry: Social Media Marketing, Influencer Marketing
+    kpi: null
+    images:
+      - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-29.png
+        alt: VPBank Race 1
+      - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-31.png
+        alt: VPBank Race 2
+      - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-32.png
+        alt: VPBank Race 3
+
+# ----------------------------------------------------------------  
+  - customer: PNJ
+    name: Mỹ Quyền MV
+    description: |
+      Chiến lược truyền thông tiếp thị
+      (KOL/Community...)
+      Chiến lược kế hoạch và thực thi với Influencer
+      Quay MV - Mỹ Quyền
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/pnj/my-quyen/my-quyen.jpg
+        alt: Mỹ Quyền
+      - src: /assets/image/pnj/my-quyen/my-quyen-2.jpg
+        alt: Mỹ Quyền
+
+  - customer: PNJ
+    name: Hành trình trang sức xuyên Việt
+    description: |
+      Chiến lược truyền thông tiếp thị
+      (KOL/Community...)
+      Chiến lược kế hoạch và thực thi với Influencer
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-1.png
+        alt: Hành trình trang sức xuyên Việt
+      - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-2.png
+        alt: Hành trình trang sức xuyên Việt
+      - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-3.png
+        alt: Hành trình trang sức xuyên Việt
+      - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-4.png
+        alt: Hành trình trang sức xuyên Việt
+      - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-5.png
+        alt: Hành trình trang sức xuyên Việt
+# ----------------------------------------------------------------  
+
+- customer: LaVie
+  name: La Vie Sparkling - Summer Campaign
+  description: |
+    Lập kế hoạch và thực thi với KOL
+    Các influencer nổi tiếng: Miss World Vietnam Lương Thùy Linh, MC Khánh Vy, Quang Trung Actor, Jun Phạm Singer, Chloe Nguyen Content Creator,...
+  industry: Influencer Marketing
+  kpi: null
+  images:
+    - src: /assets/image/lavie/lavie-sparkling/mc-khanh-vy.jpg
+      alt: MC Khánh Vy
+    - src: /assets/image/lavie/lavie-sparkling/beauty-blogger-chloe-nguyen.jpg
+      alt: Beauty Blogger Chloe Nguyễn
+    - src: /assets/image/lavie/lavie-sparkling/lavie-hoa-hau-thuy-linh.jpg
+      alt: Lavie Hoa Hậu Thùy Linh
+    - src: /assets/image/lavie/lavie-sparkling/ca-si-jun-pham.jpg
+      alt: Ca sĩ Jun Phạm
+
+- customer: LaVie
+  name: Cùng La Vie đi khắp Việt Nam
+  description: |
+    Lập kế hoạch và thực thi với KOL
+    Quản lý trao giải các winner thuộc 4 minigame
+    Quản lý 34,000 buzz cho cả dự án
+  industry: Influencer Marketing
+  kpi: null
+  images:
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/hieu-thu-2-lavie.jpg
+      alt: Hiếu thứ 2 Lavie
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/karik-lavie.jpg
+      alt: Karik Lavie
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/mini-game.jpg
+      alt: Mini Game
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/minigame-week-2.jpg
+      alt: Minigame Week 2
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/minigame-week-3.jpg
+      alt: Minigame Week 3
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/minigame-week-4.jpg
+      alt: Minigame Week 4
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/tao-lavie.jpg
+      alt: Táo Lavie
+
+# ----------------------------------------------------------------  
+  - customer: Vinasoy
+    name: Shop năng lượng lành mạnh
+    description: |
+      Chiến lược kế hoạch và thực thi với influencer
+    industry: Influencer Marketing
+    kpi: null
+    images:
+      - src: /assets/image/vinasoy/talkshow.jpg
+        alt: Talkshow Shop năng lượng lành mạnh
+      - src: /assets/image/vinasoy/vinasoy.jpg
+        alt: Tổng kết Talkshow Shop năng lượng lành mạnh
+# ----------------------------------------------------------------  
+  - customer: Johnnie Walker
+    name: F20 Tết
+    description: |
+      Chiến lược kế hoạch và thực thi với influencer
+    industry: Influencer Marketing
+    kpi: null
+    images:
+      - src: /assets/image/johnnie-walker/272553935_4731725530275202_7778547911949933450_n.jpg
+        alt: Johnnie Walker Influencer 1
+      - src: /assets/image/johnnie-walker/272618935_4731725670275170_8491239855388823598_n.jpg
+        alt: Johnnie Walker Influencer 2
+      - src: /assets/image/johnnie-walker/272637046_4731724600275277_2237962691513314722_n.jpg
+        alt: Johnnie Walker Influencer 3
+      - src: /assets/image/johnnie-walker/272642194_473172930276444_6145331513402970877_n.jpg
+        alt: Johnnie Walker Influencer 4
+      - src: /assets/image/johnnie-walker/272646319_473172183609888_2780460894426737512_n.jpg
+        alt: Johnnie Walker Influencer 5
+      - src: /assets/image/johnnie-walker/272650519_4731725470275190_1942196850684261663_n.jpg
+        alt: Johnnie Walker Influencer 6
+      - src: /assets/image/johnnie-walker/272655544_4731724800275259_8912056082029436817_n.jpg
+        alt: Johnnie Walker Influencer 7
+      - src: /assets/image/johnnie-walker/272660676_4731725500275185_889774000096885748_n.jpg
+        alt: Johnnie Walker Influencer 8
+      - src: /assets/image/johnnie-walker/272684650_4731725050275232_308775509000529725_n.jpg
+        alt: Johnnie Walker Influencer 9
+      - src: /assets/image/johnnie-walker/272685387_4731725086941895_8237032549053730349_n.jpg
+        alt: Johnnie Walker Influencer 10
+      - src: /assets/image/johnnie-walker/diageo.jpg
+        alt: Diageo
+      - src: /assets/image/johnnie-walker/image-27.png
+        alt: Johnnie Walker Image 27
+
+# ----------------------------------------------------------------  
+# ----------------------------------------------------------------  
+  - customer: SHB
+  name: SHB Family Card
+  description: |
+    Sản xuất TVC - KV, 
+    Quản lí 4 đại sứ thương hiệu, 
+    Sự kiện ra mắt , 
+    Thực thi trên toàn quốc
+  industry: Digital Activation
+  kpi: null
+  images:
+    - src: /assets/image/shb/shb-family-card/activation-1-nha-trang.png
+      alt: Activation Nha Trang
+    - src: /assets/image/shb/shb-family-card/activation-2-dong-nai.png
+      alt: Activation Đồng Nai
+    - src: /assets/image/shb/shb-family-card/activation-3.png
+      alt: Activation 3
+    - src: /assets/image/shb/shb-family-card/activation-4-ninh-binh.png
+      alt: Activation Ninh Bình
+    - src: /assets/image/shb/shb-family-card/quan-ly-4-dai-su-thuong-hieu.jpg
+      alt: Quản lí 4 đại sứ thương hiệu
+    - src: /assets/image/shb/shb-family-card/san-xuat-tvc-ket-noi-tinh-than.jpg
+      alt: Sản xuất TVC Kết nối tình thân
+    - src: /assets/image/shb/shb-family-card/shb.jpg
+      alt: SHB
+    - src: /assets/image/shb/shb-family-card/su-kien-kick-off-2.jpg
+      alt: Sự kiện Kick-off 2
+    - src: /assets/image/shb/shb-family-card/su-kien-kick-off-3.jpg
+      alt: Sự kiện Kick-off 3
+    - src: /assets/image/shb/shb-family-card/su-kien-kick-off-4.jpg
+      alt: Sự kiện Kick-off 4
+    - src: /assets/image/shb/shb-family-card/su-kien-kick-off-5.jpg
+      alt: Sự kiện Kick-off 5
+
+
+- customer: SHB
+  name: SHB Mastercard World
+  description: |
+    Sản xuất TVC - KV, 
+    Sự kiện ra mắt, 
+    Giải Golf
+  industry: Digital Activation
+  kpi: null
+  images:
+    - src: /assets/image/shb/shb-mastercard-world/anh-1-16.jpg
+      alt: SHB Mastercard World Anh 1
+    - src: /assets/image/shb/shb-mastercard-world/anh-2-5.png
+      alt: SHB Mastercard World Anh 2
+    - src: /assets/image/shb/shb-mastercard-world/picture12.jpg
+      alt: SHB Mastercard World Picture 12
+    - src: /assets/image/shb/shb-mastercard-world/picture13.jpg
+      alt: SHB Mastercard World Picture 13
+    - src: /assets/image/shb/shb-mastercard-world/picture14.jpg
+      alt: SHB Mastercard World Picture 14
+    - src: /assets/image/shb/shb-mastercard-world/picture15.jpg
+      alt: SHB Mastercard World Picture 15
+    - src: /assets/image/shb/shb-mastercard-world/picture16.jpg
+      alt: SHB Mastercard World Picture 16
+
+# ----------------------------------------------------------------  
+- customer: VPBank
+  name: Thay đổi diện mạo - Kiến tạo thành công
+  description: |
+    Big Concept, 
+    Sự kiện, 
+    Sản xuất TVC cho sản phẩm mới, 
+    Diễu hành xe bus
+  industry: Activation
+  kpi: null
+  images:
+    - src: /assets/image/thay-doi-dien-mao/copy-of-node-credentail-2024.jpg
+      alt: Sự kiện
+    - src: /assets/image/thay-doi-dien-mao/copy-of-node-credentail-2024-1.jpg
+      alt: Big Concept
+    - src: /assets/image/thay-doi-dien-mao/copy-of-node-credentail-2024-2.jpg
+      alt: TVC
+    - src: /assets/image/thay-doi-dien-mao/copy-of-node-credentail-2024-3.jpg
+      alt: Diễu hành xe bus
+    - src: /assets/image/thay-doi-dien-mao/image-28.png
+      alt: Thay đổi diện mạo
+
+- customer: VPBank
+  name: Giao dịch không tiền
+  description: |
+    Triển khai tại Hồ Chí Minh & Hà Nội
+  industry: Activation
+  kpi: null
+  images:
+    - src: /assets/image/vp-bank/cashless-day/picture5.png
+      alt: Giao dịch không tiền 1
+    - src: /assets/image/vp-bank/cashless-day/picture6.png
+      alt: Giao dịch không tiền 2
+    - src: /assets/image/vp-bank/cashless-day/picture7.png
+      alt: Giao dịch không tiền 3
+    - src: /assets/image/vp-bank/cashless-day/picture8.png
+      alt: Giao dịch không tiền 4
+
+- customer: VPBank
+  name: Bus Tour
+  description: |
+    Triển khai toàn quốc
+  industry: Activation
+  kpi: null
+  images:
+    - src: /assets/image/vp-bank/bus-tour/cho-dong-xuan.png
+      alt: Chợ Đồng Xuân
+    - src: /assets/image/vp-bank/bus-tour/picture-9.png
+      alt: Bus Tour 1
+    - src: /assets/image/vp-bank/bus-tour/picture10.png
+      alt: Bus Tour 2
+    - src: /assets/image/vp-bank/bus-tour/picture11.png
+      alt: Bus Tour 3
+
+- customer: VPBank
+  name: VPBank Tết 2024
+  description: |
+    Sự kiện truyền thông cho dịp Tết 2024.
+  industry: Digital PR
+  kpi: null
+  images:
+    - src: /assets/image/vp-bank/tet-2024/picture23.png
+      alt: Hình ảnh Tết 23
+    - src: /assets/image/vp-bank/tet-2024/picture24.png
+      alt: Hình ảnh Tết 24
+    - src: /assets/image/vp-bank/tet-2024/picture25.png
+      alt: Hình ảnh Tết 25
+    - src: /assets/image/vp-bank/tet-2024/picture26.png
+      alt: Hình ảnh Tết 26
+    - src: /assets/image/vp-bank/tet-2024/vp-bank-tet.png
+      alt: Hình ảnh Tết của VPBank
+# ----------------------------------------------------------------  
+- customer: Veyo
+  name: Sự kiện ảo Veyo cùng với Diễn viên Thúy Ngân
+  description: |
+    Kế hoạch và thực thi truyền thông với KOL
+    Sản xuất, quay sự kiện
+  industry: Digital PR
+  kpi: null
+  images:
+    - src: /assets/image/veyo/1.jpg
+      alt: Veyo Sự Kiện Ảo - Image 1
+    - src: /assets/image/veyo/2.jpg
+      alt: Veyo Sự Kiện Ảo - Image 2
+    - src: /assets/image/veyo/3.jpg
+      alt: Veyo Sự Kiện Ảo - Image 3
+
+# ----------------------------------------------------------------  
+- customer: Kita Group
+  name: Khai trương KITA Gallery
+  description: |
+    Sự kiện khai trương KITA Gallery.
+  industry: Activation
+  kpi: null
+  images:
+    - src: /assets/image/kita/kita-gallery-grand-opening/1.jpg
+      alt: Grand Opening KITA Gallery 1
+    - src: /assets/image/kita/kita-gallery-grand-opening/2.jpg
+      alt: Grand Opening KITA Gallery 2
+    - src: /assets/image/kita/kita-gallery-grand-opening/14-1536x1024.jpg
+      alt: Grand Opening KITA Gallery 3
+    - src: /assets/image/kita/kita-gallery-grand-opening/234A3008-1536x1024.jpg
+      alt: Grand Opening KITA Gallery 4
+    - src: /assets/image/kita/kita-gallery-grand-opening/kita-group-khai-truong-show-gallery-tai-tphcm-5.jpg
+      alt: Grand Opening KITA Gallery 5
+    - src: /assets/image/kita/kita-gallery-grand-opening/kita-group-khai-truong-show-gallery-tai-tphcm-9(1) (1).jpg
+      alt: Grand Opening KITA Gallery 6
+
+
+- customer: Kita Group
+  name: KITA Mini Expo Stella Residence
+  description: |
+    Triển lãm Mini Expo Stella Residence.
+  industry: Activation
+  kpi: null
+  images:
+    - src: /assets/image/kita/kita-mini-expo-stella-residence/299438927_142355958483837_2747258273986948847_n.jpg
+      alt: Mini Expo Stella Residence 1
+    - src: /assets/image/kita/kita-mini-expo-stella-residence/299480916_142355984883843_8572499535723841348_n.jpg
+      alt: Mini Expo Stella Residence 2
+    - src: /assets/image/kita/kita-mini-expo-stella-residence/299563981_142355618172002_910780595061446691_n.jpg
+      alt: Mini Expo Stella Residence 3
+    - src: /assets/image/kita/kita-mini-expo-stella-residence/299571667_142355651505332_833486571616187373_n.jpg
+      alt: Mini Expo Stella Residence 4
+    - src: /assets/image/kita/kita-mini-expo-stella-residence/299687752_142355875150512_5489831435893716260_n.jpg
+      alt: Mini Expo Stella Residence 5
+    - src: /assets/image/kita/kita-mini-expo-stella-residence/299796832_142355748483848_3917867152066535899_n.jpg
+      alt: Mini Expo Stella Residence 6
+    - src: /assets/image/kita/kita-mini-expo-stella-residence/299928110_142355617817199_185154246773930615_n.jpg
+      alt: Mini Expo Stella Residence 7
+
+# ----------------------------------------------------------------  
+- customer: Charm Group
+  name: Lễ ra quân dự án BW Premier by Best Western
+  description: |
+    Sự kiện lễ ra quân dự án BW Premier by Best Western.
+  industry: Activation
+  kpi: null
+  images:
+    - src: /assets/image/charm-group/baner-web-ht-1920x980.jpg
+      alt: BW Premier by Best Western 1
+    - src: /assets/image/charm-group/picture31.png
+      alt: BW Premier by Best Western 2
+    - src: /assets/image/charm-group/picture32.jpg
+      alt: BW Premier by Best Western 3
+    - src: /assets/image/charm-group/z3898804613427_d72ab15f1d5420f2c62e73b5f5b9faa3.jpg
+      alt: BW Premier by Best Western 4
+    - src: /assets/image/charm-group/z3898804621156_196bffbbe3ad156c0962224802c52cc9.jpg
+      alt: BW Premier by Best Western 5
+    - src: /assets/image/charm-group/z3898804621431_b7acef084cf5d727bca657bae2beb469.jpg
+      alt: BW Premier by Best Western 6
+    - src: /assets/image/charm-group/z3898804643660_61292d238da500791ea1e7cc3b370a04.jpg
+      alt: BW Premier by Best Western 7
+
+# ----------------------------------------------------------------  
+- customer: D-Aqua
+  name: Đại lộ shop phố chợ "Trên bến dưới thuyền"
+  description: |
+    Sự kiện ra mắt đại lộ shop phố chợ "Trên bến dưới thuyền".
+  industry: Activation
+  kpi: null
+  images:
+    - src: /assets/image/d-aqua/dai-lo-shop-pho-cho-2.jpg
+      alt: Đại lộ shop phố chợ 1
+    - src: /assets/image/d-aqua/pho-cho.jpg
+      alt: Đại lộ shop phố chợ 2
+    - src: /assets/image/d-aqua/picture33.jpg
+      alt: Đại lộ shop phố chợ 3
+    - src: /assets/image/d-aqua/shop-pho-cho-2.jpg
+      alt: Đại lộ shop phố chợ 4
+    - src: /assets/image/d-aqua/shop-pho-cho.jpg
+      alt: Đại lộ shop phố chợ 5
+# ----------------------------------------------------------------  
+- customer: Gem Riverside
+  name: Sự kiện Lễ giới thiệu "Sapphire Riverside Phase 2"
+  description: |
+    Sự kiện lễ giới thiệu "Sapphire Riverside Phase 2".
+  industry: Activation
+  kpi: null
+  images:
+    - src: /assets/image/gem-riverside/gem.jpg
+      alt: Sapphire Riverside 1
+    - src: /assets/image/gem-riverside/gem2.jpg
+      alt: Sapphire Riverside 2
+    - src: /assets/image/gem-riverside/picture35.jpg
+      alt: Sapphire Riverside 3
+# ----------------------------------------------------------------  
+- customer: Đất Xanh Group
+  name: Hội thao Đất Xanh 2018
+  description: |
+    Sự kiện hội thao Đất Xanh 2018.
+  industry: Activation
+  kpi: null
+  images:
+    - src: /assets/image/dat-xanh-group/picture4.jpg
+      alt: Hội thao Đất Xanh 1
+    - src: /assets/image/dat-xanh-group/picture27.jpg
+      alt: Hội thao Đất Xanh 2
+    - src: /assets/image/dat-xanh-group/picture28.jpg
+      alt: Hội thao Đất Xanh 3
+    - src: /assets/image/dat-xanh-group/picture29.jpg
+      alt: Hội thao Đất Xanh 4
+    - src: /assets/image/dat-xanh-group/picture30.jpg
+      alt: Hội thao Đất Xanh 5
+# ----------------------------------------------------------------  
+- customer: Vincom Retail
+  name: Roadshow Bus Vincom: Hà Nội & Hồ Chí Minh
+  description: |
+    Sự kiện Roadshow Bus tại Hà Nội và Hồ Chí Minh.
+  industry: Activation
+  kpi: null
+  images:
+    - src: /assets/image/vincom/picture22.png
+      alt: Roadshow Bus Vincom 1
+    - src: /assets/image/vincom/vincom.png
+      alt: Roadshow Bus Vincom 2
+    - src: /assets/image/vincom/vincom2.png
+      alt: Roadshow Bus Vincom 3
+# ----------------------------------------------------------------  
+- customer: Samsung
+  name: Hoạt động truyền thông sản phẩm mới Galaxy Z Flip 4 Activation: Hà Nội
+  description: |
+    Hoạt động truyền thông sản phẩm mới Galaxy Z Flip 4 tại Hà Nội.
+  industry: Activation
+  kpi: null
+  images:
+    - src: /assets/image/samsung/picture21.jpg
+      alt: Samsung Galaxy Z Flip 4 Activation 1
+
+
