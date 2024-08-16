@@ -19,6 +19,22 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
   keywords: siteConfig.keywords,
+  openGraph: {
+    title: siteConfig.name,
+    description: siteConfig.description,
+    type: "website",
+    locale: "vi_VN",
+    images: [
+      {
+        url: "/opengraph-image-poster.png",
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      },
+    ],
+    countryName: "Vietnam",
+    siteName: siteConfig.name
+  },
 };
 
 export const viewport: Viewport = {
@@ -48,7 +64,7 @@ export default function RootLayout({
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
               {children}
             </main>
-           <Footer />
+            <Footer />
           </div>
         </Providers>
       </body>

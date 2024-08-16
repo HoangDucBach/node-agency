@@ -80,15 +80,15 @@ export function ResultCard({ result, onClick }: { result: TDocument, onClick: ()
     const getIconByType = (type: DocumentType) => {
         switch (type) {
             case "company":
-                return <ContactIcon />;
+                return <ContactIcon className="text-primary-900"/>;
             case "platform":
-                return <PlatformIcon />;
+                return <PlatformIcon className="text-primary-900"/>;
             case "services":
-                return <ServiceIcon />;
+                return <ServiceIcon className="text-primary-900"/>;
             case "contact":
-                return <ContactIcon />;
+                return <ContactIcon className="text-primary-900"/>;
             default:
-                return <ContactIcon />;
+                return <ContactIcon className="text-primary-900"/>;
         }
     }
 

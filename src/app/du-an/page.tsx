@@ -10,11 +10,15 @@ import yaml from "js-yaml";
 import { TBrandData, TProjectData, TProjectsFile } from "@/types";
 import HeroSection from "./components/HeroSection";
 import { BrandsNavbar } from "./components/BrandsNavbar";
+import { Metadata } from "next";
 
 interface PageProps {
     projects: TProjectData[];
 }
-
+export const metadata: Metadata = {
+    title: "Dự án",
+    description: "Danh sách các dự án đã thực hiện",
+};
 const fetchData = async (): Promise<PageProps> => {
     const projectsFile = fs.readFileSync(
         path.join(process.cwd(), "contents", "du-an.yaml"),

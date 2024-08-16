@@ -10,10 +10,17 @@ import yaml from "js-yaml";
 import { TProcessFile } from "@/types";
 import {HeroSection} from "./components/HeroSection";
 import { ProcessSection } from "./components/ProcessSection";
+import { Metadata } from "next";
 
 type PageProps = {
     process: TProcessFile;
 };
+
+export const metadata: Metadata = {
+    title: "Giải pháp",
+    description: "Danh sách các dự án đã thực hiện",
+};
+
 function fetchPageData(): PageProps {
     const processFile= fs.readFileSync(
         path.join(process.cwd(), "contents", "quy-trinh-thuc-hien.yaml"),
@@ -25,6 +32,7 @@ function fetchPageData(): PageProps {
         process: processFileData,
     }
 }
+
 export default function Page() {
     const data = fetchPageData();
     return (

@@ -5,6 +5,7 @@
  */
 // Internal imports
 import Fuse, { IFuseOptions } from "fuse.js";
+import documentsJson from "@/contents/tim-kiem.json";
 
 export type DocumentType = 'company' | 'platform' | 'services' | 'contact';
 export type TDocument = {
@@ -15,8 +16,9 @@ export type TDocument = {
     href?: string;
 };
 
-const jsonToObjects = JSON.parse(
-const documents: TDocument[] =[]
+const documents: TDocument[] = documentsJson.documents as TDocument[];
+
+console.log(documents);
 const options = {
     keys: ["title", "body"],
     threshold: 0.3,
