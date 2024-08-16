@@ -7,15 +7,16 @@ import React from "react";
 import yaml from "js-yaml";
 
 // Internal imports
-import { TProjectData, TProjectsFile } from "@/types";
+import { TBrandData, TProjectData, TProjectsFile } from "@/types";
 import HeroSection from "./components/HeroSection";
+import { BrandsNavbar } from "./components/BrandsNavbar";
 
 interface PageProps {
-    projects: TProjectData [];
+    projects: TProjectData[];
 }
 
 const fetchData = async (): Promise<PageProps> => {
-    const projectsFile= fs.readFileSync(
+    const projectsFile = fs.readFileSync(
         path.join(process.cwd(), "contents", "du-an.yaml"),
         "utf8"
     );
@@ -28,9 +29,19 @@ const fetchData = async (): Promise<PageProps> => {
 }
 export default async function Page() {
     const data = await fetchData();
+    const brandsSet = new Set(data.projects.map((project) => project.customer));
+    const brandsIteration = Array.from(brandsSet);
+    const brands = brandsIteration.map((brand) => {
+        return {
+            logo: "/assets/logo-" + brand.toLowerCase().replace(' ', '-') + ".png",
+            name: brand,
+        } satisfies TBrandData;
+    });
+    console.log(brands);
     return (
         <>
-            <HeroSection data={data.projects}/>
+            {/* <BrandsNavbar data={brands} /> */}
+            <HeroSection data={data.projects} />
         </>
     )
 }

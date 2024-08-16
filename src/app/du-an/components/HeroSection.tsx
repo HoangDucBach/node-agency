@@ -2,7 +2,7 @@
 
 import { IndustryType, TProjectData } from "@/types";
 import { Tab, Tabs } from "@nextui-org/react";
-import { InfluencerMarketingProjectsSection } from "./ProjectsSection";
+import { DigitalActivationProjectsSection, InfluencerMarketingProjectsSection, SocialMediaMarketingProjectsSection } from "./ProjectsSection";
 
 export default function HeroSection({ data }: { data: TProjectData[] }) {
 
@@ -21,9 +21,16 @@ export default function HeroSection({ data }: { data: TProjectData[] }) {
                     <InfluencerMarketingProjectsSection data={data} />
                 </Tab>
                 <Tab
+                    key={IndustryType.SOCIAL_MEDIA_MARKETING}
+                    title="Social Media Marketing"
+                >
+                    <SocialMediaMarketingProjectsSection data={data} />
+                </Tab>
+                <Tab
                     key={IndustryType.DIGITAL_ACTIVATION}
                     title="Digital Activation"
                 >
+                    <DigitalActivationProjectsSection data={data} />
                 </Tab>
             </Tabs>
         </section>

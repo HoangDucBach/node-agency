@@ -15,9 +15,8 @@ export type TDocument = {
     href?: string;
 };
 
-
-const documents: TDocument[] = [];
-
+const jsonToObjects = JSON.parse(
+const documents: TDocument[] =[]
 const options = {
     keys: ["title", "body"],
     threshold: 0.3,
