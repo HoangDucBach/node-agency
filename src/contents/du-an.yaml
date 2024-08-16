@@ -133,3 +133,291 @@ projects:
     images:
       - src: /assets/image/vita-dairy/bao-ve-y-bac-si-24h.png
         alt: Bảo vệ Y bác sĩ 24H
+
+# ----------------------------------------------------------------        
+
+  - customer: FWD
+    name: Chiến dịch Mùa yêu thương
+    description: |
+            Chiến lược truyền thông, Lập kế hoạch và thực thi truyền thông với các KOL
+    industry: Influencer Marketing
+    kpi: null
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/mua-yeu-thuong.png
+        alt: Chiến dịch Mùa yêu thương
+
+      - src: /assets/image/fwd/du-an-noi-bat/mua-yeu-thuong-comic.png
+        alt: Chiến dịch Mùa yêu thương Comic
+
+
+  - customer: FWD
+    name: Tiến bước sống đầy
+    description: |
+      Booking trang cộng đồng, Hoạt động tương tác
+    industry: Social Media Marketing
+    kpi: 150, 100+ kênh, 6 triệu tương tác
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/tien-buoc-song-day.png
+        alt: Tiến bước sống đầy
+
+      - src: /assets/image/fwd/du-an-noi-bat/tien-buoc-song-day-2.png
+        alt: Tiến bước sống đầy 2
+
+
+  - customer: FWD
+    name: FWD Care
+    description: |
+      Booking trang cộng đồng, Hoạt động tương tác, Lập kế hoạch và thực thi truyền thông với các KOL, Thực thi quan hệ công chúng
+    industry: Social Media Marketing
+    kpi: 75+ kênh, 1,6 triệu tương tác
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/fwd-care.png
+        alt: FWD Care
+
+  - customer: FWD
+    name: Chuyến xe xuyên Việt 2023
+    description: |
+      Hoạt động sự kiện
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/chuyen-xe-xuyen-viet.png
+        alt: Chuyến xe xuyên Việt 2023
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/10-cau-chuyen-tu-khap-vn.png
+        alt: 10 câu chuyện từ khắp VN
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/10-cau-chuyen-tu-nguoi-dia-phuong.png
+        alt: 10 câu chuyện từ người địa phương
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/10-hoc-sinh-tieu-bieu.png
+        alt: 10 học sinh tiêu biểu
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/10-nghe-si-noi-tieng.png
+        alt: 10 nghệ sĩ nổi tiếng
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/comic.png
+        alt: Comic
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/di-qua-10-tinh-thanh.png
+        alt: Đi qua 10 tỉnh thành
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/influencer.png
+        alt: Influencer
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/influencers-2.png
+        alt: Influencers 2
+
+      - src: /assets/image/fwd/chuyen-xe-xuyen-viet/seeding-in-communities.png
+        alt: Seeding in communities
+
+  - customer: FWD
+    name: FWD Music Fest 2018-2024
+    description: |
+      Hoạt động sự kiện
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/music-fest.png
+        alt: FWD Music Fest 2018-2024
+
+      - src: /assets/image/fwd/music-fest-2023/amplify.png
+        alt: Amplify
+
+      - src: /assets/image/fwd/music-fest-2023/amplify-1.png
+        alt: Amplify 1
+
+      - src: /assets/image/fwd/music-fest-2023/amplify-3.png
+        alt: Amplify 3
+
+      - src: /assets/image/fwd/music-fest-2023/experience.png
+        alt: Experience
+
+      - src: /assets/image/fwd/music-fest-2023/experience-2.png
+        alt: Experience 2
+
+      - src: /assets/image/fwd/music-fest-2023/experience-3.png
+        alt: Experience 3
+
+      - src: /assets/image/fwd/music-fest-2023/trigger.png
+        alt: Trigger
+
+      - src: /assets/image/fwd/music-fest-2023/trigger-2.png
+        alt: Trigger 2
+
+
+  - customer: FWD
+    name: FWD Cung đường sống đầy
+    description: |
+      Hoạt động sự kiện
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/cung-duong-song-day.png
+        alt: FWD Cung đường sống đầy
+
+  - customer: FWD
+    name: Sống đầy từ hôm nay
+    description: |
+      Chiến lược truyền thông, Hoạt động tương tác
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/fwd/du-an-noi-bat/image-19.png
+        alt: Sống đầy từ hôm nay
+
+# ----------------------------------------------------------------  
+  - customer: VPBank
+    name: Hòa sắc thịnh vượng
+    description: |
+      Booking/ Hỗ trợ tăng tương tác cộng đồng, Lập kế hoạch/ thực thi với KOL
+    industry: Social Media Marketing, Influencer Marketing
+    kpi: null
+    images:
+      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/300918929-5328843693896695-404715244972894335-n.jpg
+        alt: Hòa sắc thịnh vượng 1
+      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/300977125-5328843647230033-680993768993658132-n.jpg
+        alt: Hòa sắc thịnh vượng 2
+      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/image-30.png
+        alt: Hòa sắc thịnh vượng 3
+      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/vp-bank-2.jpg
+        alt: Hòa sắc thịnh vượng 4
+
+  - customer: VPBank
+    name: VPBank Race Duyệt siêu 5 phút
+    description: |
+      Chiến lược thực thi truyền thông với KOL/ Cộng đồng
+    industry: Social Media Marketing, Influencer Marketing
+    kpi: null
+    images:
+      - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-29.png
+        alt: VPBank Race 1
+      - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-31.png
+        alt: VPBank Race 2
+      - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-32.png
+        alt: VPBank Race 3
+
+# ----------------------------------------------------------------  
+  - customer: PNJ
+    name: Mỹ Quyền MV
+    description: |
+      Chiến lược truyền thông tiếp thị
+      (KOL/Community...)
+      Chiến lược kế hoạch và thực thi với Influencer
+      Quay MV - Mỹ Quyền
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/pnj/my-quyen/my-quyen.jpg
+        alt: Mỹ Quyền
+      - src: /assets/image/pnj/my-quyen/my-quyen-2.jpg
+        alt: Mỹ Quyền
+
+  - customer: PNJ
+    name: Hành trình trang sức xuyên Việt
+    description: |
+      Chiến lược truyền thông tiếp thị
+      (KOL/Community...)
+      Chiến lược kế hoạch và thực thi với Influencer
+    industry: Social Media Marketing
+    kpi: null
+    images:
+      - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-1.png
+        alt: Hành trình trang sức xuyên Việt
+      - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-2.png
+        alt: Hành trình trang sức xuyên Việt
+      - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-3.png
+        alt: Hành trình trang sức xuyên Việt
+      - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-4.png
+        alt: Hành trình trang sức xuyên Việt
+      - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-5.png
+        alt: Hành trình trang sức xuyên Việt
+# ----------------------------------------------------------------  
+
+- customer: LaVie
+  name: La Vie Sparkling - Summer Campaign
+  description: |
+    Lập kế hoạch và thực thi với KOL
+    Các influencer nổi tiếng: Miss World Vietnam Lương Thùy Linh, MC Khánh Vy, Quang Trung Actor, Jun Phạm Singer, Chloe Nguyen Content Creator,...
+  industry: Influencer Marketing
+  kpi: null
+  images:
+    - src: /assets/image/lavie/lavie-sparkling/mc-khanh-vy.jpg
+      alt: MC Khánh Vy
+    - src: /assets/image/lavie/lavie-sparkling/beauty-blogger-chloe-nguyen.jpg
+      alt: Beauty Blogger Chloe Nguyễn
+    - src: /assets/image/lavie/lavie-sparkling/lavie-hoa-hau-thuy-linh.jpg
+      alt: Lavie Hoa Hậu Thùy Linh
+    - src: /assets/image/lavie/lavie-sparkling/ca-si-jun-pham.jpg
+      alt: Ca sĩ Jun Phạm
+
+- customer: LaVie
+  name: Cùng La Vie đi khắp Việt Nam
+  description: |
+    Lập kế hoạch và thực thi với KOL
+    Quản lý trao giải các winner thuộc 4 minigame
+    Quản lý 34,000 buzz cho cả dự án
+  industry: Influencer Marketing
+  kpi: null
+  images:
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/hieu-thu-2-lavie.jpg
+      alt: Hiếu thứ 2 Lavie
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/karik-lavie.jpg
+      alt: Karik Lavie
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/mini-game.jpg
+      alt: Mini Game
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/minigame-week-2.jpg
+      alt: Minigame Week 2
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/minigame-week-3.jpg
+      alt: Minigame Week 3
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/minigame-week-4.jpg
+      alt: Minigame Week 4
+    - src: /assets/image/lavie/cung-lavie-di-khap-vn/tao-lavie.jpg
+      alt: Táo Lavie
+
+# ----------------------------------------------------------------  
+  - customer: Vinasoy
+    name: Shop năng lượng lành mạnh
+    description: |
+      Chiến lược kế hoạch và thực thi với influencer
+    industry: Influencer Marketing
+    kpi: null
+    images:
+      - src: /assets/image/vinasoy/talkshow.jpg
+        alt: Talkshow Shop năng lượng lành mạnh
+      - src: /assets/image/vinasoy/vinasoy.jpg
+        alt: Tổng kết Talkshow Shop năng lượng lành mạnh
+# ----------------------------------------------------------------  
+  - customer: Johnnie Walker
+    name: F20 Tết
+    description: |
+      Chiến lược kế hoạch và thực thi với influencer
+    industry: Influencer Marketing
+    kpi: null
+    images:
+      - src: /assets/image/johnnie-walker/272553935_4731725530275202_7778547911949933450_n.jpg
+        alt: Johnnie Walker Influencer 1
+      - src: /assets/image/johnnie-walker/272618935_4731725670275170_8491239855388823598_n.jpg
+        alt: Johnnie Walker Influencer 2
+      - src: /assets/image/johnnie-walker/272637046_4731724600275277_2237962691513314722_n.jpg
+        alt: Johnnie Walker Influencer 3
+      - src: /assets/image/johnnie-walker/272642194_473172930276444_6145331513402970877_n.jpg
+        alt: Johnnie Walker Influencer 4
+      - src: /assets/image/johnnie-walker/272646319_473172183609888_2780460894426737512_n.jpg
+        alt: Johnnie Walker Influencer 5
+      - src: /assets/image/johnnie-walker/272650519_4731725470275190_1942196850684261663_n.jpg
+        alt: Johnnie Walker Influencer 6
+      - src: /assets/image/johnnie-walker/272655544_4731724800275259_8912056082029436817_n.jpg
+        alt: Johnnie Walker Influencer 7
+      - src: /assets/image/johnnie-walker/272660676_4731725500275185_889774000096885748_n.jpg
+        alt: Johnnie Walker Influencer 8
+      - src: /assets/image/johnnie-walker/272684650_4731725050275232_308775509000529725_n.jpg
+        alt: Johnnie Walker Influencer 9
+      - src: /assets/image/johnnie-walker/272685387_4731725086941895_8237032549053730349_n.jpg
+        alt: Johnnie Walker Influencer 10
+      - src: /assets/image/johnnie-walker/diageo.jpg
+        alt: Diageo
+      - src: /assets/image/johnnie-walker/image-27.png
+        alt: Johnnie Walker Image 27
+
+# ----------------------------------------------------------------  
+# ----------------------------------------------------------------  
