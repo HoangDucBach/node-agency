@@ -127,8 +127,10 @@ export type TProcessData = {
 */
 export enum IndustryType {
     INFLUENCER_MARKETING = 'Influencer Marketing',
-    SOCIAL_MEDIA_MARKETING = 'Social Media Marketing'
+    SOCIAL_MEDIA_MARKETING = 'Social Media Marketing',
+    DIGITAL_ACTIVATION = 'Digital Activation',
 }
+export type TIndustryType = 'Influencer Marketing' | 'Social Media Marketing' | 'Digital Activation';
 export type TProjectData = {
     name: string;
     customer: string;
@@ -138,7 +140,7 @@ export type TProjectData = {
     images?: {
         src: string;
         alt: string;
-    };
+    } [];
 };
 
 /*

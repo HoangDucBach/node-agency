@@ -23,7 +23,7 @@ export const Logo: React.FC<IconSvgProps> = ({
 );
 
 export const RocketIcon: React.FC<IconSvgProps> = ({
-  size = 24,
+  size = 27,
   width,
   height,
   ...props
@@ -31,15 +31,17 @@ export const RocketIcon: React.FC<IconSvgProps> = ({
   return (
     <svg
       height={size || height}
-      viewBox="0 0 24 24"
+      viewBox="0 0 27 27"
       width={size || width}
       {...props}
     >
-      <path d="M31.4702 17.3052L35.4318 13.3436C39.8923 8.88305 45.7321 7.03283 51.9123 6.73049C54.3163 6.61289 55.5182 6.55409 56.4819 7.51793C57.4459 8.48174 57.387 9.68366 57.2694 12.0876C56.967 18.2678 55.1169 24.1076 50.6563 28.5681L46.6947 32.5297C43.4323 35.7921 42.5049 36.7198 43.1897 40.2585C43.8657 42.9617 44.5198 45.5793 42.5542 47.5449C40.1699 49.9292 37.995 49.9292 35.6107 47.5449L16.455 28.3892C14.0707 26.0049 14.0706 23.83 16.455 21.4457C18.4205 19.4801 21.0382 20.1344 23.7413 20.8102C27.2801 21.4951 28.2078 20.5676 31.4702 17.3052Z" stroke="currentColor" strokeWidth="4" strokeLinejoin="round" />
-      <path d="M45.3225 18.6665H45.3465" stroke="currentColor" strokeWidth="5.33333" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M6.66675 57.3333L20.0001 44" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
-      <path d="M22.6667 57.3333L28.0001 52" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
-      <path d="M6.66675 41.3333L12.0001 36" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
+      <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
+        <path d="M13.4156 6.70634L15.2923 4.82984C17.4052 2.71693 20.1713 1.84052 23.0989 1.6973C24.2376 1.64159 24.8068 1.61374 25.2634 2.0703C25.72 2.52684 25.6921 3.09616 25.6364 4.23485C25.4931 7.16235 24.6168 9.92857 22.5039 12.0414L20.6272 13.918C19.0821 15.4633 18.6427 15.9028 18.9669 17.579C19.2872 18.8593 19.5972 20.0994 18.6659 21.0305C17.5367 22.1597 16.5064 22.1597 15.3769 21.0305L6.30322 11.9567C5.17384 10.8272 5.17382 9.79706 6.30322 8.66765C7.23429 7.73658 8.47423 8.04649 9.75467 8.36665C11.4309 8.69107 11.8704 8.25168 13.4156 6.70634Z" stroke="black" stroke-width="1.89474" strokeLinejoin="round" />
+        <path d="M19.9773 7.35107H19.9887" stroke="black" strokeWidth="2.52632" strokeLinecap="round" strokeLinejoin="round" />
+        <path d="M1.66669 25.6669L7.98248 19.3511" stroke="black" strokeWidth="1.89474" strokeLinecap="round" />
+        <path d="M9.24561 25.667L11.7719 23.1406" stroke="black" strokeWidth="1.89474" strokeLinecap="round" />
+        <path d="M1.66669 18.0884L4.19301 15.562" stroke="black" strokeWidth="1.89474" strokeLinecap="round" />
+      </svg>
     </svg>
   )
 }

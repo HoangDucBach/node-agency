@@ -31,7 +31,7 @@ export function ProjectsSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
             >
-                <RocketIcon className="shadow-2xl" size={128} />
+                <RocketIcon size={128} />
             </motion.div>
             <motion.h1
                 initial={{ opacity: 0, y: -50 }}

@@ -108,9 +108,8 @@ projects:
     images:
       - src: /assets/image/vita-dairy/oggi-gold-1.png
         alt: Oggi Gold
-
         
-    - customer: VitaDairy
+  - customer: VitaDairy
     name: VitaDairy Colos Fresh Milk x Colos Gain
     description: |
       Đại sứ thương hiệu: Colos Fresh Milk x Gia đình Hồ Ngọc Hà trong 3 năm, Colos Gain x NSND Hồng Vân từ năm 2023 - nay

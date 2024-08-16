@@ -52,15 +52,6 @@ function ProcessCard({ data }: { data: TProcessData }) {
                         works.map((item, index) => (
                             <li key={index}>
                                 <WorkCard data={item} />
-                                {index < works.length - 1 && (
-                                    <motion.div
-                                        initial={{ height: 0 }}
-                                        animate={isInView ? { height: '16rem' } : {}}
-                                        transition={{ duration: 0.5, delay: 2 }}
-                                    >
-                                        <Divider orientation="vertical" />
-                                    </motion.div>
-                                )}
                             </li>
                         ))}
                 </ul>

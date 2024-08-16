@@ -62,9 +62,12 @@ export function Footer() {
                             <div>
                                 <div>
                                     <h3 className="text-small font-semibold text-default-600">Công ty</h3>
-                                    <ul className="mt-6 space-y-4">
+                                    <ul className="mt-6 space-y-2">
                                         <li>
                                             <Link href="../ve-chung-toi" className="text-small text-default-500">Về chúng tôi</Link>
+                                        </li>
+                                        <li>
+                                            <Link href="../giai-phap" className="text-small text-default-500">Giải pháp</Link>  
                                         </li>
                                         <li>
                                             <Link href="../du-an" className="text-small text-default-500">Dự án</Link>
