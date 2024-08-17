@@ -31,6 +31,8 @@ export default function HeroServiceSection() {
                 initial={{ opacity: 0, scale: 0.2 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1.5, ease: "easeInOut" }}
+                width="100%"
+                height="100%"
             />
             <h1 className={clsx(
                 "text-7xl md:text-9xl font-bold text-default-foreground z-10",

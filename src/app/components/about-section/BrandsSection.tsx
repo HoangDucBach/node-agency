@@ -61,7 +61,7 @@ export default function BrandsSection({ data }: { data: TBrandData[] }) {
             >
                 Các thương hiệu đã hợp tác
             </motion.h2>
-            <Marquee autoFill speed={25}>
+            <Marquee autoFill speed={25} className="overflow-hidden">
                 <div className="flex flex-row gap-4 px-4">
                     {brands.map((brand) => (
                         <BrandsLogoCard key={brand.name} brand={brand} />

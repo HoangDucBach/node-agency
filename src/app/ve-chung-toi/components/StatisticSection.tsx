@@ -14,7 +14,7 @@ function StatisticCard({ data }: { data: TStatistic }) {
     return (
         <motion.div
             animate={{ opacity: isInView ? 1 : 0, y: isInView ? 0 : 20 }}
-            className="flex flex-col items-center gap-4 p-4 rounded-2xl w-full"
+            className="flex flex-col items-center gap-4 p-4 rounded-2xl w-full min-h-[100px]"
             initial={{ opacity: 0, y: 20 }}
             key={data.name}
             ref={ref}

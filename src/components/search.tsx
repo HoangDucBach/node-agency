@@ -50,6 +50,7 @@ export default function SearchInput() {
         const fuseResults: FuseResult<TDocument>[] = fuse.search(query);
 
         const results: TDocument[] = fuseResults.map(result => result.item);
+        
         setResults(results);
     };
 
@@ -136,6 +137,7 @@ export function ResultCard({ result, onClick }: { result: TDocument, onClick: ()
 export function SearchDialog() {
     const { isOpen, onOpen, onOpenChange, onClose } = useDisclosure();
     const { results } = useResults();
+
     React.useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
             if (event.ctrlKey && event.key === 'k') {
@@ -180,8 +182,7 @@ export function SearchDialog() {
                 onOpenChange={onOpenChange}
             >
                 <ModalContent>
-                    <ModalHeader>
-                    </ModalHeader>
+                    <ModalHeader/>
                     <ModalBody>
                         <SearchInput />
                         {results.map((result) => (

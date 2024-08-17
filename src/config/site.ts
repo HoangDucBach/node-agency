@@ -76,6 +76,8 @@ export const siteConfig = {
   name: siteData.company.name,
   shortName: siteData.company.shortName,
   description: siteData.company.description,
+  url: process.env.NEXT_PUBLIC_SITE_URL,
+  
   navItems: [
     {
       label: "Về chúng tôi",

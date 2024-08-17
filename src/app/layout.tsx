@@ -8,8 +8,10 @@ import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import TopButton from "@/components/TopButton";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url!),
   title: {
     default: siteConfig.name,
     template: `%s - ${siteConfig.name}`,
@@ -58,12 +60,13 @@ export default function RootLayout({
           fontSans.variable,
         )}
       >
-        <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+        <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col h-screen overflow-x-clip">
             <Navbar />
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
               {children}
             </main>
+            <TopButton />
             <Footer />
           </div>
         </Providers>

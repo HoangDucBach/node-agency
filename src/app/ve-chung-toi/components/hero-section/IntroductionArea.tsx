@@ -9,24 +9,8 @@ import { scroller } from "react-scroll";
 import { TCompanyData } from "@/types";
 import { Button } from "@nextui-org/button";
 
-function PosterArea() {
-    return (
-        <motion.h1
-            animate={{ opacity: 1, y: 0 }}
-            className="md:text-9xl text-7xl font-bold text-end text-primary-300 break-words"
-            style={{
-                textShadow: '0px 25px 50px rgba(0, 112, 243, 0.40)'
-            }}
-            initial={{ opacity: 0, y: -50 }}
-            transition={{ duration: 0.5 }}
-        >
-            <span className="text-primary-500">NODE </span>
-            Marketing Agency
-        </motion.h1>
-    )
-}
 
-function IntroductionArea({ data }: { data: TCompanyData }) {
+export default function IntroductionArea({ data }: { data: TCompanyData }) {
     const handleScroll = () => {
         scroller.scrollTo('tai-sao-nen-chon-chung-toi', {
             duration: 2000,
@@ -53,16 +37,5 @@ function IntroductionArea({ data }: { data: TCompanyData }) {
                 Tiếp tục
             </Button>
         </motion.div>
-    )
-}
-
-export function HeroSection({ data }: { data: TCompanyData }) {
-    return (
-        <section
-            className="flex xl:flex-row flex-col items-center justify-start gap-8 py-2 md:py-32 md:mb-32"
-        >
-            {data && <IntroductionArea data={data} />}
-            <PosterArea />
-        </section>
     )
 }

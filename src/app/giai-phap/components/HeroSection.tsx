@@ -8,16 +8,15 @@ import { motion, animate, useInView } from "framer-motion";
 export function HeroSection() {
     const heroRef = useRef<HTMLElement>(null);
     const h1Ref1 = useRef(null);
-    const h1Ref2 = useRef(null);
     const pRef = useRef(null);
     const buttonRef = useRef(null);
     const isInView1 = useInView(h1Ref1, { once: true });
-    const isInView2 = useInView(h1Ref2, { once: true });
     const isInViewP = useInView(pRef, { once: true });
     const isInViewButton = useInView(buttonRef, { once: true });
 
     const handleScroll = () => {
         const offsetTop = (window.scrollY + window.innerHeight)*3/4;
+
         animate(window.scrollY, offsetTop, {
             duration: 1,
             onUpdate: (latest) => window.scrollTo(0, latest),

@@ -2,24 +2,11 @@
 
 // Internal imports
 import { RocketIcon } from "@/components/icons";
-import { TProjectData } from "@/types";
 import { Button } from "@nextui-org/button";
+import { Link } from "@nextui-org/link";
 import { motion } from "framer-motion";
-import { useRouter } from "next/navigation";
 
-function ProjectCard({ project }: { project: TProjectData }) {
-    return (
-        <div className="flex flex-col items-center gap-4">
-            <h2>{project.name}</h2>
-            <p>{project.description}</p>
-            <p>{project.customer}</p>
-        </div>
-    );
-}
-
-export function ProjectsSection() {
-    const router = useRouter();
-
+export default function ProjectsSection() {
     return (
         <section
             aria-label="Projects section"
@@ -46,7 +33,13 @@ export function ProjectsSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.4 }}
             >
-                <Button radius="full" variant="ghost" color="primary" onClick={() => { router.push('../du-an') }}>
+                <Button
+                    as={Link}
+                    radius="full"
+                    variant="ghost"
+                    color="primary"
+                    href="../du-an"
+                >
                     Khám phá ngay !
                 </Button>
             </motion.div>

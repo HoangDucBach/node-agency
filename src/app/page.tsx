@@ -6,14 +6,16 @@ import path from "path";
 import yaml from "js-yaml";
 
 // Internal imports
-import HeroSection from "./components/HeroSection";
-import { TAboutData, TStatisticFile, TAboutFile, TBrandData, TBrandsFile, TDocumentsFile, THeroData, THeroFile, TProjectData, TProjectsFile, TServiceData, TServicesFile } from "@/types";
+import { TAboutData, TAboutFile, TBrandData, TBrandsFile, TDocumentsFile, THeroData, THeroFile, TProjectData, TProjectsFile, TServiceData, TServicesFile } from "@/types";
 import HeroServiceSection from "./components/HeroServiceSection";
-import AboutSection from "./components/AboutSection";
-import ServicesSection from "./components/ServicesSection";
-import { ProjectsSection } from "./components/ProjectsSection";
-import BrandsSection from "./components/BrandsSection";
 import fuse from "@/utils/fuse";
+import dynamic from "next/dynamic";
+
+const BrandsSection = dynamic(() => import("./components/about-section/BrandsSection"), { ssr: false });
+const AboutSection = dynamic(() => import("./components/about-section/AboutSection"), { ssr: false });
+const ServicesSection = dynamic(() => import("./components/ServicesSection"), { ssr: false });
+const ProjectsSection = dynamic(() => import("./components/ProjectsSection"), { ssr: false });
+const HeroSection = dynamic(() => import("./components/HeroSection"), { ssr: false });
 
 interface HomePageProps {
   hero: THeroData;
@@ -55,19 +57,12 @@ async function fetchPageData(): Promise<HomePageProps> {
     "utf8"
   );
 
-  const statisticsFile = fs.readFileSync(
-    path.join(process.cwd(), "contents", "thong-ke.yaml"),
-    "utf8"
-  );
-
-
   const heroFileData = yaml.load(heroSectionFile) as THeroFile;
   const brandsFileData = yaml.load(brandsSectionFile) as TBrandsFile;
   const aboutFileData = yaml.load(aboutSectionFile) as TAboutFile;
   const serviceFileData = yaml.load(servicesSectionFile) as TServicesFile;
   const projectsFileData = yaml.load(projectsSectionFile) as TProjectsFile;
   const documentsFileData = yaml.load(documentsFile) as TDocumentsFile;
-  const statisticsFileData = yaml.load(statisticsFile) as TStatisticFile;
 
   // Set collecction for fuse
   fuse.setCollection(documentsFileData.documents);
@@ -91,7 +86,7 @@ export default async function Home() {
       <AboutSection data={data.about} />
       <HeroServiceSection />
       <ServicesSection data={data.services} />
-      <ProjectsSection/>
+      <ProjectsSection />
     </>
   );
 }

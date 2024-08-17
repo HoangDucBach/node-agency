@@ -4,8 +4,7 @@ import fs from "fs";
 import yaml from "js-yaml";
 import React from "react";
 
-import { API_URL } from "@/config/constants";
-import { HeroSection } from "./components/HeroSection";
+import { HeroSection } from "./components/hero-section/HeroSection";
 import { HeroStatisticSection } from "./components/HeroStatisticSection";
 import { TCompanyData, TCompanyFile, TStatistic, TStatisticFile } from "@/types";
 import { StatisticSection } from "./components/StatisticSection";

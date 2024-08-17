@@ -7,7 +7,6 @@ import { useRef } from "react";
 
 // Internal imports
 import { TProcessData, TProcessFile, TWorkData } from "@/types";
-import { Divider } from "@nextui-org/divider";
 
 function WorkCard({ data }: { data: TWorkData }) {
     const ref = useRef(null);

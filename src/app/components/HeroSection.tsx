@@ -21,15 +21,6 @@ export default function HeroSection({ data }: { data: THeroData }) {
             initial={{ opacity: 0 }}
             transition={{ duration: 1 }}
         >
-            {/* <motion.img
-                alt="Pattern key tags background"
-                animate={{ y: 0, opacity: 1 }}
-                className="w-fit h-fit absolute inset-0 m-auto"
-                initial={{ y: -50, opacity: 0 }}
-                src="/assets/pattern-key-tags-background.svg"
-                transition={{ duration: 1, delay: 0.5 }}
-            /> */}
-
             <motion.div
                 animate={{ y: 0, opacity: 1 }}
                 initial={{ y: 50, opacity: 0 }}
@@ -45,20 +36,23 @@ export default function HeroSection({ data }: { data: THeroData }) {
                 transition={{ duration: 1, delay: 1.5 }}
             >
                 <div className="relative w-full h-full">
+                    <img
+                        alt="Pattern gradient line and rocket"
+                        className="w-full h-full absolute top-4 left-0 object-fill z-0"
+                        src="/assets/pattern-gradient-line-and-rocket.svg"
+                        width={"100%"}
+                        height={"100%"}
+                    />
                     <h1
                         className={clsx(
                             "font-extrabold",
                             "text-5xl",
-                            "md:!text-6xl"
+                            "md:!text-6xl",
+                            "z-10"
                         )}
                     >
                         {data.title}
                     </h1>
-                    <img
-                        alt="Pattern gradient line and rocket"
-                        className="w-full h-full absolute top-4 left-0 object-fill"
-                        src="/assets/pattern-gradient-line-and-rocket.svg"
-                    />
                 </div>
                 <p className="text-base font-medium text-default-500">{data.description}</p>
 

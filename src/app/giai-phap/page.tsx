@@ -18,7 +18,7 @@ type PageProps = {
 
 export const metadata: Metadata = {
     title: "Giải pháp",
-    description: "Danh sách các dự án đã thực hiện",
+    description: "Quy trình thực hiện giải pháp của chúng tôi",
 };
 
 function fetchPageData(): PageProps {
@@ -28,6 +28,7 @@ function fetchPageData(): PageProps {
     );
 
     const processFileData = yaml.load(processFile) as TProcessFile;
+
     return {
         process: processFileData,
     }
@@ -35,6 +36,7 @@ function fetchPageData(): PageProps {
 
 export default function Page() {
     const data = fetchPageData();
+    
     return (
         <>
             <HeroSection/>

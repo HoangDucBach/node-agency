@@ -18,7 +18,6 @@ export type TDocument = {
 
 const documents: TDocument[] = documentsJson.documents as TDocument[];
 
-console.log(documents);
 const options = {
     keys: ["title", "body"],
     threshold: 0.3,

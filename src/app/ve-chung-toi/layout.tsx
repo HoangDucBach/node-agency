@@ -13,13 +13,12 @@ export const metadata: Metadata = {
     keywords: siteConfig.keywords,
   };
 export default function Layout({
-    children, // will be a page or nested layout
+    children
 }: {
     children: React.ReactNode
 }) {
     return (
         <>
-            {/* Include shared UI here e.g. a header or sidebar */}
             {children}
         </>
     )
