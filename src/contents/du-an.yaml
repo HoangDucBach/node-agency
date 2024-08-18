@@ -62,7 +62,9 @@ projects:
   - customer: VitaDairy
     name: Colos DHA+
     description: |
-      Kết nối KOL / KOC TikTok, Seeding hội nhóm
+      Kết nối KOL / KOC TikTok  
+      <br/>
+      Seeding hội nhóm
     industry: Influencer Marketing
     kpi: 131.8
     images:
@@ -72,7 +74,9 @@ projects:
   - customer: VitaDairy
     name: ColosBaby Gold
     description: |
-      KOL TikTok & Facebook, Seeding hội nhóm
+      KOL TikTok & Facebook
+      <br/>
+      Seeding hội nhóm
     industry: Influencer Marketing
     kpi: 119.5
     images:
@@ -102,7 +106,9 @@ projects:
   - customer: VitaDairy
     name: Oggi Gold
     description: |
-      Kết nối với KOL Facebook, bài đăng truyền thông
+      Kết nối với KOL Facebook
+      <br/>
+      Bài đăng truyền thông
     industry: Social Media Marketing
     kpi: 179
     images:
@@ -140,7 +146,9 @@ projects:
   - customer: FWD
     name: Chiến dịch Mùa yêu thương
     description: |
-            Chiến lược truyền thông, Lập kế hoạch và thực thi truyền thông với các KOL
+            Chiến lược truyền thông
+            <br/>
+            Lập kế hoạch và thực thi truyền thông với các KOL
     industry: Influencer Marketing
     kpi: null
     images:
@@ -154,7 +162,9 @@ projects:
   - customer: FWD
     name: Tiến bước sống đầy
     description: |
-      Booking trang cộng đồng, Hoạt động tương tác
+      Booking trang cộng đồng
+      <br/>
+      Hoạt động tương tác
     industry: Social Media Marketing
     kpi: 150, 100+ kênh, 6 triệu tương tác
     images:
@@ -168,7 +178,13 @@ projects:
   - customer: FWD
     name: FWD Care
     description: |
-      Booking trang cộng đồng, Hoạt động tương tác, Lập kế hoạch và thực thi truyền thông với các KOL, Thực thi quan hệ công chúng
+      Booking trang cộng đồng
+      <br/>
+      Hoạt động tương tác
+      <br/>
+      Lập kế hoạch và thực thi truyền thông với các KOL
+      <br/>
+      Thực thi quan hệ công chúng
     industry: Social Media Marketing
     kpi: 75+ kênh, 1,6 triệu tương tác
     images:
@@ -259,7 +275,9 @@ projects:
   - customer: FWD
     name: Sống đầy từ hôm nay
     description: |
-      Chiến lược truyền thông, Hoạt động tương tác
+      Chiến lược truyền thông
+      <br/>
+      Hoạt động tương tác
     industry: Social Media Marketing
     kpi: null
     images:
@@ -270,7 +288,9 @@ projects:
   - customer: VPBank
     name: Hòa sắc thịnh vượng
     description: |
-      Booking/ Hỗ trợ tăng tương tác cộng đồng, Lập kế hoạch/ thực thi với KOL
+      Booking/ Hỗ trợ tăng tương tác cộng đồng
+      <br/>
+      Lập kế hoạch/ thực thi với KOL
     industry: Social Media Marketing, Influencer Marketing
     kpi: null
     images:
@@ -303,6 +323,7 @@ projects:
     description: |
       Chiến lược truyền thông tiếp thị
       (KOL/Community...)
+      <br/>
       Chiến lược kế hoạch và thực thi với Influencer
       Quay MV - Mỹ Quyền
     industry: Social Media Marketing
@@ -318,6 +339,7 @@ projects:
     description: |
       Chiến lược truyền thông tiếp thị
       (KOL/Community...)
+      <br/>
       Chiến lược kế hoạch và thực thi với Influencer
     industry: Social Media Marketing
     kpi: null
@@ -338,6 +360,7 @@ projects:
     name: La Vie Sparkling - Summer Campaign
     description: |
       Lập kế hoạch và thực thi với KOL
+      <br/>
       Các influencer nổi tiếng: Miss World Vietnam Lương Thùy Linh, MC Khánh Vy, Quang Trung Actor, Jun Phạm Singer, Chloe Nguyen Content Creator,...
     industry: Influencer Marketing
     kpi: null
@@ -355,7 +378,9 @@ projects:
     name: Cùng La Vie đi khắp Việt Nam
     description: |
       Lập kế hoạch và thực thi với KOL
+      <br/>
       Quản lý trao giải các winner thuộc 4 minigame
+      <br/>
       Quản lý 34,000 buzz cho cả dự án
     industry: Influencer Marketing
     kpi: null
@@ -425,9 +450,12 @@ projects:
   - customer: SHB
     name: SHB Family Card
     description: |
-      Sản xuất TVC - KV, 
-      Quản lí 4 đại sứ thương hiệu, 
-      Sự kiện ra mắt , 
+      Sản xuất TVC - KV
+      <br/>
+      Quản lí 4 đại sứ thương hiệu
+      <br/>
+      Sự kiện ra mắt 
+      <br/>
       Thực thi trên toàn quốc
     industry: Digital Activation
     kpi: null
@@ -459,8 +487,10 @@ projects:
   - customer: SHB
     name: SHB Mastercard World
     description: |
-      Sản xuất TVC - KV, 
-      Sự kiện ra mắt, 
+      Sản xuất TVC - KV
+      <br/>
+      Sự kiện ra mắt
+      <br/>
       Giải Golf
     industry: Digital Activation
     kpi: null
@@ -484,9 +514,12 @@ projects:
   - customer: VPBank
     name: Thay đổi diện mạo - Kiến tạo thành công
     description: |
-      Big Concept, 
-      Sự kiện, 
-      Sản xuất TVC cho sản phẩm mới, 
+      Big Concept
+      <br/>
+      Sự kiện
+      <br/>
+      Sản xuất TVC cho sản phẩm mới
+      <br/>
       Diễu hành xe bus
     industry: Activation
     kpi: null
@@ -556,6 +589,7 @@ projects:
     name: Sự kiện ảo Veyo cùng với Diễn viên Thúy Ngân
     description: |
       Kế hoạch và thực thi truyền thông với KOL
+      <br/>
       Sản xuất, quay sự kiện
     industry: Digital PR
     kpi: null
