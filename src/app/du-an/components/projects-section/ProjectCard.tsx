@@ -13,7 +13,7 @@ import {
 } from "@nextui-org/modal";
 import clsx from "clsx";
 import { Button } from "@nextui-org/button";
-
+import truncateHtml from "truncate-html"
 import { TProjectData } from "@/types";
 import { LogoBrand } from "@/components/brand";
 
@@ -34,8 +34,6 @@ function truncateText(text: string, wordLimit: number) {
 }
 
 export default function ProjectCard({ data }: { data: TProjectData }) {
-    const [isReadMore, setIsReadMore] = useState(false);
-    const { truncated, isTruncated } = truncateText(data.description || "", 10);
     const { isOpen, onOpen, onOpenChange, onClose } = useDisclosure();
 
     function ProjectPost() {
@@ -52,7 +50,7 @@ export default function ProjectCard({ data }: { data: TProjectData }) {
                             <div className="flex flex-row items-center gap-2">
                                 <LogoBrand
                                     name={data.customer}
-                                    className="w-8 aspect-square rounded-full object-fill bg-foreground-100"
+                                    className="w-8 aspect-square rounded-full object-contain bg-foreground-100"
                                 />
                                 <h6 className="text-sm font-medium text-default-500">{data.customer}</h6>
                             </div>
@@ -135,22 +133,16 @@ export default function ProjectCard({ data }: { data: TProjectData }) {
             <div className="z-10 flex flex-col w-full h-fit gap-2">
                 <h6 className="text-lg font-semibold text-default-foreground">{data.name}</h6>
                 <p className="text-default-500 text-base">
-                    {isReadMore ? data.description : truncated}
-                    {isTruncated && !isReadMore && (
-                        <span
-                            className="text-primary font-semibold cursor-pointer"
-                            onClick={() => setIsReadMore(true)}
-                            role="button"
-                            tabIndex={0}
-                            onKeyDown={(e) => {
-                                if (e.key === 'Enter' || e.key === ' ') {
-                                    setIsReadMore(true);
-                                }
-                            }}
-                        >
-                            {" "}Đọc thêm
-                        </span>
-                    )}
+                    <span
+                        dangerouslySetInnerHTML={{
+                            __html: truncateHtml(data.description!, { length: 16, byWords: true })
+                        }}
+                    />
+                    <span
+                        className="text-primary font-semibold cursor-pointer"
+                    >
+                        {" "}Đọc thêm
+                    </span>
                 </p>
                 <div className="flex flex-row items-center gap-2">
                     <LogoBrand

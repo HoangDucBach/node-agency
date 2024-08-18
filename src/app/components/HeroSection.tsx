@@ -7,6 +7,7 @@ import clsx from "clsx";
 import { motion } from "framer-motion";
 import { Chip } from "@nextui-org/chip";
 import { Button } from "@nextui-org/button";
+import { animateScroll } from 'react-scroll';
 
 // Internal imports
 import { THeroData } from "@/types";
@@ -77,6 +78,13 @@ export default function HeroSection({ data }: { data: THeroData }) {
                                 href={cta.href}
                                 key={index}
                                 radius="full"
+                                // scroll 1 vh smoothly
+                                onClick={() => {
+                                    animateScroll.scrollTo(640, {
+                                        duration: 500,
+                                        smooth: true
+                                    });
+                                }}
                             >
                                 {cta.label}
                             </Button>
