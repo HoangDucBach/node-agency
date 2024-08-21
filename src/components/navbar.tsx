@@ -26,11 +26,13 @@ const siteConfig = {
     { label: "Về chúng tôi", href: "/ve-chung-toi" },
     { label: "Dự án", href: "/du-an" },
     { label: "Giải pháp", href: "/giai-phap" },
+    { label: "Liên hệ", href: "/lien-he" },
   ],
   navMenuItems: [
     { label: "Về chúng tôi" },
     { label: "Dự án" },
     { label: "Giải pháp" },
+    { label: "Liên hệ" },
   ],
 };
 
@@ -40,7 +42,7 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/" aria-label="Home">
-            <Logo className="active:scale-95"/>
+            <Logo className="active:scale-95" size={64} />
           </NextLink>
         </NavbarBrand>
         <ul className="hidden lg:flex gap-4 justify-start ml-2">

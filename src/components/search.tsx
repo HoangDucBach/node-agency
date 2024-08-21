@@ -157,12 +157,7 @@ export function SearchDialog() {
         <>
             <Button
                 aria-label="Search"
-                className="text-sm bg-default-100 hover:bg-default-200"
-                endContent={
-                    <Kbd className="hidden lg:inline-block" keys={["ctrl"]}>
-                        K
-                    </Kbd>
-                }
+                className="text-sm bg-default-100 hover:bg-default-200 min-w-32 justify-between"
                 size="sm"
                 radius="md"
                 startContent={

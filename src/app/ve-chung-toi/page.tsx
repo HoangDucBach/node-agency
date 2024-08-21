@@ -6,24 +6,27 @@ import React from "react";
 
 import { HeroSection } from "./components/hero-section/HeroSection";
 import { HeroStatisticSection } from "./components/HeroStatisticSection";
-import { TCompanyData, TCompanyFile, TStatistic, TStatisticFile } from "@/types";
+import { TCompanyData, TCompanyFile, TServiceData, TServicesFile, TStatistic, TStatisticFile } from "@/types";
 import { StatisticSection } from "./components/StatisticSection";
+import CoreSection from "./components/CoreSection";
+import { ServiceSection } from "./components/ServiceSection";
 
 interface AboutPageProps {
     company: TCompanyData;
     statistics: TStatistic[];
+    services: TServiceData[];
 }
 
 const fetchCompanyData = () => {
     const heroSectionFile = fs.readFileSync(
         path.join(process.cwd(), "contents", "cong-ty.yaml"),
         "utf8"
-      );
+    );
 
     const companyFileData = yaml.load(heroSectionFile) as TCompanyFile;
 
     return companyFileData;
-    
+
 }
 
 const fetchStatisticsData = () => {
@@ -37,13 +40,26 @@ const fetchStatisticsData = () => {
     return statisticsFileData;
 }
 
+const fetchServiceData = () => {
+    const serviceFile = fs.readFileSync(
+        path.join(process.cwd(), "contents", "dich-vu.yaml"),
+        "utf8"
+    );
+
+    const serviceFileData = yaml.load(serviceFile) as TServicesFile;
+
+    return serviceFileData;
+}
+
 const fetchData = async (): Promise<AboutPageProps> => {
     const companyData = fetchCompanyData();
     const statisticsData = fetchStatisticsData();
-    
+    const serviceData = fetchServiceData();
+
     return {
         company: companyData.company,
         statistics: statisticsData.statistics,
+        services: serviceData.services
     };
 }
 
@@ -54,7 +70,9 @@ export default async function Page() {
         <>
             <HeroSection data={data.company} />
             <HeroStatisticSection />
+            <CoreSection data={data.company} />
             <StatisticSection data={data.statistics} />
+            <ServiceSection data={data.services} />
         </>
     )
 }

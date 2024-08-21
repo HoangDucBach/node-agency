@@ -89,7 +89,10 @@ export type TCompanyData = {
     shortName?: string;
     description?: string;
     address?: string;
-    core?: string | string[];
+    cores?: {
+        key: string;
+        value: string;
+    }[];
     industry?: string;
     contact?: TContactInfo;
     copyright?: string;
@@ -140,7 +143,7 @@ export type TProjectData = {
     images?: {
         src: string;
         alt: string;
-    } [];
+    }[];
 };
 
 /*

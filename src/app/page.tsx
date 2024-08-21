@@ -11,7 +11,7 @@ import HeroServiceSection from "./components/HeroServiceSection";
 import fuse from "@/utils/fuse";
 import dynamic from "next/dynamic";
 
-const BrandsSection = dynamic(() => import("./components/about-section/BrandsSection"), { ssr: false });
+const BrandsSection = dynamic(() => import("./components/BrandsSection"), { ssr: false });
 const AboutSection = dynamic(() => import("./components/about-section/AboutSection"), { ssr: false });
 const ServicesSection = dynamic(() => import("./components/ServicesSection"), { ssr: false });
 const ProjectsSection = dynamic(() => import("./components/ProjectsSection"), { ssr: false });

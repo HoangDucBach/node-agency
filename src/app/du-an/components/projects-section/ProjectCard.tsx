@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from "react";
 import { Image } from "@nextui-org/image";
 
 import {
@@ -17,21 +16,6 @@ import truncateHtml from "truncate-html"
 import { TProjectData } from "@/types";
 import { LogoBrand } from "@/components/brand";
 
-function truncateText(text: string, wordLimit: number) {
-    const words = text.split(" ");
-
-    if (words.length > wordLimit) {
-        return {
-            truncated: words.slice(0, wordLimit).join(" ") + "...",
-            isTruncated: true
-        };
-    }
-
-    return {
-        truncated: text,
-        isTruncated: false
-    };
-}
 
 export default function ProjectCard({ data }: { data: TProjectData }) {
     const { isOpen, onOpen, onOpenChange, onClose } = useDisclosure();
@@ -70,7 +54,9 @@ export default function ProjectCard({ data }: { data: TProjectData }) {
                                         textShadow: "0px 10px 15px rgba(0, 112, 243, 0.40), 0px 4px 6px rgba(0, 0, 0, 0.05)"
                                     }}
                                 >
-                                    {data.kpi}% KPI
+                                    {
+                                        Boolean(data.kpi) && data.kpi + "%KPI"
+                                    }
                                 </p>
                             </div>
                             <div

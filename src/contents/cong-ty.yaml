@@ -16,7 +16,7 @@ company:
   description: |
     Node cung cấp giải pháp hiệu quả dựa trên triết lý kinh doanh “chuyên nghiệp, thực hiện xuất sắc”, chúng tôi cung cấp dịch vụ marketing tối ưu nhất trên nền tảng kỹ thuật số cho khách hàng
   address: 22 Đường 11 KDC CityLand Park Hills, Phường 10, Quận Gò Vấp, TP.HCM
-  core:
+  cores:
     - key: Hiệu quả
       value: Chúng tôi phát triển các chiến lược hướng đến kết quả tốt nhất để đảm bảo đạt được các mục tiêu marketing của khách hàng.
     - key: Tin cậy

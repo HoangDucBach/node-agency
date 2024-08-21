@@ -5,68 +5,81 @@
 // External imports
 import clsx from "clsx";
 import { motion } from "framer-motion";
-import { Chip } from "@nextui-org/chip";
 import { Button } from "@nextui-org/button";
 import { animateScroll } from 'react-scroll';
 
 // Internal imports
 import { THeroData } from "@/types";
+import { Link } from "@nextui-org/link";
+import { Image } from "@nextui-org/image";
 
 export default function HeroSection({ data }: { data: THeroData }) {
     return (
         <motion.section
             animate={{ opacity: 1 }}
             aria-label="Hero section"
-            className="flex flex-col items-center justify-center gap-8 mb-32 pb-16 md:mb-64 md:pb-32 md:mt-16 relative"
+            className="flex flex-col items-start justify-center gap-8 p-4 md:p-8 relative text-white shadow-inner shadow-[0px 4px 16px rgba(0,0,0,0.1)]"
             id="hero"
             initial={{ opacity: 0 }}
             transition={{ duration: 1 }}
+            style={{
+                backgroundImage: `url('/assets/image-hero.jpg')`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                borderRadius: '32px',
+                aspectRatio: '16/9',
+                filter: 'brightness(0.95)',
+            }}
         >
             <motion.div
                 animate={{ y: 0, opacity: 1 }}
                 initial={{ y: 50, opacity: 0 }}
                 transition={{ duration: 0.5, delay: 1 }}
             >
-                <Chip color="primary" radius="full" variant="bordered" size="md">{data.tagline}</Chip>
+                {data.tagline && (
+                    <span
+                        style={{
+                            letterSpacing: '16px',
+                        }}
+                    >
+                        {data.tagline.toUpperCase()}
+                    </span>
+                )}
             </motion.div>
 
             <motion.div
                 animate={{ y: 0, opacity: 1 }}
-                className="inline-flex flex-col gap-8 max-w-2xl text-center justify-center z-10"
+                className="inline-flex flex-col gap-8 max-w-2xl text-left justify-center z-10"
                 initial={{ y: 50, opacity: 0 }}
                 transition={{ duration: 1, delay: 1.5 }}
             >
                 <div className="relative w-full h-full">
-                    <img
-                        alt="Pattern gradient line and rocket"
-                        className="w-full h-full absolute top-4 left-0 object-fill z-0"
-                        src="/assets/pattern-gradient-line-and-rocket.svg"
-                        width={"100%"}
-                        height={"100%"}
-                    />
                     <h1
                         className={clsx(
                             "font-extrabold",
-                            "text-5xl",
-                            "md:!text-6xl",
+                            "text-4xl",
+                            "md:text-6xl",
                             "z-10"
                         )}
                     >
                         {data.title}
                     </h1>
                 </div>
-                <p className="text-base font-medium text-default-500">{data.description}</p>
+                <p className="text-base">{data.description}</p>
 
-                <div className="inline-flex flex-row items-center justify-center gap-4">
+                <div className="inline-flex flex-row items-center justify-start gap-4">
                     {data.ctas && data.ctas.map((cta, index) => {
                         if (index === 0) {
                             return (
                                 <Button
+                                    as={Link}
                                     color="primary"
                                     radius="full"
                                     size="md"
-                                    variant="bordered"
+                                    variant="shadow"
                                     key={index}
+                                    href={cta.href}
                                 >
                                     {cta.label}
                                 </Button>
@@ -78,16 +91,24 @@ export default function HeroSection({ data }: { data: THeroData }) {
                                 href={cta.href}
                                 key={index}
                                 radius="full"
-                                // scroll 1 vh smoothly
+                                isIconOnly
+                                variant="light"
+                                startContent={
+                                    <Image
+                                        src="/assets/icon-play.svg"
+                                        alt="Play icon"
+                                        width={64}
+                                        height={64}
+                                    />
+                                }
                                 onClick={() => {
                                     animateScroll.scrollTo(640, {
                                         duration: 500,
                                         smooth: true
                                     });
                                 }}
-                            >
-                                {cta.label}
-                            </Button>
+                            />
+
                         );
                     })}
                 </div>
