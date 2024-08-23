@@ -18,18 +18,20 @@ export default function HeroSection({ data }: { data: THeroData }) {
         <motion.section
             animate={{ opacity: 1 }}
             aria-label="Hero section"
-            className="flex flex-col items-start justify-center gap-8 p-4 md:p-8 relative text-white shadow-inner shadow-[0px 4px 16px rgba(0,0,0,0.1)]"
+            className={clsx(
+                "flex flex-col items-start justify-center gap-8 p-4 md:p-8 relative text-white shadow-inner shadow-[0px 4px 16px rgba(0,0,0,0.1)]",
+                "mb-32 md:mb-64"
+            )}
             id="hero"
             initial={{ opacity: 0 }}
             transition={{ duration: 1 }}
             style={{
-                backgroundImage: `url('/assets/image-hero.jpg')`,
+                backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(\'/assets/image-hero.png\')',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 borderRadius: '32px',
                 aspectRatio: '16/9',
-                filter: 'brightness(0.95)',
             }}
         >
             <motion.div
@@ -40,7 +42,7 @@ export default function HeroSection({ data }: { data: THeroData }) {
                 {data.tagline && (
                     <span
                         style={{
-                            letterSpacing: '16px',
+                            letterSpacing: '4px',
                         }}
                     >
                         {data.tagline.toUpperCase()}

@@ -27,7 +27,7 @@ function BrandsLogoCard({ brand }: { brand: TBrandData }) {
             whileHover={{ scale: 1.1 }}
             className={clsx(
                 "flex flex-col items-center justify-center gap-2",
-                "aspect-[2/1] w-32 rounded-2xl p-4"
+                "aspect-[2/1] w-32 rounded-2xl p-4",
             )}
         >
             <img
@@ -59,7 +59,7 @@ export default function BrandsSection({ data }: { data: TBrandData[] }) {
                 transition={{ duration: 0.5 }}
                 whileInView={{ scale: 1.1 }}
             >
-                Các thương hiệu đã hợp tác
+                Đối tác
             </motion.h2>
             <Marquee autoFill speed={25} className="overflow-hidden">
                 <div className="flex flex-row gap-4 px-4">

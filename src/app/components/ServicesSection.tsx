@@ -1,11 +1,12 @@
 'use client';
 
 import { TServiceData } from "@/types"
-import { Chip } from "@nextui-org/chip"
+import { Chip } from "@nextui-org/chip";
 import { Listbox, ListboxItem } from "@nextui-org/listbox";
 import clsx from "clsx"
 import { useAnimation } from "framer-motion"
 import { useEffect, useRef, useState } from "react"
+
 
 function ServiceCard({ service, index, onInView }: { service: TServiceData, index: number, onInView: (inView: boolean) => void }) {
     const controls = useAnimation()
@@ -95,14 +96,6 @@ export default function ServicesSection({ data }: { data: TServiceData[] }) {
             {data && data.map((service, index) => (
                 <ServiceCard key={index} service={service} index={index} onInView={(inView) => handleInView(index, inView)} />
             ))}
-            {/* <motion.div
-                id="follow-line"
-                className="w-1 h-[360px] rounded-full bg-gradient-to-b bg-primary-500/50 via-primary-500 to-primary-500/50 shadow-primary-500 absolute left-1/2 z-20 hidden md:block"
-                initial={{ y: 0 }}
-                animate={{ y: activeIndex * 450 }}
-                transition={{ type: "spring", stiffness: 100 }}
-            /> */}
-            {/* <motion.div id="root-line" className="h-full w-1 rounded-full bg-default absolute left-1/2 z-10 hidden md:block"/> */}
         </section>
     )
 }

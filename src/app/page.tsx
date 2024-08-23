@@ -7,7 +7,6 @@ import yaml from "js-yaml";
 
 // Internal imports
 import { TAboutData, TAboutFile, TBrandData, TBrandsFile, TDocumentsFile, THeroData, THeroFile, TProjectData, TProjectsFile, TServiceData, TServicesFile } from "@/types";
-import HeroServiceSection from "./components/HeroServiceSection";
 import fuse from "@/utils/fuse";
 import dynamic from "next/dynamic";
 
@@ -84,7 +83,6 @@ export default async function Home() {
       <HeroSection data={data.hero} />
       <BrandsSection data={data.brands} />
       <AboutSection data={data.about} />
-      <HeroServiceSection />
       <ServicesSection data={data.services} />
       <ProjectsSection />
     </>
