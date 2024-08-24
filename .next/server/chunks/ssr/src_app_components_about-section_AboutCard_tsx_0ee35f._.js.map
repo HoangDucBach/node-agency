@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/src/app/components/about-section/AboutCard.tsx"],"sourcesContent":["import { motion } from \"framer-motion\";\r\n\r\n\r\nimport { TAboutData } from \"@/types\";\r\n\r\nexport default function AboutCard({ data }: { data: TAboutData }) {\r\n\r\n    return (\r\n        <motion.div\r\n            className=\"flex flex-col items-center md:items-end justify-center gap-4 w-full h-fit\"\r\n            initial={{ opacity: 0, y: 50 }}\r\n            transition={{ duration: 0.5 }}\r\n            viewport={{ once: true }}\r\n            whileInView={{ opacity: 1, y: 0 }}\r\n        >\r\n            <p dangerouslySetInnerHTML={{ __html: data.description }} className=\"!w-full max-w-[32em] break-words text-center\" />\r\n        </motion.div>\r\n    );\r\n}"],"names":[],"mappings":";;;;;;;;AAKe,SAAS,UAAU,EAAE,IAAI,EAAwB;IAE5D,qBACI,wPAAC,0KAAA,CAAA,SAAM,CAAC,GAAG;QACP,WAAU;QACV,SAAS;YAAE,SAAS;YAAG,GAAG;QAAG;QAC7B,YAAY;YAAE,UAAU;QAAI;QAC5B,UAAU;YAAE,MAAM;QAAK;QACvB,aAAa;YAAE,SAAS;YAAG,GAAG;QAAE;kBAEhC,cAAA,wPAAC;YAAE,yBAAyB;gBAAE,QAAQ,KAAK,WAAW;YAAC;YAAG,WAAU;;;;;;;;;;;AAGhF"}},
+    {"offset": {"line": 46, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
