@@ -30,7 +30,7 @@ export default function HeroSection({ data }: { data: TProjectData[] }) {
                 </Tab>
                 <Tab
                     key={IndustryType.DIGITAL_ACTIVATION}
-                    title="Digital Activation"
+                    title="Digital PR/ Activation"
                 >
                     <DigitalActivationProjectsSection data={data} />
                 </Tab>
