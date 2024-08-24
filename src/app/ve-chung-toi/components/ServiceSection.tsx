@@ -5,6 +5,8 @@ import clsx from "clsx";
 import { useRouter } from "next/navigation";
 import { FaArrowRight } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { Chip } from "@nextui-org/chip";
+import { Listbox, ListboxItem } from "@nextui-org/listbox";
 
 function ServiceCard({ service }: { service: TServiceData }) {
     const router = useRouter();
@@ -12,20 +14,46 @@ function ServiceCard({ service }: { service: TServiceData }) {
     return (
         <motion.div
             className={clsx(
-                "rounded-[32px] border-2 w-full h-fit border-default/50 p-8",
-                "text-default-foreground hover:text-primary-foreground ",
-                "hover:bg-primary-400 hover:shadow-lg shadow-primary-500 hover:-translate-y-2",
-                "transition-all transform duration-500 ease-in-out cursor-pointer",
+                "flex flex-col items-start gap-4 w-full p-4 rounded-2xl cursor-pointer",
+                "hover:-translate-y-8 hover:shadow-lg hover:bg-primary-400 text-default-foreground hover:text-secondary-foreground",
+                "transition-all transform duration-500 ease-in-out my-8",
             )}
             role="button"
             onClick={() => router.push('/giai-phap')}
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1.1 }}
         >
-            <h6 className="text-2xl font-bold w-full">{service.name}</h6>
-            <FaArrowRight className="text-2xl text-primary-50" />
+            <div className="flex flex-row gap-2 flex-wrap">
+                {service.tags && service.tags.map((tag, tagIndex) => (
+                    <Chip key={tagIndex} variant="bordered" size="sm" color="primary">
+                        {tag}
+                    </Chip>
+                ))}
+            </div>
+            <h2 className={clsx(
+                "bg-clip-text inline-block",
+                "text-3xl font-bold",
+            )}>
+                {service.name}
+            </h2>
+            <Listbox
+                items={service.features?.map((feature, featureIndex) => ({ value: feature, label: feature }))}
+            >
+                {
+                    (items) => (
+                        <ListboxItem
+                            variant="light"
+                            color="primary"
+                            key={items.value}
+                        >
+                            {items.label}
+                        </ListboxItem>
+                    )
+                }
+            </Listbox>
+            <FaArrowRight className="text-3xl text-white mt-4" />
         </motion.div>
     );
 }

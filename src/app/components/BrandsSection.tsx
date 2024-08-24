@@ -46,7 +46,7 @@ export default function BrandsSection({ data }: { data: TBrandData[] }) {
         <motion.section
             animate={{ opacity: 1 }}
             aria-label="Brands section"
-            className="flex flex-col items-center justify-center gap-8 py-8 md:pb-10 w-full md:mb-32 mb-24"
+            className="flex flex-col items-center justify-center gap-8 py-8 md:pb-10 w-full md:mb-32 mb-24 bg-primary-50 rounded-[32px]"
             id="brands"
             initial={{ opacity: 0 }}
             role="region"

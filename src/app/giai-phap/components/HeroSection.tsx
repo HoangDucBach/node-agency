@@ -38,12 +38,13 @@ export function HeroSection() {
                 </motion.h1>
                 <motion.p
                     ref={pRef}
-                    className="text-base md:text-2xl text-default-foreground text-center mx-8"
+                    className="text-base md:text-2xl text-default-foreground text-center mx-8 max-w-screen-md"
                     initial={{ opacity: 0, y: -20 }}
                     animate={isInViewP ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.5, delay: 0.4 }}
                 >
-                    Cùng khám phá cách mà <b>Node</b> tiếp cận với các vấn đề được đưa ra
+                    NODE triển khai các dịch vụ marketing theo quy trình rõ ràng, đảm bảo hiệu quả và
+                    tối ưu hóa chi phí cho doanh nghiệp
                 </motion.p>
                 <motion.div
                     ref={buttonRef}

@@ -10,24 +10,42 @@ export default function ProjectsSection() {
     return (
         <section
             aria-label="Projects section"
-            className="flex flex-col items-center justify-center gap-8 py-8 md:py-64"
+            className="flex flex-col items-center justify-between gap-8 py-4 md:py-8 bg-primary-400 rounded-[32px]"
             id="du-an"
         >
             <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
+                className="text-xs font-light text-primary-50"
             >
-                <RocketIcon size={128} />
+                NODE MARKETING AGENCY
             </motion.div>
-            <motion.h1
+            <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                className="text-4xl md:text-5xl font-bold text-default-foreground text-center"
+                transition={{ duration: 0.5 }}
             >
-                Các dự án đã triển khai
-            </motion.h1>
+                <RocketIcon size={64} className="text-primary-foreground" />
+            </motion.div>
+            <div className="flex flex-col gap-0 items-center justify-center">
+                <motion.h1
+                    initial={{ opacity: 0, y: -50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.2 }}
+                    className="text-4xl md:text-5xl font-bold text-primary-foreground text-center"
+                >
+                    Các dự án đã triển khai
+                </motion.h1>
+                <motion.p
+                    initial={{ opacity: 0, y: -50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: 0.3 }}
+                    className="text-base w-full break-words max-w-screen-sm md:text-xl text-primary-foreground text-center"
+                >
+                    Hãy cùng nhau khám phá phá dự án đã triển khai và đang triển khai của chúng tôi.
+                </motion.p>
+            </div>
             <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -36,7 +54,7 @@ export default function ProjectsSection() {
                 <Button
                     as={Link}
                     radius="full"
-                    variant="ghost"
+                    variant="solid"
                     color="primary"
                     href="../du-an"
                 >

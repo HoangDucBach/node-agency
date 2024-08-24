@@ -37,7 +37,7 @@ processes:
   - name: Crisis Management
     description:
     image: /assets/image-crisis.png
-    works: 
+    works:
       - name: Đánh giá rủi ro
         description: |
           Đánh giá xác suất rủi ro theo từng cấp độ dựa trên kết quả của các hoạt động tiêu cực và thiệt hại mà thương hiệu có thể phải gánh chịu.
@@ -50,4 +50,16 @@ processes:
   - name: Digital PR/ Activation
     description: Tiến hành các hoạt động tương tác (seeding) để phân phối nội dung trực tuyến. Mở rộng phạm vi tiếp cận bằng cách chia sẻ nội dung trên nhiều nền tảng (trang web, phương tiện truyền thông xã hội, trang cộng đồng, v.v.), đảm bảo thu hút được sự chú ý của nhiều đối tượng khác nhau.
     image: /images/creative-strategy.jpg
-    works: 
+    works:
+      - name: Nghiên cứu và lập kế hoạch
+        description: |
+          Xác định mục tiêu chiến dịch, nghiên cứu thị trường, đối tượng và lựa chọn kênh truyền
+          thông phù hợp
+      - name: Triển khai
+        description: |
+          Sản xuất nội dung sáng tạo, kích hoạt chiến dịch trên các kênh số, kết hợp với sự kiện,
+          hoạt động marketing trải nghiệm
+      - name: Đo lường và tối ưu
+        description: |
+          Theo dõi hiệu quả chiến dịch, đo lường các chỉ số và tối ưu hóa để đảm bảo đạt được
+          mục tiêu đề ra

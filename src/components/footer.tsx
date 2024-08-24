@@ -47,7 +47,7 @@ export function Footer() {
     const data = fetchFooterData();
 
     return (
-        <footer className="bg-background flex w-full flex-col py-4 px-4">
+        <footer className="bg-background flex w-full flex-col py-4 px-4 max-w-7xl mx-auto">
             <div className="w-full px-4 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                     <div className="md:pr-8 flex flex-col items-center lg:items-start">

@@ -29,7 +29,7 @@ export default function AboutSection({ data }: { data: TAboutData }) {
             </div>
             <Button
                 as={Link}
-                color="default"
+                color="primary"
                 radius="full"
                 variant="ghost"
                 href="../ve-chung-toi"

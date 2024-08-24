@@ -13,7 +13,7 @@ export default function AboutCard({ data }: { data: TAboutData }) {
             viewport={{ once: true }}
             whileInView={{ opacity: 1, y: 0 }}
         >
-            <p dangerouslySetInnerHTML={{ __html: data.description }} className="!w-full max-w-[48em] break-words text-center" />
+            <p dangerouslySetInnerHTML={{ __html: data.description }} className="!w-full max-w-[32em] break-words text-center" />
         </motion.div>
     );
 }

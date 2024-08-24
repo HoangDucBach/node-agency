@@ -42,7 +42,7 @@ function ServiceCard({ service, index, onInView }: { service: TServiceData, inde
             className={clsx(
                 "flex flex-col items-start gap-4 w-full p-4 rounded-2xl cursor-pointer",
                 "hover:-translate-y-8 hover:shadow-lg hover:bg-primary-400 text-default-foreground hover:text-secondary-foreground",
-                "transition-all transform duration-500 ease-in-out",
+                "transition-all transform duration-500 ease-in-out my-8",
             )}
         >
             <div className="flex flex-row gap-2 flex-wrap">
