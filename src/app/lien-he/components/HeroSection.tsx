@@ -22,7 +22,7 @@ export default function HeroSection({
     platformData: TPlatformData
 }) {
     return (
-        <section id='lien-he' className="space-y-16 mx-32 md:mx-64">
+        <section id='lien-he' className="space-y-16 md:mx-64">
             <h1 className="text-5xl md:text-6xl font-bold text-default-foreground">Liên hệ với chúng tôi</h1>
             <div className="flex flex-col justify-between gap-4 md:gap-8 w-full">
                 <ContactRowItem title="Địa chỉ">

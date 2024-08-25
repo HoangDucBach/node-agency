@@ -20,7 +20,7 @@ export default function HeroSection({ data }: { data: THeroData }) {
             aria-label="Hero section"
             className={clsx(
                 "flex flex-col items-start justify-center gap-8 p-4 md:p-8 relative text-white shadow-inner shadow-[0px 4px 16px rgba(0,0,0,0.1)]",
-                "mb-32 md:mb-64"
+                "mb-32 md:mb-64 h-full"
             )}
             id="hero"
             initial={{ opacity: 0 }}
