@@ -47,18 +47,6 @@ export default function ProjectCard({ data }: { data: TProjectData }) {
                                     className="text-foreground-900 text-base"
                                 />
                             </div>
-                            <div>
-                                <p
-                                    className="text-4xl font-bold text-primary"
-                                    style={{
-                                        textShadow: "0px 10px 15px rgba(0, 112, 243, 0.40), 0px 4px 6px rgba(0, 0, 0, 0.05)"
-                                    }}
-                                >
-                                    {
-                                        Boolean(data.kpi) && data.kpi + "%KPI"
-                                    }
-                                </p>
-                            </div>
                             <div
                                 className="grid grid-cols-1 gap-2 mt-4 overflow-y-scroll max-h-[50vh]"
                             >

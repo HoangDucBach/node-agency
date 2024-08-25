@@ -48,8 +48,8 @@ processes:
         description: |
           Liên tục theo dõi và đánh giá tình hình để triển khai các biện pháp kịp thời, phù hợp cho từng giai đoạn.
   - name: Digital PR/ Activation
-    description: Tiến hành các hoạt động tương tác (seeding) để phân phối nội dung trực tuyến. Mở rộng phạm vi tiếp cận bằng cách chia sẻ nội dung trên nhiều nền tảng (trang web, phương tiện truyền thông xã hội, trang cộng đồng, v.v.), đảm bảo thu hút được sự chú ý của nhiều đối tượng khác nhau.
-    image: /images/creative-strategy.jpg
+    description: 
+    image: /assets/image-digital.png
     works:
       - name: Nghiên cứu và lập kế hoạch
         description: |

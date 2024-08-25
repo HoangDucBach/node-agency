@@ -4,7 +4,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
     title: {
       default: 'Liên hệ',
-      template: `%s - ${siteConfig.name}`,
+      template: `%s - ${siteConfig.name}`
     },
     description: siteConfig.description,
     icons: {
