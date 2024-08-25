@@ -65,8 +65,8 @@ brands:
     logo: /assets/logo-samsung.png
   # - name: Nokia
   #   logo: /assets/logo-nokia.png
-  # - name: KitaGroup
-  #   logo: /assets/logo-kita.png
+  - name: KitaGroup
+    logo: /assets/logo-kita.png
   # - name: Vzone
   #   logo: /assets/logo-vzone.png
   # - name: AprilAdvertising

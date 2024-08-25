@@ -9,111 +9,156 @@
 # - kpi: The key performance indicator of the project
 # - images: The images of the project (with 'src' and 'alt' fields)
 projects:
-  - customer: VitaDairy
-    name: ColosBaby Gold D3K2
+  # - customer: VitaDairy
+  #   name: ColosBaby Gold D3K2
+  #   description: |
+  #     Kết nối các Micro Ba, Nano Mẹ có sức ảnh hưởng
+  #   industry: Influencer Marketing
+  #   kpi: 212
+  #   images:
+  #     - src: /assets/image/vita-dairy/colosbaby-gold-d3k2.png
+  #       alt: ColosBaby Gold D3K2
+ 
+  - customer: VPBank
+    name: Hòa sắc thịnh vượng
     description: |
-      Kết nối các Micro Ba, Nano Mẹ có sức ảnh hưởng
-    industry: Influencer Marketing
-    kpi: 212
-    images:
-      - src: /assets/image/vita-dairy/colosbaby-gold-d3k2.png
-        alt: ColosBaby Gold D3K2
-
-  - customer: VitaDairy
-    name: Oggi
-    description: |
-      Seeding hội nhóm
-    industry: Social Media Marketing
-    kpi: 121
-    images:
-      - src: /assets/image/vita-dairy/oggi.jpg
-        alt: Oggi
-
-  - customer: VitaDairy
-    name: Colos Opti
-    description: |
-      Seeding hội nhóm
-    industry: Social Media Marketing
-    kpi: 123.5
-    images:
-      - src: /assets/image/vita-dairy/colos-opti.png
-        alt: Colos Opti
-
-  - customer: VitaDairy
-    name: Oggi Gold
-    description: |
-      Bài đăng truyền thông
-    industry: Social Media Marketing
-    kpi: 123.5
-    images:
-      - src: /assets/image/vita-dairy/oggi-gold.png
-        alt: Oggi Gold
-
-  - customer: VitaDairy
-    name: CALOKID
-    description: |
-      Bài đăng truyền thông
-    industry: Social Media Marketing
-    kpi: 132
-    images:
-      - src: /assets/image/vita-dairy/calokid.png
-        alt: CALOKID
-
-  - customer: VitaDairy
-    name: Colos DHA+
-    description: |
-      Kết nối KOL / KOC TikTok  
+      Booking/ Hỗ trợ tăng tương tác cộng đồng
       <br/>
-      Seeding hội nhóm
+      Lập kế hoạch/ thực thi với KOL
     industry: Influencer Marketing
-    kpi: 131.8
+    kpi: null
     images:
-      - src: /assets/image/vita-dairy/colos-dha-plus.png
-        alt: Colos DHA+
+      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/300918929_5328843693896695_4047152449728294335_n.jpg
+        alt: Hòa sắc thịnh vượng 1
+      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/300977125_5328843647230033_6809937689936358132_n.jpg
+        alt: Hòa sắc thịnh vượng 2
+      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/image-30.png
+        alt: Hòa sắc thịnh vượng 3
+      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/vp-bank-2.jpg
+        alt: Hòa sắc thịnh vượng 4
 
-  - customer: VitaDairy
-    name: ColosBaby Gold
+  - customer: VPBank
+    name: VPBank Race Duyệt siêu 5 phút
     description: |
-      KOL TikTok & Facebook
-      <br/>
-      Seeding hội nhóm
+      Chiến lược thực thi truyền thông với KOL/ Cộng đồng
     industry: Influencer Marketing
-    kpi: 119.5
+    kpi: null
     images:
-      - src: /assets/image/vita-dairy/colosbaby-gold.png
-        alt: ColosBaby Gold
-
-  - customer: VitaDairy
-    name: Colos Gain
+      - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-29.png
+        alt: VPBank Race 1
+      - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-31.png
+        alt: VPBank Race 2
+      - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-32.png
+        alt: VPBank Race 3
+# ---------------------------------------------------------------- 
+  - customer: Abbott
+    name: |
+      Grow Summer Campaign
     description: |
-      Đại sứ hình ảnh/Influencer
+      Chiến lược thực thi với các KOL/KOC
     industry: Influencer Marketing
-    kpi: 224.5
+    kpi: null
     images:
-      - src: /assets/image/vita-dairy/colos-gain.png
-        alt: Colos Gain
+      - src: /assets/image/abbott/1.jpg
+        alt: Summer 1
+      - src: /assets/image/abbott/2.jpg
+        alt: Summer 2
+# ---------------------------------------------------------------- 
+  # - customer: VitaDairy
+  #   name: Oggi
+  #   description: |
+  #     Seeding hội nhóm
+  #   industry: Social Media Marketing
+  #   kpi: 121
+  #   images:
+  #     - src: /assets/image/vita-dairy/oggi.jpg
+  #       alt: Oggi
 
-  - customer: VitaDairy
-    name: Colos Fresh Milk
-    description: |
-      Đại sứ hình ảnh/Influencer
-    industry: Influencer Marketing
-    kpi: 179
-    images:
-      - src: /assets/image/vita-dairy/colos-fresh-milk.png
-        alt: Colos Fresh Milk
+  # - customer: VitaDairy
+  #   name: Colos Opti
+  #   description: |
+  #     Seeding hội nhóm
+  #   industry: Social Media Marketing
+  #   kpi: 123.5
+  #   images:
+  #     - src: /assets/image/vita-dairy/colos-opti.png
+  #       alt: Colos Opti
 
-  - customer: VitaDairy
-    name: Oggi Gold
-    description: |
-      Kết nối với KOL Facebook
-      <br/>
-      Bài đăng truyền thông
-    industry: Social Media Marketing
-    kpi: 179
-    images:
-      - src: /assets/image/vita-dairy/oggi-gold-1.png
-        alt: Oggi Gold
+  # - customer: VitaDairy
+  #   name: Oggi Gold
+  #   description: |
+  #     Bài đăng truyền thông
+  #   industry: Social Media Marketing
+  #   kpi: 123.5
+  #   images:
+  #     - src: /assets/image/vita-dairy/oggi-gold.png
+  #       alt: Oggi Gold
+
+  # - customer: VitaDairy
+  #   name: CALOKID
+  #   description: |
+  #     Bài đăng truyền thông
+  #   industry: Social Media Marketing
+  #   kpi: 132
+  #   images:
+  #     - src: /assets/image/vita-dairy/calokid.png
+  #       alt: CALOKID
+
+  # - customer: VitaDairy
+  #   name: Colos DHA+
+  #   description: |
+  #     Kết nối KOL / KOC TikTok  
+  #     <br/>
+  #     Seeding hội nhóm
+  #   industry: Influencer Marketing
+  #   kpi: 131.8
+  #   images:
+  #     - src: /assets/image/vita-dairy/colos-dha-plus.png
+  #       alt: Colos DHA+
+
+  # - customer: VitaDairy
+  #   name: ColosBaby Gold
+  #   description: |
+  #     KOL TikTok & Facebook
+  #     <br/>
+  #     Seeding hội nhóm
+  #   industry: Influencer Marketing
+  #   kpi: 119.5
+  #   images:
+  #     - src: /assets/image/vita-dairy/colosbaby-gold.png
+  #       alt: ColosBaby Gold
+
+  # - customer: VitaDairy
+  #   name: Colos Gain
+  #   description: |
+  #     Đại sứ hình ảnh/Influencer
+  #   industry: Influencer Marketing
+  #   kpi: 224.5
+  #   images:
+  #     - src: /assets/image/vita-dairy/colos-gain.png
+  #       alt: Colos Gain
+
+  # - customer: VitaDairy
+  #   name: Colos Fresh Milk
+  #   description: |
+  #     Đại sứ hình ảnh/Influencer
+  #   industry: Influencer Marketing
+  #   kpi: 179
+  #   images:
+  #     - src: /assets/image/vita-dairy/colos-fresh-milk.png
+  #       alt: Colos Fresh Milk
+
+  # - customer: VitaDairy
+  #   name: Oggi Gold
+  #   description: |
+  #     Kết nối với KOL Facebook
+  #     <br/>
+  #     Bài đăng truyền thông
+  #   industry: Social Media Marketing
+  #   kpi: 179
+  #   images:
+  #     - src: /assets/image/vita-dairy/oggi-gold-1.png
+  #       alt: Oggi Gold
         
   - customer: VitaDairy
     name: VitaDairy Colos Fresh Milk x Colos Gain
@@ -284,38 +329,7 @@ projects:
       - src: /assets/image/fwd/du-an-noi-bat/image-19.png
         alt: Sống đầy từ hôm nay
 
-# ----------------------------------------------------------------  
-  - customer: VPBank
-    name: Hòa sắc thịnh vượng
-    description: |
-      Booking/ Hỗ trợ tăng tương tác cộng đồng
-      <br/>
-      Lập kế hoạch/ thực thi với KOL
-    industry: Social Media Marketing, Influencer Marketing
-    kpi: null
-    images:
-      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/300918929_5328843693896695_4047152449728294335_n.jpg
-        alt: Hòa sắc thịnh vượng 1
-      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/300977125_5328843647230033_6809937689936358132_n.jpg
-        alt: Hòa sắc thịnh vượng 2
-      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/image-30.png
-        alt: Hòa sắc thịnh vượng 3
-      - src: /assets/image/vp-bank/hoa-sac-thinh-vuong/vp-bank-2.jpg
-        alt: Hòa sắc thịnh vượng 4
 
-  - customer: VPBank
-    name: VPBank Race Duyệt siêu 5 phút
-    description: |
-      Chiến lược thực thi truyền thông với KOL/ Cộng đồng
-    industry: Social Media Marketing, Influencer Marketing
-    kpi: null
-    images:
-      - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-29.png
-        alt: VPBank Race 1
-      - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-31.png
-        alt: VPBank Race 2
-      - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-32.png
-        alt: VPBank Race 3
 
 # ----------------------------------------------------------------  
   - customer: PNJ
@@ -344,11 +358,11 @@ projects:
     industry: Social Media Marketing
     kpi: null
     images:
+      - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-3.png
+        alt: Hành trình trang sức xuyên Việt
       - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-1.png
         alt: Hành trình trang sức xuyên Việt
       - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-2.png
-        alt: Hành trình trang sức xuyên Việt
-      - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-3.png
         alt: Hành trình trang sức xuyên Việt
       - src: /assets/image/pnj/hanh-trinh-trang-suc-xuyen-viet/hanh-trinh-trang-suc-xuyen-viet-4.png
         alt: Hành trình trang sức xuyên Việt
@@ -460,6 +474,8 @@ projects:
     industry: Digital Activation
     kpi: null
     images:
+      - src: /assets/image/shb/shb-family-card/quan-ly-4-dai-su-thuong-hieu.jpg
+        alt: Quản lí 4 đại sứ thương hiệu
       - src: /assets/image/shb/shb-family-card/activation-1-nha-trang.png
         alt: Activation Nha Trang
       - src: /assets/image/shb/shb-family-card/activation-2-dong-nai.png
@@ -468,8 +484,6 @@ projects:
         alt: Activation 3
       - src: /assets/image/shb/shb-family-card/activation-4-ninh-binh.png
         alt: Activation Ninh Bình
-      - src: /assets/image/shb/shb-family-card/quan-ly-4-dai-su-thuong-hieu.jpg
-        alt: Quản lí 4 đại sứ thương hiệu
       - src: /assets/image/shb/shb-family-card/san-xuat-tvc-ket-noi-tinh-than.jpg
         alt: Sản xuất TVC Kết nối tình thân
       - src: /assets/image/shb/shb-family-card/shb.jpg
@@ -521,25 +535,26 @@ projects:
       Sản xuất TVC cho sản phẩm mới
       <br/>
       Diễu hành xe bus
-    industry: Activation
+    industry: Digital Activation
     kpi: null
     images:
-      - src: /assets/image/thay-doi-dien-mao/copy-of-node-credentail-2024.jpg
-        alt: Sự kiện
-      - src: /assets/image/thay-doi-dien-mao/copy-of-node-credentail-2024-1.jpg
-        alt: Big Concept
-      - src: /assets/image/thay-doi-dien-mao/copy-of-node-credentail-2024-2.jpg
-        alt: TVC
-      - src: /assets/image/thay-doi-dien-mao/copy-of-node-credentail-2024-3.jpg
-        alt: Diễu hành xe bus
-      - src: /assets/image/thay-doi-dien-mao/image-28.png
+      - src: /assets/image/vp-bank/thay-doi-dien-mao/1.png
         alt: Thay đổi diện mạo
+      - src: /assets/image/thay-doi-dien-mao/vp-bank/copy-of-node-credentail-2024.jpg
+        alt: Sự kiện
+      - src: /assets/image/thay-doi-dien-mao/vp-bank/copy-of-node-credentail-2024-1.jpg
+        alt: Big Concept
+      - src: /assets/image/thay-doi-dien-mao/vp-bank/copy-of-node-credentail-2024-2.jpg
+        alt: TVC
+      - src: /assets/image/thay-doi-dien-mao/vp-bank/copy-of-node-credentail-2024-3.jpg
+        alt: Diễu hành xe bus
+
 
   - customer: VPBank
     name: Giao dịch không tiền
     description: |
       Triển khai tại Hồ Chí Minh & Hà Nội
-    industry: Activation
+    industry: Digital Activation
     kpi: null
     images:
       - src: /assets/image/vp-bank/cashless-day/picture5.png
@@ -555,7 +570,7 @@ projects:
     name: Bus Tour
     description: |
       Triển khai toàn quốc
-    industry: Activation
+    industry: Digital Activation
     kpi: null
     images:
       - src: /assets/image/vp-bank/bus-tour/cho-dong-xuan.png
@@ -591,7 +606,7 @@ projects:
       Kế hoạch và thực thi truyền thông với KOL
       <br/>
       Sản xuất, quay sự kiện
-    industry: Digital PR
+    industry: Digital Activation
     kpi: null
     images:
       - src: /assets/image/veyo/1.jpg
@@ -606,7 +621,7 @@ projects:
     name: Khai trương KITA Gallery
     description: |
       Sự kiện khai trương KITA Gallery.
-    industry: Activation
+    industry: Digital Activation
     kpi: null
     images:
       - src: /assets/image/kita/kita-gallery-grand-opening/1.jpg
@@ -627,7 +642,7 @@ projects:
     name: KITA Mini Expo Stella Residence
     description: |
       Triển lãm Mini Expo Stella Residence.
-    industry: Activation
+    industry: Digital Activation
     kpi: null
     images:
       - src: /assets/image/kita/kita-mini-expo-stella-residence/299438927_142355958483837_2747258273986948847_n.jpg
@@ -650,22 +665,22 @@ projects:
     name: Lễ ra quân dự án BW Premier by Best Western
     description: |
       Sự kiện lễ ra quân dự án BW Premier by Best Western.
-    industry: Activation
+    industry: Digital Activation
     kpi: null
     images:
-      - src: /assets/image/charm-group/baner-web-ht-1920x980.jpg
+      - src: /assets/image/charm-group/1.jpg
         alt: BW Premier by Best Western 1
       - src: /assets/image/charm-group/picture31.png
         alt: BW Premier by Best Western 2
       - src: /assets/image/charm-group/picture32.jpg
         alt: BW Premier by Best Western 3
-      - src: /assets/image/charm-group/z3898804613427_d72ab15f1d5420f2c62e73b5f5b9faa3.jpg
+      - src: /assets/image/charm-group/2.jpg
         alt: BW Premier by Best Western 4
-      - src: /assets/image/charm-group/z3898804621156_196bffbbe3ad156c0962224802c52cc9.jpg
+      - src: /assets/image/charm-group/3.jpg
         alt: BW Premier by Best Western 5
-      - src: /assets/image/charm-group/z3898804621431_b7acef084cf5d727bca657bae2beb469.jpg
+      - src: /assets/image/charm-group/4.jpg
         alt: BW Premier by Best Western 6
-      - src: /assets/image/charm-group/z3898804643660_61292d238da500791ea1e7cc3b370a04.jpg
+      - src: /assets/image/charm-group/5.jpg
         alt: BW Premier by Best Western 7
 
   # ----------------------------------------------------------------  
@@ -673,7 +688,7 @@ projects:
     name: Đại lộ shop phố chợ "Trên bến dưới thuyền"
     description: |
       Sự kiện ra mắt đại lộ shop phố chợ "Trên bến dưới thuyền".
-    industry: Activation
+    industry: Digital Activation
     kpi: null
     images:
       - src: /assets/image/d-aqua/dai-lo-shop-pho-cho-2.jpg
@@ -744,5 +759,8 @@ projects:
     images:
       - src: /assets/image/samsung/picture21.jpg
         alt: Samsung Galaxy Z Flip 4 Activation 1
+
+  
+  
 
 
