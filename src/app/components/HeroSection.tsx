@@ -20,7 +20,7 @@ export default function HeroSection({ data }: { data: THeroData }) {
             aria-label="Hero section"
             className={clsx(
                 "flex flex-col items-start justify-center gap-8 p-4 md:p-8 relative text-white shadow-inner shadow-[0px 4px 16px rgba(0,0,0,0.1)]",
-                "mb-32 md:mb-64 h-full"
+                "mb-32 md:mb-64 h-full",
             )}
             id="hero"
             initial={{ opacity: 0 }}
@@ -38,6 +38,7 @@ export default function HeroSection({ data }: { data: THeroData }) {
                 animate={{ y: 0, opacity: 1 }}
                 initial={{ y: 50, opacity: 0 }}
                 transition={{ duration: 0.5, delay: 1 }}
+                className="text-sm md:text-base"
             >
                 {data.tagline && (
                     <span
@@ -60,15 +61,16 @@ export default function HeroSection({ data }: { data: THeroData }) {
                     <h1
                         className={clsx(
                             "font-extrabold",
-                            "text-4xl",
+                            "text-3xl",
                             "md:text-6xl",
-                            "z-10"
+                            "z-10",
+                            "w-fit text-nowrap"
                         )}
                     >
                         {data.title}
                     </h1>
                 </div>
-                <p className="text-base">{data.description}</p>
+                <p className="text-sm md:text-base">{data.description}</p>
 
                 <div className="inline-flex flex-row items-center justify-start gap-4">
                     {data.ctas && data.ctas.map((cta, index) => {

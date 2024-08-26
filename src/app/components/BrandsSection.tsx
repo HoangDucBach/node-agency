@@ -32,7 +32,7 @@ function BrandsLogoCard({ brand }: { brand: TBrandData }) {
         >
             <img
                 alt={brand.name}
-                className="object-cover"
+                className="object-contain"
                 src={brand.logo || ''}
             />
         </motion.div>

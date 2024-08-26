@@ -10,7 +10,7 @@ export default function ProjectsSection() {
     return (
         <section
             aria-label="Projects section"
-            className="flex flex-col items-center justify-between gap-8 py-4 md:py-8 bg-primary-400 rounded-[32px]"
+            className="flex flex-col items-center justify-between gap-2 p-4 md:p-8 bg-primary-400 rounded-[32px]"
             id="du-an"
         >
             <motion.div
@@ -33,18 +33,10 @@ export default function ProjectsSection() {
                     initial={{ opacity: 0, y: -50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
-                    className="text-4xl md:text-5xl font-bold text-primary-foreground text-center"
+                    className="text-2xl md:text-5xl font-bold text-primary-foreground text-center w-full break-words"
                 >
                     Các dự án đã triển khai
                 </motion.h1>
-                <motion.p
-                    initial={{ opacity: 0, y: -50 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: 0.3 }}
-                    className="text-base w-full break-words max-w-screen-sm md:text-xl text-primary-foreground text-center"
-                >
-                    Hãy cùng nhau khám phá phá dự án đã triển khai và đang triển khai của chúng tôi.
-                </motion.p>
             </div>
             <motion.div
                 initial={{ opacity: 0, y: -50 }}

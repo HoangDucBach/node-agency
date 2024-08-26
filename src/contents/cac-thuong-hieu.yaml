@@ -22,7 +22,7 @@ brands:
   - name: HoanMy
     logo: /assets/logo-hoanmy.png
   - name: Charm
-    logo: /assets/logo-charmgroup.png
+    logo: /assets/logo-charm-group.png
   - name: Abbott
     logo: /assets/logo-abbott.png
   - name: DaiIchiLife
@@ -40,7 +40,7 @@ brands:
   - name: Garnier
     logo: /assets/logo-garnier.png
   - name: DAqua
-    logo: /assets/logo-daqua.png
+    logo: /assets/logo-d-aqua.png
   - name: DatXanhGroup
     logo: /assets/logo-dat-xanh-group.png
   - name: GemRiverside
@@ -66,7 +66,7 @@ brands:
   # - name: Nokia
   #   logo: /assets/logo-nokia.png
   - name: KitaGroup
-    logo: /assets/logo-kita.png
+    logo: /assets/logo-kita-group.png
   # - name: Vzone
   #   logo: /assets/logo-vzone.png
   # - name: AprilAdvertising

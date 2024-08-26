@@ -8,7 +8,7 @@ export default function PosterArea() {
     return (
         <motion.h1
             animate={{ opacity: 1, y: 0 }}
-            className="md:text-9xl text-6xl font-bold text-start text-primary-300 break-words"
+            className="md:text-9xl text-5xl font-bold text-start text-primary-300 break-words"
             style={{
                 textShadow: '0px 25px 50px rgba(0, 112, 243, 0.40)'
             }}

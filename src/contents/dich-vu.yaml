@@ -20,10 +20,11 @@ services:
       - Sáng tạo nội dung
     icon: fas fa-comments
     tags:
-      - Facebook
-      - Instagram
-      - Youtube
-      - Tiktok
+      - Content Creation
+      - Market Research
+      - Social Media
+      - Planner
+      - Seeding
   - name: Influencer Marketing
     description: Chúng tôi cung cấp dịch vụ về Influencer từ kết nối, xây dựng và triển khai cho các chiến dịch liên quan tới người nổi tiếng.
     features:
@@ -32,9 +33,12 @@ services:
       - Sáng tạo nội dung
       - Đo lường và đánh giá kết quả
     tags:
-      - Influencer
-      - Marketing
-  - name: Crisis Management
+      - Social Community Page
+      - Celeb/Influencers
+      - Content Plan
+      - Booking PR/Media
+      - Social Review
+  - name: Seeding/Crisis Management 
     description: Chúng tôi linh hoạt, nhanh chóng, nhạy bén và đáng tin cậy với quan điểm mới về thị trường.
     features:
       - Quy trình xử lý khủng hoảng
@@ -42,8 +46,9 @@ services:
       - Chiến lược truyền thông
       - Quan hệ công chúng
     tags:
-      - Content
-      - Development
+      - Strategy Social
+      - Seeding
+      - PR/Media
   - name: Digital PR/ Activation
     description: Chúng tôi cung cấp các giải pháp truyền thông tích hợp trọn gói, sẽ mang lại hiệu quả tối ưu, giúp doanh nghiệp của bạn.
     features:
@@ -51,5 +56,7 @@ services:
       - Sản xuất TVC/ Video
       - Tăng tương tác cộng đồng
     tags:
-      - Social
-      - Marketing
+      - Event
+      - TVC
+      - KV
+      - Viral Marketing

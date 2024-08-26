@@ -31,7 +31,7 @@ function CoreCard({ title, description }: CoreCardProps) {
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
-                borderRadius: '64px',
+                borderRadius: '32px',
                 filter: 'brightness(0.95)',
             }}
             initial={{ opacity: 0, y: 50 }}
@@ -39,8 +39,8 @@ function CoreCard({ title, description }: CoreCardProps) {
             transition={{ duration: 0.5, ease: "easeOut" }}
             whileHover={{ scale: 1.05 }}
         >
-            <h3 className="font-bold text-7xl md:text-9xl text-white/95">{title}</h3>
-            <p className="text-lg text-white max-w-96 break-words w-full">{description}</p>
+            <h3 className="font-bold text-4xl md:text-9xl text-white/95">{title}</h3>
+            <p className="text-base md:text-lg text-white max-w-96 break-words w-full">{description}</p>
         </motion.div>
     )
 }
