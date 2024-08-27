@@ -50,9 +50,25 @@ projects:
         alt: VPBank Race 2
       - src: /assets/image/vp-bank/duyet-sieu-5-phut/image-32.png
         alt: VPBank Race 3
-# ---------------------------------------------------------------- 
+
+  - customer: Honda
+    name: Shop năng lượng lành mạnh
+    description: |
+      Chiến lược kế hoạch và thực thi với influencer
+    industry: Influencer Marketing
+    kpi: null
+    images:
+    - src: /assets/image/honda/1.png
+      alt: Shop năng lượng lành mạnh 1
+    - src: /assets/image/honda/2.png
+      alt: Shop năng lượng lành mạnh 2
+    - src: /assets/image/honda/3.png
+      alt: Shop năng lượng lành mạnh 3
+    - src: /assets/image/honda/4.jpg
+      alt: Shop năng lượng lành mạnh 4
+
   - customer: Abbott
-    name: |
+    name: 
       Grow Summer Campaign
     description: |
       Chiến lược thực thi với các KOL/KOC
@@ -165,8 +181,12 @@ projects:
     description: |
       Đại sứ thương hiệu: 
       <br/>
-      Colos Fresh Milk x Gia đình Hồ Ngọc Hà trong 3 năm, Colos Gain x NSND Hồng Vân từ năm 2023 - nay
+      Colos Fresh Milk x Gia đình Hồ Ngọc Hà trong 3 năm
+      <br/>
+      Colos Gain x NSND Hồng Vân từ năm 2023 - nay
+      <br/>
       Lập kế hoạch và thực thi truyền thông với các KOL
+      <br/>
       Sản xuất TVC, KV
     industry: Influencer Marketing
     kpi: null
@@ -617,6 +637,28 @@ projects:
         alt: Veyo Sự Kiện Ảo - Image 3
 
   # ----------------------------------------------------------------  
+  - customer: Kita Group
+    name: Sự kiện ra mắt KITA Stella Residence
+    description: |
+      Triển lãm KITA Stella Residence.
+    industry: Digital Activation
+    kpi: null
+    images:
+      - src: /assets/image/kita/kita-stella-residence/1.jpg
+        alt: Kita 1
+      - src: /assets/image/kita/kita-stella-residence/2.png
+        alt: Kita 2
+      - src: /assets/image/kita/kita-stella-residence/3.png
+        alt: Kita 3
+      - src: /assets/image/kita/kita-stella-residence/4.png
+        alt: Kita 4
+      - src: /assets/image/kita/kita-stella-residence/5.png
+        alt: Kita 5
+      - src: /assets/image/kita/kita-stella-residence/6.jpg
+        alt: Kita 6
+      - src: /assets/image/kita/kita-stella-residence/7.jpg
+        alt: Kita 7
+
   - customer: Kita Group
     name: Khai trương KITA Gallery
     description: |

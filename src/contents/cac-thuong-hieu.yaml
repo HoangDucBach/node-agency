@@ -67,6 +67,10 @@ brands:
   #   logo: /assets/logo-nokia.png
   - name: KitaGroup
     logo: /assets/logo-kita-group.png
+  - name: ACECOOK
+    logo: /assets/logo-acecook.png
+  - name: New World
+    logo: /assets/logo-newworld.png
   # - name: Vzone
   #   logo: /assets/logo-vzone.png
   # - name: AprilAdvertising
