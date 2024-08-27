@@ -39,7 +39,7 @@ function StatisticCard({ data }: { data: TStatistic }) {
             transition={{ duration: 0.5 }}
         >
             {getIcon(data.name)}
-            <p className="text-6xl font-bold text-primary-600">
+            <p className="text-4xl md:text-6xl font-bold text-primary-600">
                 {isInView && <CountUp end={data.number} duration={2} />} +
             </p>
             <h1 className="text-sm font-medium text-default-500">{data.name}</h1>
@@ -50,7 +50,7 @@ function StatisticCard({ data }: { data: TStatistic }) {
 export function StatisticSection({ data }: { data: TStatistic[] }) {
     return (
         <section className="w-full py-8 md:py-16 flex flex-col items-center justify-center gap-8 mt-16 md:mt-64">
-            <h1 className="text-4xl md:text-5xl text-default-foreground font-bold">12 NĂM MỘT HÀNH TRÌNH</h1>
+            <h1 className="text-4xl md:text-5xl text-default-foreground font-bold text-center">12 Năm Một Hành Trình</h1>
             <div className="w-full flex flex-row md:gap-8 gap-2 justify-between items-center flex-wrap md:flex-nowrap">
                 {
                     data.map((item, index) => (

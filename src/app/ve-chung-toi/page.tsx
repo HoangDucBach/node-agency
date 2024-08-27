@@ -69,9 +69,9 @@ export default async function Page() {
     return (
         <>
             <HeroSection data={data.company} />
+            <StatisticSection data={data.statistics} />
             <HeroStatisticSection />
             <CoreSection data={data.company} />
-            <StatisticSection data={data.statistics} />
             <ServiceSection data={data.services} />
         </>
     )

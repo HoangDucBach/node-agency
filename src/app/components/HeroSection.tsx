@@ -64,7 +64,7 @@ export default function HeroSection({ data }: { data: THeroData }) {
                             "text-3xl",
                             "md:text-6xl",
                             "z-10",
-                            "w-fit text-nowrap"
+                            "w-fit "
                         )}
                     >
                         {data.title}
