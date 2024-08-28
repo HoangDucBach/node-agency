@@ -57,7 +57,7 @@ processes:
           thông phù hợp
       - name: Triển khai
         description: |
-          Sản xuất nội dung sáng tạo, kích hoạt chiến dịch trên các kênh số, kết hợp với sự kiện,
+          Sản xuất nội dung sáng tạo, kích hoạt chiến dịch trên các kênh online, kết hợp với sự kiện,
           hoạt động marketing trải nghiệm
       - name: Đo lường và tối ưu
         description: |

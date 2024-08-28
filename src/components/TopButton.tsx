@@ -37,7 +37,7 @@ const TopButton = () => {
     showButton ? (
       <Button
         color="primary"
-        className="fixed bottom-4 right-4"
+        className="fixed bottom-4 right-4 z-[1000]"
         isIconOnly
         onClick={scrollToTop}
       >

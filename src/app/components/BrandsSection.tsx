@@ -16,6 +16,7 @@ import { motion } from "framer-motion";
 
 // Internal imports
 import { TBrandData } from "@/types";
+import { LogoBrand } from "@/components/brand";
 
 function BrandsLogoCard({ brand }: { brand: TBrandData }) {
     return (
@@ -30,11 +31,7 @@ function BrandsLogoCard({ brand }: { brand: TBrandData }) {
                 "aspect-[2/1] w-32 rounded-2xl p-4",
             )}
         >
-            <img
-                alt={brand.name}
-                className="object-contain"
-                src={brand.logo || ''}
-            />
+            <LogoBrand name={brand.name} className="rounded-none max-h-16"/>
         </motion.div>
     );
 }

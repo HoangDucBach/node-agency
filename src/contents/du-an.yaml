@@ -52,7 +52,7 @@ projects:
         alt: VPBank Race 3
 
   - customer: Honda
-    name: Shop năng lượng lành mạnh
+    name: “Honda Vario 160 - Kiêu hãnh bùng đam mê”
     description: |
       Chiến lược kế hoạch và thực thi với influencer
     industry: Influencer Marketing
@@ -802,7 +802,35 @@ projects:
       - src: /assets/image/samsung/picture21.jpg
         alt: Samsung Galaxy Z Flip 4 Activation 1
 
-  
-  
+  # ----------------------------------------------------------------  
 
+  - customer: Hoàn Mỹ
+    name: |
+      Brand Opening In Thu Duc
+    description: >
+      <p><b>Bệnh viện Đa khoa Quốc tế Hoàn Mỹ</b> Thủ Đức chính thức đi vào hoạt động từ ngày 18/03/2021. Chào mừng cơ sở y tế mới, chất lượng, uy tín, giá cả phải chăng cho người dân Thủ Đức và các vùng lân cận<p>
+      <br/>
+      <h3 class="font-bold">Media Booking</h3>
+      <ul>
+        <li><span class="text-primary font-bold">24</span> Thông cáo báo chí</li>
+        <li><span class="text-primary font-bold">11</span> Tin tức từ phóng viên y khoa</li>
+        <li><span class="text-primary font-bold">02</span>  Truyền hình ti vi</li>
+        <li><span class="text-primary font-bold">01</span> Đặt quảng cáo PR trang bìa tạp chí</li>
+        <li><span class="text-primary font-bold">33</span>  Thông cáo báo chí không tài trợ</li>
+      </ul>
+    industry: Digital Activation
+    kpi: null 
+    images:
+  - customer: New World
+    name: |
+      New World Hotels & Resorts x Node
+    description: >
+      <p>
+        <b class="font-bold text-primary">“WE ARE NEW, NOW NEW AGAIN”</b>
+        <br/>
+        Một trong những sự kiện lớn nhất chào mừng kỷ niệm 25 năm thành lập khách sạn 5 sao hàng đầu tại HCM với sự tham gia của nhiều người nổi tiếng và các thành viên kỳ cựu của New World. Tại sự kiện này, New World đã truyền tải đến mọi người một diện mạo hoàn toàn mới và hiện đại.
+      </p>
+    industry: Digital Activation
+    kpi: null
+    images:
 
