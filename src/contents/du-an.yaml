@@ -821,6 +821,10 @@ projects:
     industry: Digital Activation
     kpi: null 
     images:
+      - src: /assets/image/hoan-my/brand-opening.png
+        alt: Bệnh viện Hoàn Mỹ 
+
+
   - customer: New World
     name: |
       New World Hotels & Resorts x Node
@@ -833,4 +837,34 @@ projects:
     industry: Digital Activation
     kpi: null
     images:
+    - src: /assets/image/new-world/1.png
+      alt: New World 1
+    - src: /assets/image/new-world/2.png
+      alt: New World 2
+
+  - customer: ACECOOK
+    name: |
+      TOUR IN SAIGON 
+    description: >
+      <p>
+      Sau khi hoàn tất thủ tục check-in và trải nghiệm Tour tham quan nhà máy <b>Acecook</b>, các bà mẹ & đầu bếp nổi tiếng sẽ chia sẻ suy nghĩ cá nhân của mình trên trang Facebook xã hội. Đặc biệt là chia sẻ cảm xúc và hiểu biết về mì ăn liền <b>Acecook</b> và cung cấp những món ăn bổ dưỡng và ngon miệng cho gia đình.
+      <p>
+      <br/>
+      <h3 class="font-bold">MOM COOK</h3>
+      <ul>
+        <li><span class="text-primary font-bold">10</span> Posts</li>
+        <li><span class="text-primary font-bold">15,000+</span> Views</li>
+      </ul>
+      <br/>
+      <h3 class="font-bold">CHEF COOK</h3>
+      <ul>
+        <li><span class="text-primary font-bold">08</span> Posts</li>
+        <li><span class="text-primary font-bold">8,000+</span> Views</li>
+      </ul>
+    industry: Digital Activation
+    kpi: null
+    images:
+    - src: /assets/image/acecook/mom-cook.png
+      alt: ACECOOK
+    
 
