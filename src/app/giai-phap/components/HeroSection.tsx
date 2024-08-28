@@ -5,7 +5,7 @@ import { Button } from "@nextui-org/button";
 import { FaAngleDown } from "react-icons/fa6";
 import { motion, animate, useInView } from "framer-motion";
 
-export function HeroSection() {
+export default function HeroSection() {
     const heroRef = useRef<HTMLElement>(null);
     const h1Ref1 = useRef(null);
     const pRef = useRef(null);

@@ -9,6 +9,7 @@ import { Link } from "@nextui-org/link";
 import { FaFacebook, FaLinkedin, FaTiktok } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
 import { MdOutlineLocalPhone } from "react-icons/md";
+
 // Internal imports
 import { TCompanyFile, TContactFile, TFooterData, TPlatformFile } from "@/types";
 import { Divider } from "@nextui-org/divider";

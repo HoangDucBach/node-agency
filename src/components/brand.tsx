@@ -6,7 +6,7 @@ interface LogoBrandProps {
     className?: string;
 }
 
-// Hàm để loại bỏ dấu tiếng Việt
+
 function removeVietnameseTones(str: string) {
     str = str.replace(/[\u0300-\u036f]/g, ""); // Remove combining diacritical marks
     str = str.replace(/đ/g, "d");

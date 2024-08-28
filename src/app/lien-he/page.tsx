@@ -5,7 +5,9 @@ import yaml from "js-yaml";
 import React from "react";
 
 import { TCompanyData, TCompanyFile, TContactFile, TContactInfo, TPlatformData, TPlatformFile, TStatistic, TStatisticFile } from "@/types";
-import HeroSection from "./components/HeroSection";
+import dynamic from "next/dynamic";
+
+const HeroSection = dynamic(() => import("./components/HeroSection"));
 
 interface ContactPageProps {
     company: TCompanyData;

@@ -7,9 +7,11 @@ import React from "react";
 import { HeroSection } from "./components/hero-section/HeroSection";
 import { HeroStatisticSection } from "./components/HeroStatisticSection";
 import { TCompanyData, TCompanyFile, TServiceData, TServicesFile, TStatistic, TStatisticFile } from "@/types";
-import { StatisticSection } from "./components/StatisticSection";
-import CoreSection from "./components/CoreSection";
-import { ServiceSection } from "./components/ServiceSection";
+import dynamic from "next/dynamic";
+
+const StatisticSection = dynamic(() => import("./components/StatisticSection"));
+const CoreSection = dynamic(() => import("./components/CoreSection"));
+const ServiceSection = dynamic(() => import("./components/ServiceSection"));
 
 interface AboutPageProps {
     company: TCompanyData;

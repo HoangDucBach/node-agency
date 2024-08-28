@@ -59,7 +59,7 @@ function ProcessCard({ data }: { data: TProcessData }) {
     );
 }
 
-export function ProcessSection({ data }: { data: TProcessFile }) {
+export default function ProcessSection({ data }: { data: TProcessFile }) {
     return (
         <div className="flex flex-col gap-16 md:gap-32">
             {data.processes.map((item, index) => (

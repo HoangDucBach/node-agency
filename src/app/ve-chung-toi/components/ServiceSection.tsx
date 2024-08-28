@@ -58,7 +58,7 @@ function ServiceCard({ service }: { service: TServiceData }) {
     );
 }
 
-export function ServiceSection({ data }: { data: TServiceData[] }) {
+export default function ServiceSection({ data }: { data: TServiceData[] }) {
     return (
         <motion.section
             className="flex flex-col items-center justify-center gap-4 md:gap-8 py-8 w-full md:py-64"

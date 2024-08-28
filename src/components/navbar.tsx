@@ -1,6 +1,7 @@
 'use client';
 
 // External imports
+import React from "react";
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -9,7 +10,6 @@ import {
   NavbarBrand,
   NavbarItem,
   NavbarMenuItem,
-  useNavbar,
 } from "@nextui-org/navbar";
 import { Link } from "@nextui-org/link";
 import { link as linkStyles } from "@nextui-org/theme";
@@ -22,7 +22,6 @@ import {
   Logo,
 } from "@/components/icons";
 import { ThemeSwitch } from "@/components/theme-switch";
-import React from "react";
 
 // Updated siteConfig with new navigation items
 const siteConfig = {
@@ -44,7 +43,7 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
 
   return (
-    <NextUINavbar maxWidth="xl" position="sticky" isMenuOpen={isOpen} onMenuOpenChange={setIsOpen}> 
+    <NextUINavbar maxWidth="xl" position="sticky" isMenuOpen={isOpen} onMenuOpenChange={setIsOpen}>
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/" aria-label="Home">
@@ -90,11 +89,10 @@ export const Navbar = () => {
           {siteConfig.navMenuItems.map((item, index) => (
             <NavbarMenuItem key={`${item}-${index}`}>
               <Link
-                color={"foreground"}
+                color="foreground"
                 href={siteConfig.navItems[index].href}
-                size="lg"
                 onClick={() => setIsOpen(false)}
-                >
+              >
                 {item.label}
               </Link>
             </NavbarMenuItem>

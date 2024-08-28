@@ -3,14 +3,16 @@ import fs from "fs";
 import path from "path";
 
 // External imports
+import { Metadata } from "next";
+import dynamic from "next/dynamic";
 import React from "react";
 import yaml from "js-yaml";
 
 // Internal imports
 import { TProcessFile } from "@/types";
-import {HeroSection} from "./components/HeroSection";
-import { ProcessSection } from "./components/ProcessSection";
-import { Metadata } from "next";
+
+const HeroSection = dynamic(() => import("./components/HeroSection"));
+const ProcessSection = dynamic(() => import("./components/ProcessSection"));
 
 type PageProps = {
     process: TProcessFile;

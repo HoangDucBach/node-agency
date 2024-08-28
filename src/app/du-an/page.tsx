@@ -8,8 +8,10 @@ import yaml from "js-yaml";
 
 // Internal imports
 import { TProjectData, TProjectsFile } from "@/types";
-import HeroSection from "./components/HeroSection";
 import { Metadata } from "next";
+import dynamic from "next/dynamic";
+
+const HeroSection = dynamic(() => import("./components/HeroSection"));
 
 interface PageProps {
     projects: TProjectData[];
@@ -33,7 +35,7 @@ const fetchData = (): PageProps => {
 
 export default async function Page() {
     const data = fetchData();
-    
+
     return (
         <>
             <HeroSection data={data.projects} />

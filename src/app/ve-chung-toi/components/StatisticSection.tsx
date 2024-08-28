@@ -47,7 +47,7 @@ function StatisticCard({ data }: { data: TStatistic }) {
     )
 }
 
-export function StatisticSection({ data }: { data: TStatistic[] }) {
+export default function StatisticSection({ data }: { data: TStatistic[] }) {
     return (
         <section className="w-full py-8 md:py-16 flex flex-col items-center justify-center gap-8 mt-16 md:mt-64">
             <h1 className="text-4xl md:text-5xl text-default-foreground font-bold text-center">12 Năm Một Hành Trình</h1>
