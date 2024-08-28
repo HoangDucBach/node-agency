@@ -19,19 +19,19 @@ brands:
     logo: /assets/logo-pnj.png
   - name: Huggies
     logo: /assets/logo-huggies.png
-  - name: HoanMy
-    logo: /assets/logo-hoanmy.png
-  - name: Charm
+  - name: Hoan My
+    logo: /assets/logo-hoan-my.png
+  - name: Charm Group
     logo: /assets/logo-charm-group.png
   - name: Abbott
     logo: /assets/logo-abbott.png
-  - name: DaiIchiLife
-    logo: /assets/logo-daiichi.png
+  - name: Dai-Ichi Life
+    logo: /assets/logo-dai-ichi-life.png
   - name: Veyo
     logo: /assets/logo-veyo.png
   - name: Lavie
     logo: /assets/logo-lavie.png
-  - name: JohnnieWalker
+  - name: Johnnie Walker
     logo: /assets/logo-johnnie-walker.png
   - name: L'Oreal
     logo: /assets/logo-loreal.svg
@@ -43,8 +43,8 @@ brands:
     logo: /assets/logo-d-aqua.png
   - name: DatXanhGroup
     logo: /assets/logo-dat-xanh-group.png
-  - name: GemRiverside
-    logo: /assets/logo-gemriverside.png
+  - name: Gem Riverside
+    logo: /assets/logo-gem-riverside.png
   # - name: HelloBacSi
   #   logo: /assets/logo-hellobacsi.png
   # - name: Tiger
