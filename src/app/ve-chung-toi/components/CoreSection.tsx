@@ -1,6 +1,7 @@
 'use client';
 import { TCompanyData } from "@/types";
 import { motion } from "framer-motion";
+import { GoDotFill } from "react-icons/go";
 
 interface CoreCardProps {
     title: string;
@@ -24,7 +25,7 @@ function CoreCard({ title, descriptions, index }: CoreCardProps) {
 
     return (
         <motion.div
-            className="w-full aspect-video flex flex-col items-start p-8 justify-center gap-4"
+            className="w-full aspect-video flex flex-row justify-start items-center p-8"
             style={{
                 backgroundImage: `url(${image})`,
                 backgroundSize: 'cover',
@@ -39,21 +40,25 @@ function CoreCard({ title, descriptions, index }: CoreCardProps) {
             whileHover={{ scale: 1.05 }}
             aria-label="Core card"
         >
-            <h3 className="font-bold text-2xl md:text-4xl text-white/95">
-                {titleLines.map((line, index) => (
-                    <span key={index}>
-                        {line}
-                        <br />
-                    </span>
-                ))}
-            </h3>
-            <p className="text-base md:text-lg text-white max-w-96 break-words w-full">
+            <div className="flex flex-col items-start p-8 justify-center gap-4 max-w-screen-sm">
+
+                <h3 className="font-bold text-2xl md:text-4xl text-white/95">
+                    {titleLines.map((line, index) => (
+                        <span key={index}>
+                            {line}
+                            <br />
+                        </span>
+                    ))}
+                </h3>
                 {
                     descriptions.map((value: any, index: number) => (
-                        <span key={index}>{value}<br /></span>
+                        <div key={index} className="flex items-center gap-2 text-white">
+                            <GoDotFill className="text-primary" />
+                            <p className="text-base md:text-lg text-white break-words w-full">{value}</p>
+                        </div>
                     ))
                 }
-            </p>
+            </div>
         </motion.div>
     )
 }
